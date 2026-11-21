@@ -1,0 +1,34 @@
+name: Auto Crawl Steal An Egg Data
+
+on:
+  schedule:
+    - cron: '*/30 * * * *' # 매 30분마다 자동 실행 (UTC 기준)
+  workflow_dispatch:       # GitHub 웹사이트에서 수동 실행 버튼도 활성화
+
+permissions:
+  contents: write          # 크롤링 결과를 저장소에 자동 커밋하기 위한 권한
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run crawler
+        run: python crawler.py
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add game_data.json
+          git diff --staged --quiet || (git commit -m "chore: auto-update game_data.json" && git push)
