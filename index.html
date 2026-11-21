@@ -144,9 +144,14 @@
           <h1 class="text-2xl sm:text-3xl font-extrabold text-white">WFL Trade &amp; Income Calculator</h1>
           <p class="text-sm text-slate-400 mt-1">Compare offers using real base $/s income, Pet Weight (kg), and Mutations.</p>
         </div>
-        <button onclick="postCalcToTradeBoard()" class="bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs sm:text-sm px-4 py-2.5 rounded-xl shadow-lg transition">
-          🤝 Post This Trade to Board
-        </button>
+        <div class="flex flex-wrap gap-2">
+          <button onclick="shareWflResult()" class="bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold text-xs sm:text-sm px-3.5 py-2.5 rounded-xl border border-slate-700 transition">
+            📋 Copy Result
+          </button>
+          <button onclick="postCalcToTradeBoard()" class="bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs sm:text-sm px-4 py-2.5 rounded-xl shadow-lg transition">
+            🤝 Post This Trade to Board
+          </button>
+        </div>
       </div>
 
       <div id="wfl-banner" class="glass rounded-2xl p-6 text-center border-2 border-slate-700 transition-all">
@@ -261,7 +266,7 @@
     </div>
   </div>
 
-<footer class="border-t border-slate-800 py-6 text-center text-xs text-slate-500 mt-10 space-y-2">
+  <footer class="border-t border-slate-800 py-6 text-center text-xs text-slate-500 mt-10 space-y-2">
     <div class="flex justify-center gap-4 text-slate-400">
       <a href="./about.html" class="hover:text-white transition">About &amp; Contact</a>
       <span>•</span>
@@ -340,10 +345,10 @@
 
     // Fallback Sample DB
     let PET_DB = [
-      { id: 1, name: "Chicken", biome: "Forest", rarity: "Common", baseIncome: 1, income_str: "$1/s", image_url: "" },
-      { id: 2, name: "Raccoon", biome: "Forest", rarity: "Rare", baseIncome: 45, income_str: "$45/s", image_url: "" },
-      { id: 3, name: "Brr Brr Patapim", biome: "Forest", rarity: "Legendary", baseIncome: 1800, income_str: "$1.8K/s", image_url: "" },
-      { id: 4, name: "Spirit World Guardian", biome: "Enchanted Forest", rarity: "Divine", baseIncome: 26000000000, income_str: "$26B/s", image_url: "" }
+      { id: 1, name: "Chicken", slug: "chicken", biome: "Forest", rarity: "Common", baseIncome: 1, income_str: "$1/s", image_url: "" },
+      { id: 2, name: "Raccoon", slug: "raccoon", biome: "Forest", rarity: "Rare", baseIncome: 45, income_str: "$45/s", image_url: "" },
+      { id: 3, name: "Brr Brr Patapim", slug: "brr-brr-patapim", biome: "Forest", rarity: "Legendary", baseIncome: 1800, income_str: "$1.8K/s", image_url: "" },
+      { id: 4, name: "Spirit World Guardian", slug: "spirit-world-guardian", biome: "Enchanted Forest", rarity: "Divine", baseIncome: 26000000000, income_str: "$26B/s", image_url: "" }
     ];
 
     const rarityOrder = ["Common", "Uncommon", "Rare", "Epic", "Legendary", "Mythic", "Cosmic", "Secret", "Eternal", "Divine", "Limited"];
@@ -433,9 +438,12 @@
               <p class="text-[10px] text-slate-400">Base Income</p>
               <p class="text-sm font-extrabold text-emerald-400">${escapeHtml(p.income_str || formatMoney(p.baseIncome))}</p>
             </div>
-            <button data-pet="${escapeHtml(p.name)}" onclick="quickTradeFilter(this.getAttribute('data-pet'))" class="text-[11px] px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-indigo-600 text-slate-200 hover:text-white font-semibold transition">
-              Find Trades →
-            </button>
+            <div class="flex items-center gap-1.5">
+              ${p.slug ? `<a href="./pets/${escapeHtml(p.slug)}.html" class="text-[11px] px-2.5 py-1.5 rounded-lg bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white font-semibold transition">📊 Stats</a>` : ''}
+              <button data-pet="${escapeHtml(p.name)}" onclick="quickTradeFilter(this.getAttribute('data-pet'))" class="text-[11px] px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-indigo-600 text-slate-200 hover:text-white font-semibold transition">
+                Trades →
+              </button>
+            </div>
           </div>
         </div>`;
       }).join('') || `<p class="text-slate-400 text-sm col-span-full text-center py-8">No matching pets found.</p>`;
@@ -501,6 +509,12 @@
       const options = sorted.map(p => `<option value="${p.id}">${escapeHtml(p.name)} (${escapeHtml(p.income_str || formatMoney(p.baseIncome))})</option>`).join('');
       document.getElementById('sel-pet-you').innerHTML = options;
       document.getElementById('sel-pet-them').innerHTML = options;
+
+      const petParam = new URLSearchParams(window.location.search).get('pet');
+      if (petParam) {
+        const found = PET_DB.find(p => p.name.toLowerCase() === petParam.toLowerCase());
+        if (found) document.getElementById('sel-pet-you').value = found.id;
+      }
     }
 
     function addCalcItem(side) {
@@ -538,6 +552,20 @@
       document.getElementById('post-want').value = wantText || "Good Offers";
       switchTab('trades');
       document.getElementById('post-modal').classList.remove('hidden');
+    }
+
+    function shareWflResult() {
+      if (!calcState.you.length && !calcState.them.length) {
+        return alert("Please add pets on both sides first!");
+      }
+      const youStr = formatCalcListForPost(calcState.you) || "Nothing";
+      const themStr = formatCalcListForPost(calcState.them) || "Nothing";
+      const verdict = document.getElementById('wfl-verdict').innerText;
+      const sumYou = document.getElementById('total-you').innerText;
+      const sumThem = document.getElementById('total-them').innerText;
+      const shareText = `⚖️ EggVault WFL Check: [${youStr}] (${sumYou}) vs [${themStr}] (${sumThem}) → ${verdict} | Check yours: https://ahne119.github.io/eggvault-gg/`;
+      navigator.clipboard.writeText(shareText);
+      alert("Copied WFL summary! Paste it into Discord or Reddit to ask/share.");
     }
 
     function renderCalculator() {
@@ -712,10 +740,23 @@
       alert(`Copied Roblox Username: ${username}\nAdd them in Roblox to complete the trade in-game!`);
     }
 
+    function applyInitialUrlTab() {
+      const params = new URLSearchParams(window.location.search);
+      const tab = params.get('tab');
+      const search = params.get('search');
+      if (tab === 'trades') {
+        if (search) document.getElementById('trade-search').value = search;
+        switchTab('trades');
+      } else if (tab === 'calculator') {
+        switchTab('calculator');
+      }
+    }
+
     // Initialize
     populateFilters();
     renderDatabase();
     initCalculatorSelects();
+    applyInitialUrlTab();
     ensureAnonAuth().then(() => loadTrades());
   </script>
 </body>
