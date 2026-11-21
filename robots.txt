@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ahne119.github.io/eggvault-gg/sitemap.xml
