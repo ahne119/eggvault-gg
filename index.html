@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>EggVault.gg — Steal An Egg Values, WFL Calculator & P2P Trading Hub</title>
   <meta name="description" content="Complete Steal An Egg pet index, live base income values, mutation multipliers, WFL trade calculator, and safe P2P trading hub." />
+
+  <!-- Open Graph / Discord / Social Preview -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="EggVault.gg — Steal An Egg Values, WFL Calculator & P2P Trades" />
+  <meta property="og:description" content="Live Steal An Egg pet values, base $/s income, mutation multipliers, WFL trade calculator, and safe P2P trading board." />
+  <meta property="og:url" content="https://ahne119.github.io/eggvault-gg/" />
+  <meta name="theme-color" content="#f59e0b" />
+
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <style>
@@ -130,9 +138,14 @@
 
     <!-- TAB 2: WFL TRADE CALCULATOR -->
     <section id="tab-calculator" class="hidden space-y-6">
-      <div>
-        <h1 class="text-2xl sm:text-3xl font-extrabold text-white">WFL Trade &amp; Income Calculator</h1>
-        <p class="text-sm text-slate-400 mt-1">Compare offers using real base $/s income, Pet Weight (kg), and Mutations.</p>
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-3">
+        <div>
+          <h1 class="text-2xl sm:text-3xl font-extrabold text-white">WFL Trade &amp; Income Calculator</h1>
+          <p class="text-sm text-slate-400 mt-1">Compare offers using real base $/s income, Pet Weight (kg), and Mutations.</p>
+        </div>
+        <button onclick="postCalcToTradeBoard()" class="bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs sm:text-sm px-4 py-2.5 rounded-xl shadow-lg transition">
+          🤝 Post This Trade to Board
+        </button>
       </div>
 
       <div id="wfl-banner" class="glass rounded-2xl p-6 text-center border-2 border-slate-700 transition-all">
@@ -214,7 +227,7 @@
 
       <div class="bg-amber-500/10 border border-amber-500/30 rounded-xl p-3 text-xs text-amber-200 flex items-center gap-2">
         <span>🛡️</span>
-        <span><b>Safety Tip:</b> Never click external links or share your Roblox password. Always verify pet mutations &amp; weight inside the official Roblox trade window!</span>
+        <span><b>Safety Tip:</b> Links &amp; URLs are strictly blocked. Never share your Roblox password—always verify pet mutations &amp; weight inside the official Roblox trade window!</span>
       </div>
 
       <div id="trade-list" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
@@ -254,7 +267,7 @@
 
   <script>
     // =========================================================================
-    // [설정 영역] 아까 입력했던 Supabase Project URL과 Key를 여기에 다시 넣어주세요!
+    // [설정 영역] Supabase Project URL & Key
     // =========================================================================
     const SUPABASE_URL = "https://jkcvyohorwqxltcmtopi.supabase.co";
     const SUPABASE_ANON_KEY = "sb_publishable_ZW4WYNigoz2iG4lNggvBpA_vbjev0-e";
@@ -267,6 +280,24 @@
       const badge = document.getElementById('db-badge');
       badge.innerText = "🟢 Global Live DB Connected";
       badge.className = "px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/20 text-emerald-300";
+    }
+
+    let currentUserId = null;
+    async function ensureAnonAuth() {
+      if (!db) return;
+      try {
+        const { data: { session } } = await db.auth.getSession();
+        if (session && session.user) {
+          currentUserId = session.user.id;
+        } else {
+          const { data, error } = await db.auth.signInAnonymously();
+          if (!error && data && data.user) {
+            currentUserId = data.user.id;
+          }
+        }
+      } catch (e) {
+        console.warn("Anon auth skipped:", e);
+      }
     }
 
     function escapeHtml(str) {
@@ -394,7 +425,7 @@
               <p class="text-[10px] text-slate-400">Base Income</p>
               <p class="text-sm font-extrabold text-emerald-400">${escapeHtml(p.income_str || formatMoney(p.baseIncome))}</p>
             </div>
-            <button onclick="quickTradeFilter('${escapeHtml(p.name)}')" class="text-[11px] px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-indigo-600 text-slate-200 hover:text-white font-semibold transition">
+            <button data-pet="${escapeHtml(p.name)}" onclick="quickTradeFilter(this.getAttribute('data-pet'))" class="text-[11px] px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-indigo-600 text-slate-200 hover:text-white font-semibold transition">
               Find Trades →
             </button>
           </div>
@@ -481,6 +512,24 @@
     function removeCalcItem(side, uid) {
       calcState[side] = calcState[side].filter(i => i.uid !== uid);
       renderCalculator();
+    }
+
+    function formatCalcListForPost(items) {
+      if (!items.length) return "";
+      const text = items.map(i => `${i.mutName !== 'Normal' ? i.mutName + ' ' : ''}${i.name} (${i.kg}kg)`).join(' + ');
+      return text.length > 120 ? text.slice(0, 117) + '...' : text;
+    }
+
+    function postCalcToTradeBoard() {
+      const haveText = formatCalcListForPost(calcState.you);
+      const wantText = formatCalcListForPost(calcState.them);
+      if (!haveText && !wantText) {
+        return alert("Please add at least one pet in the calculator first!");
+      }
+      document.getElementById('post-have').value = haveText;
+      document.getElementById('post-want').value = wantText || "Good Offers";
+      switchTab('trades');
+      document.getElementById('post-modal').classList.remove('hidden');
     }
 
     function renderCalculator() {
@@ -575,11 +624,17 @@
         return alert("Please enter valid details (at least 2 characters each).");
       }
 
+      const combined = (roblox_username + " " + offering + " " + looking_for).toLowerCase();
+      if (/(https?:\/\/|www\.|discord\.gg|discordapp|\.com|\.net|\.org|\.ru|\.gg)/.test(combined)) {
+        return alert("Links and URLs are not allowed for safety.");
+      }
+
       const btn = document.getElementById('submit-trade-btn');
       btn.disabled = true;
       btn.innerText = "Publishing...";
 
       if (db) {
+        if (!currentUserId) await ensureAnonAuth();
         const { error } = await db.from('trades').insert([{ roblox_username, offering, looking_for }]);
         btn.disabled = false;
         btn.innerText = "Publish Trade Listing";
@@ -599,6 +654,14 @@
       loadTrades();
     }
 
+    async function markTradeDone(tradeId) {
+      if (!db) return;
+      if (!confirm("Mark this trade as completed and remove it from the board?")) return;
+      const { error } = await db.from('trades').update({ status: 'completed' }).eq('id', tradeId);
+      if (error) return alert("Failed: " + error.message);
+      loadTrades();
+    }
+
     function renderTradeCards() {
       const q = (document.getElementById('trade-search').value || "").toLowerCase();
       const filtered = cachedTrades.filter(t =>
@@ -607,10 +670,12 @@
         t.looking_for.toLowerCase().includes(q)
       );
 
-      document.getElementById('trade-list').innerHTML = filtered.map(t => `
+      document.getElementById('trade-list').innerHTML = filtered.map(t => {
+        const isMine = currentUserId && t.user_id === currentUserId;
+        return `
         <div class="glass rounded-2xl p-4 space-y-3">
           <div class="flex justify-between items-center text-xs">
-            <span class="font-bold text-indigo-400">@${escapeHtml(t.roblox_username)}</span>
+            <span class="font-bold text-indigo-400">@${escapeHtml(t.roblox_username)} ${isMine ? '<span class="ml-1 text-[10px] px-1.5 py-0.5 rounded bg-indigo-500/20 text-indigo-300">My Post</span>' : ''}</span>
             <span class="text-slate-500">${timeAgo(t.created_at)}</span>
           </div>
           <div class="grid grid-cols-2 gap-2 text-xs">
@@ -623,11 +688,14 @@
               <p class="text-white font-semibold mt-0.5 break-words">${escapeHtml(t.looking_for)}</p>
             </div>
           </div>
-          <button data-username="${escapeHtml(t.roblox_username)}" onclick="copyTrader(this)" class="w-full py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-white transition">
-            📋 Copy Username &amp; Trade In-Game
-          </button>
-        </div>
-      `).join('') || `<p class="text-slate-400 text-sm col-span-full text-center py-8">No active trades yet. Be the first to post!</p>`;
+          <div class="flex gap-2">
+            <button data-username="${escapeHtml(t.roblox_username)}" onclick="copyTrader(this)" class="flex-1 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-white transition">
+              📋 Copy Username &amp; Trade
+            </button>
+            ${isMine ? `<button onclick="markTradeDone(${Number(t.id)})" class="px-3 py-2 rounded-lg bg-emerald-600/20 hover:bg-emerald-600 text-emerald-300 hover:text-white border border-emerald-500/30 text-xs font-semibold transition">✅ Done</button>` : ''}
+          </div>
+        </div>`;
+      }).join('') || `<p class="text-slate-400 text-sm col-span-full text-center py-8">No active trades yet. Be the first to post!</p>`;
     }
 
     function copyTrader(btn) {
@@ -640,7 +708,7 @@
     populateFilters();
     renderDatabase();
     initCalculatorSelects();
-    loadTrades();
+    ensureAnonAuth().then(() => loadTrades());
   </script>
 </body>
 </html>
