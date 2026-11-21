@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>EggVault.gg — Steal An Egg Values, WFL Calculator & P2P Trading Hub</title>
-  <meta name="description" content="Check live Steal An Egg pet values, mutation multipliers, biome egg guides, WFL trade calculator, and safe P2P trades." />
+  <meta name="description" content="Complete Steal An Egg pet index, live base income values, mutation multipliers, WFL trade calculator, and safe P2P trading hub." />
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <style>
@@ -69,65 +69,74 @@
 
     <!-- TAB 1: PET & EGG DATABASE -->
     <section id="tab-database" class="space-y-6">
-      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+      <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-4">
         <div>
-          <h1 class="text-2xl sm:text-3xl font-extrabold text-white">Pet Values, Biomes &amp; Egg Index</h1>
-          <p class="text-sm text-slate-400 mt-1">Search base income, hatch eggs, rarity tiers, and current community trade values.</p>
+          <div class="flex items-center gap-2">
+            <h1 class="text-2xl sm:text-3xl font-extrabold text-white">Pet Values &amp; Index</h1>
+            <span id="pet-total-badge" class="text-xs font-bold px-2.5 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">Loading...</span>
+          </div>
+          <p class="text-sm text-slate-400 mt-1">Browse all pets by biome, rarity, and base income per second ($/s).</p>
         </div>
         <div class="flex flex-wrap gap-2">
-          <input id="search-input" type="text" placeholder="Search pet or egg..." oninput="renderDatabase()" class="bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-indigo-500" />
-          <select id="filter-rarity" onchange="renderDatabase()" class="bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white">
+          <input id="search-input" type="text" placeholder="Search pet or biome..." oninput="resetAndRenderDB()" class="bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-indigo-500" />
+          <select id="filter-rarity" onchange="resetAndRenderDB()" class="bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white">
             <option value="ALL">All Rarities</option>
-            <option value="Common">Common</option>
-            <option value="Rare">Rare</option>
-            <option value="Epic">Epic</option>
-            <option value="Legendary">Legendary</option>
-            <option value="Secret">Secret</option>
-            <option value="Cosmic">Cosmic</option>
           </select>
-          <select id="filter-biome" onchange="renderDatabase()" class="bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white">
+          <select id="filter-biome" onchange="resetAndRenderDB()" class="bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white">
             <option value="ALL">All Biomes</option>
-            <option value="Forest">🌲 Forest</option>
-            <option value="Lake">💧 Lake</option>
-            <option value="Alien">👽 Alien</option>
-            <option value="Event">✨ Shop / Event</option>
+          </select>
+          <select id="sort-by" onchange="resetAndRenderDB()" class="bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white">
+            <option value="income_desc">Sort: Highest $/s</option>
+            <option value="income_asc">Sort: Lowest $/s</option>
+            <option value="name_asc">Sort: Name (A-Z)</option>
           </select>
         </div>
       </div>
 
-      <!-- Mutation Multipliers -->
+      <!-- Mutation Quick Guide -->
       <div class="glass rounded-xl p-4 flex flex-wrap items-center justify-between gap-3">
-        <span class="text-xs font-bold uppercase tracking-wider text-amber-400">🧬 Mutation Multipliers:</span>
-        <div class="flex flex-wrap gap-2 text-xs">
-          <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-200">Normal: <b>1.0x</b></span>
-          <span class="px-2.5 py-1 rounded-md bg-amber-500/20 text-amber-300 border border-amber-500/30">Golden: <b>2.5x</b></span>
-          <span class="px-2.5 py-1 rounded-md bg-pink-500/20 text-pink-300 border border-pink-500/30">Rainbow: <b>3.5x</b></span>
-          <span class="px-2.5 py-1 rounded-md bg-cyan-500/20 text-cyan-300 border border-cyan-500/30">Nitro: <b>4.5x</b></span>
-          <span class="px-2.5 py-1 rounded-md bg-purple-500/20 text-purple-300 border border-purple-500/30">Enchanted: <b>6.0x</b></span>
+        <span class="text-xs font-bold uppercase tracking-wider text-amber-400">🧬 Verified Mutation Multipliers:</span>
+        <div class="flex flex-wrap gap-1.5 text-xs">
+          <span class="px-2 py-1 rounded-md bg-slate-800 text-slate-200">Normal: <b>1x</b></span>
+          <span class="px-2 py-1 rounded-md bg-slate-700/70 text-slate-200">Silver: <b>1.2x</b></span>
+          <span class="px-2 py-1 rounded-md bg-emerald-500/20 text-emerald-300">Bloom: <b>1.25x</b></span>
+          <span class="px-2 py-1 rounded-md bg-amber-500/20 text-amber-300 border border-amber-500/30">Golden: <b>2.5x</b></span>
+          <span class="px-2 py-1 rounded-md bg-teal-500/20 text-teal-300">Spirit Bloom: <b>2.5x</b></span>
+          <span class="px-2 py-1 rounded-md bg-orange-500/20 text-orange-300">Fractured/Scrambled: <b>2.75x</b></span>
+          <span class="px-2 py-1 rounded-md bg-purple-500/20 text-purple-300">Parasite: <b>3x</b></span>
+          <span class="px-2 py-1 rounded-md bg-pink-500/20 text-pink-300 border border-pink-500/30">Rainbow: <b>3.5x</b></span>
         </div>
       </div>
 
-      <!-- Player History Mini Strip (populated by crawler.py) -->
+      <!-- Player History Mini Strip -->
       <div id="history-box" class="hidden glass rounded-xl p-4">
         <div class="flex items-center justify-between mb-2">
-          <span class="text-xs font-bold uppercase tracking-wider text-indigo-400">📈 Recent Player Count Snapshots (Auto-Crawled)</span>
+          <span class="text-xs font-bold uppercase tracking-wider text-indigo-400">📈 Live Player Count Trend (Auto-Crawled Every 30m)</span>
           <span id="history-count" class="text-[11px] text-slate-400"></span>
         </div>
         <div id="history-bars" class="flex items-end gap-1 h-12 pt-2"></div>
       </div>
 
+      <!-- Pet Cards -->
       <div id="pet-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+
+      <!-- Load More Button -->
+      <div id="load-more-wrap" class="hidden text-center pt-2">
+        <button onclick="loadMorePets()" class="px-6 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-sm font-bold text-white border border-slate-700 transition">
+          Show More Pets
+        </button>
+      </div>
     </section>
 
     <!-- TAB 2: WFL TRADE CALCULATOR -->
     <section id="tab-calculator" class="hidden space-y-6">
       <div>
         <h1 class="text-2xl sm:text-3xl font-extrabold text-white">WFL Trade &amp; Income Calculator</h1>
-        <p class="text-sm text-slate-400 mt-1">Compare offers factoring in Pet Base Value, Weight (kg), and Mutations before trading in-game.</p>
+        <p class="text-sm text-slate-400 mt-1">Compare offers using real base $/s income, Pet Weight (kg), and Mutations.</p>
       </div>
 
       <div id="wfl-banner" class="glass rounded-2xl p-6 text-center border-2 border-slate-700 transition-all">
-        <p class="text-xs uppercase tracking-widest text-slate-400 font-semibold">Trade Verdict</p>
+        <p class="text-xs uppercase tracking-widest text-slate-400 font-semibold">Trade Verdict (Estimated $/s Value)</p>
         <h2 id="wfl-verdict" class="text-3xl font-black mt-1 text-slate-200">ADD ITEMS TO COMPARE</h2>
         <p id="wfl-detail" class="text-sm text-slate-400 mt-1">Select pets on both sides below</p>
         <div class="w-full max-w-md mx-auto bg-slate-800 h-2.5 rounded-full mt-4 overflow-hidden flex">
@@ -140,18 +149,22 @@
         <div class="glass rounded-2xl p-5 space-y-4">
           <div class="flex justify-between items-center">
             <h3 class="font-bold text-lg text-rose-400">Your Offer (Giving)</h3>
-            <span class="text-sm font-bold text-white">Total: <span id="total-you">0</span> Val</span>
+            <span class="text-sm font-bold text-white">Total: <span id="total-you">$0/s</span></span>
           </div>
           <div class="flex flex-wrap gap-2">
-            <select id="sel-pet-you" class="flex-1 bg-slate-900 border border-slate-700 rounded-lg px-2.5 py-2 text-xs text-white"></select>
+            <select id="sel-pet-you" class="flex-1 min-w-[150px] bg-slate-900 border border-slate-700 rounded-lg px-2.5 py-2 text-xs text-white"></select>
             <select id="sel-mut-you" class="bg-slate-900 border border-slate-700 rounded-lg px-2 py-2 text-xs text-white">
               <option value="1">Normal (1x)</option>
+              <option value="1.2">Silver (1.2x)</option>
+              <option value="1.25">Bloom (1.25x)</option>
               <option value="2.5">Golden (2.5x)</option>
+              <option value="2.5">Spirit Bloom (2.5x)</option>
+              <option value="2.75">Fractured (2.75x)</option>
+              <option value="2.75">Scrambled (2.75x)</option>
+              <option value="3.0">Parasite (3x)</option>
               <option value="3.5">Rainbow (3.5x)</option>
-              <option value="4.5">Nitro (4.5x)</option>
-              <option value="6.0">Enchanted (6x)</option>
             </select>
-            <input id="inp-kg-you" type="number" value="2.5" min="0.5" step="0.5" class="w-16 bg-slate-900 border border-slate-700 rounded-lg px-2 py-2 text-xs text-white" title="Weight (kg)" />
+            <input id="inp-kg-you" type="number" value="1.0" min="0.1" step="0.1" class="w-16 bg-slate-900 border border-slate-700 rounded-lg px-2 py-2 text-xs text-white" title="Weight (kg)" />
             <button onclick="addCalcItem('you')" class="bg-rose-600 hover:bg-rose-500 text-white text-xs font-bold px-3 py-2 rounded-lg">+ Add</button>
           </div>
           <div id="list-you" class="space-y-2 min-h-[120px]"></div>
@@ -160,18 +173,22 @@
         <div class="glass rounded-2xl p-5 space-y-4">
           <div class="flex justify-between items-center">
             <h3 class="font-bold text-lg text-emerald-400">Their Offer (Receiving)</h3>
-            <span class="text-sm font-bold text-white">Total: <span id="total-them">0</span> Val</span>
+            <span class="text-sm font-bold text-white">Total: <span id="total-them">$0/s</span></span>
           </div>
           <div class="flex flex-wrap gap-2">
-            <select id="sel-pet-them" class="flex-1 bg-slate-900 border border-slate-700 rounded-lg px-2.5 py-2 text-xs text-white"></select>
+            <select id="sel-pet-them" class="flex-1 min-w-[150px] bg-slate-900 border border-slate-700 rounded-lg px-2.5 py-2 text-xs text-white"></select>
             <select id="sel-mut-them" class="bg-slate-900 border border-slate-700 rounded-lg px-2 py-2 text-xs text-white">
               <option value="1">Normal (1x)</option>
+              <option value="1.2">Silver (1.2x)</option>
+              <option value="1.25">Bloom (1.25x)</option>
               <option value="2.5">Golden (2.5x)</option>
+              <option value="2.5">Spirit Bloom (2.5x)</option>
+              <option value="2.75">Fractured (2.75x)</option>
+              <option value="2.75">Scrambled (2.75x)</option>
+              <option value="3.0">Parasite (3x)</option>
               <option value="3.5">Rainbow (3.5x)</option>
-              <option value="4.5">Nitro (4.5x)</option>
-              <option value="6.0">Enchanted (6x)</option>
             </select>
-            <input id="inp-kg-them" type="number" value="2.5" min="0.5" step="0.5" class="w-16 bg-slate-900 border border-slate-700 rounded-lg px-2 py-2 text-xs text-white" title="Weight (kg)" />
+            <input id="inp-kg-them" type="number" value="1.0" min="0.1" step="0.1" class="w-16 bg-slate-900 border border-slate-700 rounded-lg px-2 py-2 text-xs text-white" title="Weight (kg)" />
             <button onclick="addCalcItem('them')" class="bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold px-3 py-2 rounded-lg">+ Add</button>
           </div>
           <div id="list-them" class="space-y-2 min-h-[120px]"></div>
@@ -219,27 +236,28 @@
         </div>
         <div>
           <label class="text-xs text-slate-400">Offering (Your Pet + Mutation)</label>
-          <input id="post-have" type="text" maxlength="120" placeholder="e.g. Rainbow Raccoon (4.2kg)" class="w-full mt-1 bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white" />
+          <input id="post-have" type="text" maxlength="120" placeholder="e.g. Rainbow Xenorath (4.2kg)" class="w-full mt-1 bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white" />
         </div>
         <div>
           <label class="text-xs text-slate-400">Looking For (Wanted Pet)</label>
-          <input id="post-want" type="text" maxlength="120" placeholder="e.g. Golden Cosmic Dragon or Offers" class="w-full mt-1 bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white" />
+          <input id="post-want" type="text" maxlength="120" placeholder="e.g. Spirit World Guardian or Offers" class="w-full mt-1 bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white" />
         </div>
       </div>
       <button id="submit-trade-btn" onclick="submitTradePost()" class="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-2.5 rounded-xl text-sm">Publish Trade Listing</button>
     </div>
   </div>
 
-  <footer class="border-t border-slate-800 py-6 text-center text-xs text-slate-500 mt-10">
-    EggVault.gg • Fan-made utility for Steal An Egg. Not affiliated with Roblox Corporation.
+  <footer class="border-t border-slate-800 py-6 text-center text-xs text-slate-500 mt-10 space-y-1">
+    <p>EggVault.gg • Fan-made utility for Steal An Egg. Not affiliated with Roblox Corporation.</p>
+    <p>Pet database sourced from <a href="https://stealanegg.fandom.com" target="_blank" rel="noopener" class="text-indigo-400 hover:underline">Steal An Egg Wiki</a> under CC-BY-SA.</p>
   </footer>
 
   <script>
     // =========================================================================
-    // [설정 영역] Supabase Project URL과 Anon Key를 넣으면 전 세계 실시간 DB가 켜집니다!
+    // [설정 영역] 아까 입력했던 Supabase Project URL과 Key를 여기에 다시 넣어주세요!
     // =========================================================================
-    const SUPABASE_URL = "https://jkcvyohorwqxltcmtopi.supabase.co";       // 예: "https://abcdefg.supabase.co"
-    const SUPABASE_ANON_KEY = "sb_publishable_ZW4WYNigoz2iG4lNggvBpA_vbjev0-e";  // 예: "eyJhbGciOiJIUzI1NiIsInR5cCI6..."
+    const SUPABASE_URL = "";
+    const SUPABASE_ANON_KEY = "";
 
     const db = (SUPABASE_URL && SUPABASE_ANON_KEY && window.supabase)
       ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
@@ -251,7 +269,6 @@
       badge.className = "px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/20 text-emerald-300";
     }
 
-    // XSS 방지용 문자열 이스케이프 함수 (글로벌 DB 연동 시 필수 보안)
     function escapeHtml(str) {
       return String(str)
         .replace(/&/g, "&amp;")
@@ -259,6 +276,17 @@
         .replace(/>/g, "&gt;")
         .replace(/"/g, "&quot;")
         .replace(/'/g, "&#039;");
+    }
+
+    function formatMoney(val) {
+      const n = Number(val) || 0;
+      if (n >= 1e18) return "$" + (n / 1e18).toFixed(2).replace(/\.00$/, "") + "Qi/s";
+      if (n >= 1e15) return "$" + (n / 1e15).toFixed(2).replace(/\.00$/, "") + "Q/s";
+      if (n >= 1e12) return "$" + (n / 1e12).toFixed(2).replace(/\.00$/, "") + "T/s";
+      if (n >= 1e9) return "$" + (n / 1e9).toFixed(2).replace(/\.00$/, "") + "B/s";
+      if (n >= 1e6) return "$" + (n / 1e6).toFixed(2).replace(/\.00$/, "") + "M/s";
+      if (n >= 1e3) return "$" + (n / 1e3).toFixed(2).replace(/\.00$/, "") + "K/s";
+      return "$" + Math.round(n).toLocaleString() + "/s";
     }
 
     function timeAgo(isoStr) {
@@ -271,27 +299,116 @@
       return `${Math.floor(hrs / 24)}d ago`;
     }
 
-    // 1. Pet Database
-    const PET_DB = [
-      { id: 1, name: "Chicken", egg: "Chicken Egg", biome: "Forest", rarity: "Common", baseIncome: 15, value: 10, demand: "Low", icon: "🐔" },
-      { id: 2, name: "Raccoon", egg: "Raccoon Egg", biome: "Forest", rarity: "Rare", baseIncome: 180, value: 120, demand: "Medium", icon: "🦝" },
-      { id: 3, name: "Brr Brr Patapim", egg: "Brr Brr Patapim Egg", biome: "Forest", rarity: "Legendary", baseIncome: 1450, value: 950, demand: "High", icon: "🪵" },
-      { id: 4, name: "Crystal Fox", egg: "Crystal Egg", biome: "Event", rarity: "Epic", baseIncome: 820, value: 600, demand: "High", icon: "🦊" },
-      { id: 5, name: "Abyssal Frog", egg: "Frog Egg", biome: "Lake", rarity: "Rare", baseIncome: 240, value: 160, demand: "Medium", icon: "🐸" },
-      { id: 6, name: "Void Nebula Dragon", egg: "Crystal Egg", biome: "Alien", rarity: "Secret", baseIncome: 18500, value: 14000, demand: "Very High", icon: "🐉" },
-      { id: 7, name: "Galactic Duckling", egg: "Duckling Egg", biome: "Alien", rarity: "Cosmic", baseIncome: 45000, value: 38000, demand: "Extreme", icon: "🛸" }
+    // Fallback Sample DB
+    let PET_DB = [
+      { id: 1, name: "Chicken", biome: "Forest", rarity: "Common", baseIncome: 1, income_str: "$1/s", image_url: "" },
+      { id: 2, name: "Raccoon", biome: "Forest", rarity: "Rare", baseIncome: 45, income_str: "$45/s", image_url: "" },
+      { id: 3, name: "Brr Brr Patapim", biome: "Forest", rarity: "Legendary", baseIncome: 1800, income_str: "$1.8K/s", image_url: "" },
+      { id: 4, name: "Spirit World Guardian", biome: "Enchanted Forest", rarity: "Divine", baseIncome: 26000000000, income_str: "$26B/s", image_url: "" }
     ];
 
+    const rarityOrder = ["Common", "Uncommon", "Rare", "Epic", "Legendary", "Mythic", "Cosmic", "Secret", "Eternal", "Divine", "Limited"];
     const rarityColors = {
       Common: "text-slate-300 bg-slate-700/50",
+      Uncommon: "text-emerald-300 bg-emerald-500/20",
       Rare: "text-sky-300 bg-sky-500/20",
       Epic: "text-purple-300 bg-purple-500/20",
       Legendary: "text-amber-300 bg-amber-500/20",
+      Mythic: "text-orange-300 bg-orange-500/20",
+      Cosmic: "text-cyan-300 bg-cyan-500/20 border border-cyan-500/30",
       Secret: "text-rose-300 bg-rose-500/20 border border-rose-500/40",
-      Cosmic: "text-cyan-300 bg-cyan-500/20 border border-cyan-500/40"
+      Eternal: "text-fuchsia-300 bg-fuchsia-500/20 border border-fuchsia-500/40",
+      Divine: "text-yellow-200 bg-gradient-to-r from-amber-500/30 to-rose-500/30 border border-yellow-400/50"
     };
 
-    // 2. Load crawler.py output (Live stats + Real Game Icon + History)
+    let visibleLimit = 36;
+    let currentFilteredPets = [];
+
+    function populateFilters() {
+      const rarities = [...new Set(PET_DB.map(p => p.rarity))].sort((a, b) => {
+        const ia = rarityOrder.indexOf(a), ib = rarityOrder.indexOf(b);
+        return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
+      });
+      const biomes = [...new Set(PET_DB.map(p => p.biome))].sort();
+
+      document.getElementById('filter-rarity').innerHTML =
+        `<option value="ALL">All Rarities</option>` +
+        rarities.map(r => `<option value="${escapeHtml(r)}">${escapeHtml(r)}</option>`).join('');
+
+      document.getElementById('filter-biome').innerHTML =
+        `<option value="ALL">All Biomes</option>` +
+        biomes.map(b => `<option value="${escapeHtml(b)}">${escapeHtml(b)}</option>`).join('');
+
+      document.getElementById('pet-total-badge').innerText = `${PET_DB.length} Pets Indexed`;
+    }
+
+    function resetAndRenderDB() {
+      visibleLimit = 36;
+      renderDatabase();
+    }
+
+    function loadMorePets() {
+      visibleLimit += 36;
+      renderDatabase();
+    }
+
+    function renderDatabase() {
+      const q = document.getElementById('search-input').value.toLowerCase();
+      const rFilter = document.getElementById('filter-rarity').value;
+      const bFilter = document.getElementById('filter-biome').value;
+      const sortBy = document.getElementById('sort-by').value;
+
+      currentFilteredPets = PET_DB.filter(p =>
+        (p.name.toLowerCase().includes(q) || p.biome.toLowerCase().includes(q)) &&
+        (rFilter === 'ALL' || p.rarity === rFilter) &&
+        (bFilter === 'ALL' || p.biome === bFilter)
+      );
+
+      if (sortBy === 'income_desc') currentFilteredPets.sort((a, b) => b.baseIncome - a.baseIncome);
+      else if (sortBy === 'income_asc') currentFilteredPets.sort((a, b) => a.baseIncome - b.baseIncome);
+      else currentFilteredPets.sort((a, b) => a.name.localeCompare(b.name));
+
+      const slice = currentFilteredPets.slice(0, visibleLimit);
+      document.getElementById('load-more-wrap').classList.toggle('hidden', currentFilteredPets.length <= visibleLimit);
+
+      document.getElementById('pet-grid').innerHTML = slice.map(p => {
+        const badgeCls = rarityColors[p.rarity] || "text-slate-300 bg-slate-700/50";
+        const imgTag = p.image_url
+          ? `<img src="${escapeHtml(p.image_url)}" alt="${escapeHtml(p.name)}" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" class="w-12 h-12 rounded-xl object-contain bg-slate-800/80 p-1" /><div style="display:none" class="w-12 h-12 rounded-xl bg-slate-800 items-center justify-center text-xl">🥚</div>`
+          : `<div class="w-12 h-12 rounded-xl bg-slate-800 flex items-center justify-center text-xl">🥚</div>`;
+
+        return `
+        <div class="glass rounded-2xl p-4 hover:border-indigo-500/50 transition flex flex-col justify-between gap-3">
+          <div class="flex items-start justify-between gap-2">
+            <div class="flex items-center gap-3 min-w-0">
+              ${imgTag}
+              <div class="min-w-0">
+                <h3 class="font-bold text-white text-sm sm:text-base truncate" title="${escapeHtml(p.name)}">${escapeHtml(p.name)}</h3>
+                <p class="text-xs text-slate-400 truncate">Biome: <span class="text-slate-200">${escapeHtml(p.biome)}</span></p>
+              </div>
+            </div>
+            <span class="shrink-0 text-[11px] font-bold px-2 py-0.5 rounded-md ${badgeCls}">${escapeHtml(p.rarity)}</span>
+          </div>
+          <div class="flex items-center justify-between pt-2 border-t border-slate-800/80">
+            <div>
+              <p class="text-[10px] text-slate-400">Base Income</p>
+              <p class="text-sm font-extrabold text-emerald-400">${escapeHtml(p.income_str || formatMoney(p.baseIncome))}</p>
+            </div>
+            <button onclick="quickTradeFilter('${escapeHtml(p.name)}')" class="text-[11px] px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-indigo-600 text-slate-200 hover:text-white font-semibold transition">
+              Find Trades →
+            </button>
+          </div>
+        </div>`;
+      }).join('') || `<p class="text-slate-400 text-sm col-span-full text-center py-8">No matching pets found.</p>`;
+    }
+
+    function quickTradeFilter(petName) {
+      document.getElementById('trade-search').value = petName;
+      switchTab('trades');
+      renderTradeCards();
+    }
+
+    // Load game_data.json
     fetch('./game_data.json')
       .then(r => r.ok ? r.json() : null)
       .then(data => {
@@ -312,16 +429,21 @@
         if (Array.isArray(data.history) && data.history.length > 0) {
           const box = document.getElementById('history-box');
           box.classList.remove('hidden');
-          document.getElementById('history-count').innerText = `${data.history.length} snapshots logged`;
+          document.getElementById('history-count').innerText = `${data.history.length} snapshots`;
           const maxVal = Math.max(...data.history.map(h => h.playing), 1);
           document.getElementById('history-bars').innerHTML = data.history.map(h => {
             const pct = Math.max(15, Math.round((h.playing / maxVal) * 100));
             return `<div class="flex-1 bg-indigo-500/70 hover:bg-amber-400 rounded-t transition-all" style="height:${pct}%" title="${h.time}: ${h.playing.toLocaleString()} playing"></div>`;
           }).join('');
         }
+        if (Array.isArray(data.pets) && data.pets.length > 0) {
+          PET_DB = data.pets;
+          populateFilters();
+          renderDatabase();
+          initCalculatorSelects();
+        }
       }).catch(() => {});
 
-    // 3. Tab Navigation
     function switchTab(tab) {
       ['database', 'calculator', 'trades'].forEach(t => {
         document.getElementById(`tab-${t}`).classList.toggle('hidden', t !== tab);
@@ -332,53 +454,12 @@
       });
     }
 
-    // 4. Render Database Tab
-    function renderDatabase() {
-      const q = document.getElementById('search-input').value.toLowerCase();
-      const rFilter = document.getElementById('filter-rarity').value;
-      const bFilter = document.getElementById('filter-biome').value;
-
-      const filtered = PET_DB.filter(p =>
-        (p.name.toLowerCase().includes(q) || p.egg.toLowerCase().includes(q)) &&
-        (rFilter === 'ALL' || p.rarity === rFilter) &&
-        (bFilter === 'ALL' || p.biome === bFilter)
-      );
-
-      document.getElementById('pet-grid').innerHTML = filtered.map(p => `
-        <div class="glass rounded-2xl p-4 hover:border-indigo-500/50 transition flex flex-col justify-between gap-3">
-          <div class="flex items-start justify-between">
-            <div class="flex items-center gap-3">
-              <div class="w-12 h-12 rounded-xl bg-slate-800 flex items-center justify-center text-2xl">${p.icon}</div>
-              <div>
-                <h3 class="font-bold text-white text-base">${p.name}</h3>
-                <p class="text-xs text-slate-400">Hatches from: <span class="text-slate-200">${p.egg}</span></p>
-              </div>
-            </div>
-            <span class="text-[11px] font-bold px-2 py-0.5 rounded-md ${rarityColors[p.rarity]}">${p.rarity}</span>
-          </div>
-          <div class="grid grid-cols-3 gap-2 pt-2 border-t border-slate-800/80 text-center">
-            <div>
-              <p class="text-[10px] text-slate-400">Trade Value</p>
-              <p class="text-sm font-extrabold text-amber-400">${p.value.toLocaleString()}</p>
-            </div>
-            <div>
-              <p class="text-[10px] text-slate-400">Base $/sec</p>
-              <p class="text-sm font-bold text-emerald-400">$${p.baseIncome.toLocaleString()}</p>
-            </div>
-            <div>
-              <p class="text-[10px] text-slate-400">Biome</p>
-              <p class="text-xs font-semibold text-slate-200 mt-0.5">${p.biome}</p>
-            </div>
-          </div>
-        </div>
-      `).join('') || `<p class="text-slate-400 text-sm col-span-full text-center py-8">No matching pets found.</p>`;
-    }
-
-    // 5. WFL Calculator
+    // WFL Calculator
     const calcState = { you: [], them: [] };
 
     function initCalculatorSelects() {
-      const options = PET_DB.map(p => `<option value="${p.id}">${p.icon} ${p.name} (Base: ${p.value})</option>`).join('');
+      const sorted = [...PET_DB].sort((a, b) => b.baseIncome - a.baseIncome);
+      const options = sorted.map(p => `<option value="${p.id}">${escapeHtml(p.name)} (${escapeHtml(p.income_str || formatMoney(p.baseIncome))})</option>`).join('');
       document.getElementById('sel-pet-you').innerHTML = options;
       document.getElementById('sel-pet-them').innerHTML = options;
     }
@@ -387,10 +468,12 @@
       const petId = Number(document.getElementById(`sel-pet-${side}`).value);
       const mutSel = document.getElementById(`sel-mut-${side}`);
       const mult = Number(mutSel.value);
-      const mutName = mutSel.options[mutSel.selectedIndex].text.split(' ')[0];
-      const kg = Math.max(0.5, Number(document.getElementById(`inp-kg-${side}`).value) || 1);
+      const mutName = mutSel.options[mutSel.selectedIndex].text.split(' (')[0];
+      const kg = Math.max(0.1, Number(document.getElementById(`inp-kg-${side}`).value) || 1);
       const pet = PET_DB.find(p => p.id === petId);
-      const finalVal = Math.round(pet.value * mult * (1 + (kg - 1) * 0.15));
+      if (!pet) return;
+
+      const finalVal = pet.baseIncome * mult * kg;
       calcState[side].push({ ...pet, mutName, kg, finalVal, uid: Date.now() + Math.random() });
       renderCalculator();
     }
@@ -405,12 +488,12 @@
       ['you', 'them'].forEach(side => {
         const total = calcState[side].reduce((acc, i) => acc + i.finalVal, 0);
         if (side === 'you') sumYou = total; else sumThem = total;
-        document.getElementById(`total-${side}`).innerText = total.toLocaleString();
+        document.getElementById(`total-${side}`).innerText = formatMoney(total);
         document.getElementById(`list-${side}`).innerHTML = calcState[side].map(i => `
           <div class="flex items-center justify-between bg-slate-900/90 border border-slate-800 rounded-xl px-3 py-2 text-xs">
-            <span>${i.icon} <b>${i.name}</b> <span class="text-amber-300">[${i.mutName}, ${i.kg}kg]</span></span>
+            <span><b>${escapeHtml(i.name)}</b> <span class="text-amber-300">[${escapeHtml(i.mutName)}, ${i.kg}kg]</span></span>
             <div class="flex items-center gap-2">
-              <span class="font-bold text-white">${i.finalVal.toLocaleString()}</span>
+              <span class="font-bold text-emerald-400">${formatMoney(i.finalVal)}</span>
               <button onclick="removeCalcItem('${side}', ${i.uid})" class="text-slate-500 hover:text-rose-400">✕</button>
             </div>
           </div>
@@ -438,25 +521,24 @@
         verdictEl.innerText = "⚖️ FAIR TRADE";
         verdictEl.className = "text-3xl font-black mt-1 text-amber-400";
         banner.className = "glass rounded-2xl p-6 text-center border-2 border-amber-500/50";
-        detailEl.innerText = `Balanced offer (Difference: ${diff >= 0 ? '+' : ''}${diff.toLocaleString()})`;
+        detailEl.innerText = `Balanced offer (Net difference: ${diff >= 0 ? '+' : '-'}${formatMoney(Math.abs(diff))})`;
       } else if (diff > 0) {
         verdictEl.innerText = `🚀 BIG WIN (+${pct}%)`;
         verdictEl.className = "text-3xl font-black mt-1 text-emerald-400";
         banner.className = "glass rounded-2xl p-6 text-center border-2 border-emerald-500/60";
-        detailEl.innerText = `You gain +${diff.toLocaleString()} value from this trade!`;
+        detailEl.innerText = `You gain +${formatMoney(diff)} income value from this trade!`;
       } else {
         verdictEl.innerText = `📉 LOSE (${pct}%)`;
         verdictEl.className = "text-3xl font-black mt-1 text-rose-400";
         banner.className = "glass rounded-2xl p-6 text-center border-2 border-rose-500/60";
-        detailEl.innerText = `You are overpaying by ${Math.abs(diff).toLocaleString()} value.`;
+        detailEl.innerText = `You lose ${formatMoney(Math.abs(diff))} income value.`;
       }
     }
 
-    // 6. P2P Trade Board (Supabase Live DB + LocalStorage Fallback)
+    // P2P Trade Board
     const defaultTrades = [
-      { id: 1, roblox_username: "RaccoonKing_US", offering: "Rainbow Brr Brr Patapim (5.0kg)", looking_for: "Void Nebula Dragon + Adds", created_at: new Date(Date.now() - 120000).toISOString() },
-      { id: 2, roblox_username: "EggMaster2026", offering: "Enchanted Crystal Fox (3.2kg)", looking_for: "Nitro / Rainbow Raccoon x2", created_at: new Date(Date.now() - 420000).toISOString() },
-      { id: 3, roblox_username: "NovaGamerUK", offering: "Galactic Duckling (4.5kg)", looking_for: "High-tier Secret Offers Only", created_at: new Date(Date.now() - 840000).toISOString() }
+      { id: 1, roblox_username: "RaccoonKing_US", offering: "Rainbow Xenorath (4.0kg)", looking_for: "Spirit World Guardian + Adds", created_at: new Date(Date.now() - 120000).toISOString() },
+      { id: 2, roblox_username: "EggMaster2026", offering: "Golden Sapphire Leviathan (3.2kg)", looking_for: "Parasite / Rainbow Secret Offers", created_at: new Date(Date.now() - 420000).toISOString() }
     ];
     let cachedTrades = [];
 
@@ -477,7 +559,6 @@
           renderTradeCards();
           return;
         }
-        console.error("Supabase read error:", error);
       }
 
       const saved = localStorage.getItem('eggvault_trades_v2');
@@ -502,9 +583,7 @@
         const { error } = await db.from('trades').insert([{ roblox_username, offering, looking_for }]);
         btn.disabled = false;
         btn.innerText = "Publish Trade Listing";
-        if (error) {
-          return alert("Failed to publish: " + error.message);
-        }
+        if (error) return alert("Failed to publish: " + error.message);
       } else {
         const trades = JSON.parse(localStorage.getItem('eggvault_trades_v2') || JSON.stringify(defaultTrades));
         trades.unshift({ id: Date.now(), roblox_username, offering, looking_for, created_at: new Date().toISOString() });
@@ -558,6 +637,7 @@
     }
 
     // Initialize
+    populateFilters();
     renderDatabase();
     initCalculatorSelects();
     loadTrades();

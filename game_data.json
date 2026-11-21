@@ -1,62 +1,2671 @@
 {
   "stats": {
     "name": "Steal An Egg",
-    "playing": 1177222,
-    "visits": 11654962254,
-    "favorites": 10167024,
+    "playing": 1343915,
+    "visits": 11661030152,
+    "favorites": 10171882,
     "updated": "2026-11-18T15:43:41.117Z",
-    "fetched_at": "2026-11-21 12:28 UTC"
+    "fetched_at": "2026-11-21 13:39 UTC",
+    "icon_url": "https://tr.rbxcdn.com/180DAY-218c2680aba6c92323c10b4c65ae2682/512/512/Image/Png/noFilter"
   },
-  "wiki_eggs_discovered": [
-    "Abyss Overlord",
-    "Ankylosaurus",
-    "ArchAngel",
-    "Astral Jackalope",
-    "Axolotl",
-    "Baby Aurora Dragon",
-    "Bananita Dolphinita",
-    "Bear",
-    "Beluga Whale",
-    "Belula Beluga",
-    "Bird",
-    "Bladehide",
-    "BloodBloom",
-    "Bomboclat Crocolat",
-    "Bone Emperor",
-    "Bronto",
-    "Brr Brr Patapim",
-    "Bubblelord",
-    "Burrowing Owl",
-    "Camel",
-    "Candlefang",
-    "Candy Corn",
-    "Catfish",
-    "Centapede",
-    "Centaur",
-    "Cerberus",
-    "Chillin Chilli",
-    "Chimpanzee",
-    "Citadel Snail 007",
-    "Cosmic Dragon",
-    "Cosmic Gecko",
-    "Cosmic Gorilla",
-    "Cosmic Skeleton Boss",
-    "Crane",
-    "Crawler",
-    "Crocodile",
-    "Crocodon",
-    "Crowshade",
-    "Crustacia",
-    "Demon Hound",
-    "Dodo",
-    "Dog",
-    "Dreadclaw",
-    "Dreadscale",
-    "Dreadstinger",
-    "Drilla",
-    "Duckling",
-    "El Maja",
-    "Ember Dragon",
-    "Enchanted Bluejay"
+  "history": [
+    {
+      "time": "2026-11-21 13:39 UTC",
+      "playing": 1343915
+    }
+  ],
+  "pets_updated_ts": 1795268390,
+  "pets_count": 265,
+  "pets": [
+    {
+      "id": 1,
+      "name": "Chicken",
+      "rarity": "Common",
+      "biome": "Forest",
+      "image_file": "Chicken.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a3/Chicken.png/revision/latest/scale-to-width-down/180?cb=20260901193312",
+      "income_str": "$1/s",
+      "baseIncome": 1.0
+    },
+    {
+      "id": 2,
+      "name": "Dog",
+      "rarity": "Common",
+      "biome": "Forest",
+      "image_file": "Dog.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/3/35/Dog.png/revision/latest/scale-to-width-down/180?cb=20260904110641",
+      "income_str": "$2/s",
+      "baseIncome": 2.0
+    },
+    {
+      "id": 3,
+      "name": "Frog",
+      "rarity": "Common",
+      "biome": "Lake",
+      "image_file": "Frog.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e6/Frog.png/revision/latest/scale-to-width-down/180?cb=20260901192136",
+      "income_str": "$3/s",
+      "baseIncome": 3.0
+    },
+    {
+      "id": 4,
+      "name": "Duckling",
+      "rarity": "Common",
+      "biome": "Lake",
+      "image_file": "Duckling.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/b6/Duckling.png/revision/latest/scale-to-width-down/180?cb=20260901192123",
+      "income_str": "$4/s",
+      "baseIncome": 4.0
+    },
+    {
+      "id": 5,
+      "name": "Jerboa",
+      "rarity": "Common",
+      "biome": "Desert",
+      "image_file": "Jerboa.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/7a/Jerboa.png/revision/latest/scale-to-width-down/180?cb=20260901192531",
+      "income_str": "$6/s",
+      "baseIncome": 6.0
+    },
+    {
+      "id": 6,
+      "name": "Bird",
+      "rarity": "Uncommon",
+      "biome": "Forest",
+      "image_file": "Bird.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/70/Bird.png/revision/latest/scale-to-width-down/180?cb=20260901193301",
+      "income_str": "$8/s",
+      "baseIncome": 8.0
+    },
+    {
+      "id": 7,
+      "name": "Catfish",
+      "rarity": "Uncommon",
+      "biome": "Lake",
+      "image_file": "Catfish.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/99/Catfish.png/revision/latest/scale-to-width-down/180?cb=20260901192110",
+      "income_str": "$12/s",
+      "baseIncome": 12.0
+    },
+    {
+      "id": 8,
+      "name": "Fennec",
+      "rarity": "Uncommon",
+      "biome": "Desert",
+      "image_file": "Fennec.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/91/Fennec.png/revision/latest/scale-to-width-down/180?cb=20260901192514",
+      "income_str": "$18/s",
+      "baseIncome": 18.0
+    },
+    {
+      "id": 9,
+      "name": "Burrowing Owl",
+      "rarity": "Rare",
+      "biome": "Forest",
+      "image_file": "Burrowing Owl.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/12/Burrowing_Owl.png/revision/latest/scale-to-width-down/180?cb=20260901193251",
+      "income_str": "$35/s",
+      "baseIncome": 35.0
+    },
+    {
+      "id": 10,
+      "name": "Raccoon",
+      "rarity": "Rare",
+      "biome": "Forest",
+      "image_file": "Raccoon.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/7c/Raccoon.png/revision/latest/scale-to-width-down/180?cb=20260901193235",
+      "income_str": "$45/s",
+      "baseIncome": 45.0
+    },
+    {
+      "id": 11,
+      "name": "Turtle",
+      "rarity": "Rare",
+      "biome": "Lake",
+      "image_file": "Turtle.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e9/Turtle.png/revision/latest/scale-to-width-down/180?cb=20260901192056",
+      "income_str": "$60/s",
+      "baseIncome": 60.0
+    },
+    {
+      "id": 12,
+      "name": "Camel",
+      "rarity": "Rare",
+      "biome": "Desert",
+      "image_file": "Camel.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/09/Camel.png/revision/latest/scale-to-width-down/180?cb=20260901192500",
+      "income_str": "$75/s",
+      "baseIncome": 75.0
+    },
+    {
+      "id": 13,
+      "name": "Chimpanzee",
+      "rarity": "Rare",
+      "biome": "Jungle",
+      "image_file": "Chimpanzee.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0c/Chimpanzee.png/revision/latest/scale-to-width-down/180?cb=20260901191956",
+      "income_str": "$90/s",
+      "baseIncome": 90.0
+    },
+    {
+      "id": 14,
+      "name": "Toucan",
+      "rarity": "Rare",
+      "biome": "Jungle",
+      "image_file": "Toucan.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e2/Toucan.png/revision/latest/scale-to-width-down/180?cb=20260901191930",
+      "income_str": "$110/s",
+      "baseIncome": 110.0
+    },
+    {
+      "id": 15,
+      "name": "Penguin",
+      "rarity": "Rare",
+      "biome": "Snow",
+      "image_file": "Penguin.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/97/Penguin.png/revision/latest/scale-to-width-down/180?cb=20260901190041",
+      "income_str": "$140/s",
+      "baseIncome": 140.0
+    },
+    {
+      "id": 16,
+      "name": "Lava Gecko",
+      "rarity": "Rare",
+      "biome": "Volcano",
+      "image_file": "Lava_Gecko.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/be/Lava_Gecko.png/revision/latest/scale-to-width-down/180?cb=20260904110033",
+      "income_str": "$180/s",
+      "baseIncome": 180.0
+    },
+    {
+      "id": 17,
+      "name": "Parrotfish",
+      "rarity": "Rare",
+      "biome": "Abyss Ocean",
+      "image_file": "Parrotfish.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/7e/Parrotfish.png/revision/latest/scale-to-width-down/180?cb=20260901184958",
+      "income_str": "$220/s",
+      "baseIncome": 220.0
+    },
+    {
+      "id": 18,
+      "name": "Dodo",
+      "rarity": "Rare",
+      "biome": "Prehistoric",
+      "image_file": "Dodo.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/fc/Dodo.png/revision/latest/scale-to-width-down/180?cb=20260901195001",
+      "income_str": "$280/s",
+      "baseIncome": 280.0
+    },
+    {
+      "id": 19,
+      "name": "Fox",
+      "rarity": "Epic",
+      "biome": "Forest",
+      "image_file": "Fox.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/73/Fox.png/revision/latest/scale-to-width-down/180?cb=20260904110112",
+      "income_str": "$180/s",
+      "baseIncome": 180.0
+    },
+    {
+      "id": 20,
+      "name": "Bear",
+      "rarity": "Epic",
+      "biome": "Forest",
+      "image_file": "Bear.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a4/Bear.png/revision/latest/scale-to-width-down/180?cb=20260901193222",
+      "income_str": "$240/s",
+      "baseIncome": 240.0
+    },
+    {
+      "id": 21,
+      "name": "Trulimero Trulicina",
+      "rarity": "Epic",
+      "biome": "Lake",
+      "image_file": "Trulimero_Trulicina.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/d3/Trulimero_Trulicina.png/revision/latest/scale-to-width-down/180?cb=20260901192042",
+      "income_str": "$260/s",
+      "baseIncome": 260.0
+    },
+    {
+      "id": 22,
+      "name": "Swan",
+      "rarity": "Epic",
+      "biome": "Lake",
+      "image_file": "Swan.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/8/87/Swan.png/revision/latest/scale-to-width-down/180?cb=20260901192021",
+      "income_str": "$320/s",
+      "baseIncome": 320.0
+    },
+    {
+      "id": 23,
+      "name": "Tob Tobi Tob Tob",
+      "rarity": "Epic",
+      "biome": "Desert",
+      "image_file": "Tob_Tobi_Tob_Tob.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e9/Tob_Tobi_Tob_Tob.png/revision/latest/scale-to-width-down/180?cb=20260901192447",
+      "income_str": "$325/s",
+      "baseIncome": 325.0
+    },
+    {
+      "id": 24,
+      "name": "Crocodile",
+      "rarity": "Epic",
+      "biome": "Jungle",
+      "image_file": "Crocodile.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/d6/Crocodile.png/revision/latest/scale-to-width-down/180?cb=20260901191914",
+      "income_str": "$420/s",
+      "baseIncome": 420.0
+    },
+    {
+      "id": 25,
+      "name": "Walrus",
+      "rarity": "Epic",
+      "biome": "Snow",
+      "image_file": "Walrus.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/79/Walrus.png/revision/latest/scale-to-width-down/180?cb=20260901190028",
+      "income_str": "$600/s",
+      "baseIncome": 600.0
+    },
+    {
+      "id": 26,
+      "name": "Lava Frog",
+      "rarity": "Epic",
+      "biome": "Volcano",
+      "image_file": "Lava_Frog.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/bb/Lava_Frog.png/revision/latest/scale-to-width-down/180?cb=20260904110021",
+      "income_str": "$850/s",
+      "baseIncome": 850.0
+    },
+    {
+      "id": 27,
+      "name": "Swordfish",
+      "rarity": "Epic",
+      "biome": "Abyss Ocean",
+      "image_file": "Swordfish.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/f7/Swordfish.png/revision/latest/scale-to-width-down/180?cb=20260901184942",
+      "income_str": "$1.1K/s",
+      "baseIncome": 1100.0
+    },
+    {
+      "id": 28,
+      "name": "Centapede",
+      "rarity": "Epic",
+      "biome": "Cosmic",
+      "image_file": "Centapede.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a7/Centapede.png/revision/latest/scale-to-width-down/180?cb=20260903140743",
+      "income_str": "$1.5K/s",
+      "baseIncome": 1500.0
+    },
+    {
+      "id": 29,
+      "name": "Crane",
+      "rarity": "Epic",
+      "biome": "Cherry Blossom",
+      "image_file": "Crane.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/2/20/Crane.png/revision/latest/scale-to-width-down/180?cb=20260903140823",
+      "income_str": "$4K/s",
+      "baseIncome": 4000.0
+    },
+    {
+      "id": 30,
+      "name": "Whiskers",
+      "rarity": "Epic",
+      "biome": "Halloween Dimension",
+      "image_file": "Whiskers.png",
+      "image_url": "",
+      "income_str": "$2K/s",
+      "baseIncome": 2000.0
+    },
+    {
+      "id": 31,
+      "name": "Bubblelord",
+      "rarity": "Epic",
+      "biome": "Unknown",
+      "image_file": "Bubblelord.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/d1/Bubblelord.png/revision/latest/scale-to-width-down/180?cb=20261027121713",
+      "income_str": "$5K/s",
+      "baseIncome": 5000.0
+    },
+    {
+      "id": 32,
+      "name": "Light Dove",
+      "rarity": "Legendary",
+      "biome": "Angels & Demons",
+      "image_file": "Light Dove.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/90/Light_Dove.png/revision/latest/scale-to-width-down/180?cb=20260912164541",
+      "income_str": "$225K/s",
+      "baseIncome": 225000.0
+    },
+    {
+      "id": 33,
+      "name": "Flame Sprite",
+      "rarity": "Legendary",
+      "biome": "Angels & Demons",
+      "image_file": "Flame Sprite.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e1/Flame_Sprite.png/revision/latest/scale-to-width-down/180?cb=20260912164646",
+      "income_str": "$225K/s",
+      "baseIncome": 225000.0
+    },
+    {
+      "id": 34,
+      "name": "Brr Brr Patapim",
+      "rarity": "Legendary",
+      "biome": "Forest",
+      "image_file": "Brr_Brr_Patapim.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/f7/Brr_Brr_Patapim.png/revision/latest/scale-to-width-down/180?cb=20260901193213",
+      "income_str": "$1.8K/s",
+      "baseIncome": 1800.0
+    },
+    {
+      "id": 35,
+      "name": "Axolotl",
+      "rarity": "Legendary",
+      "biome": "Lake",
+      "image_file": "Axolotl.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/91/Axolotl.png/revision/latest/scale-to-width-down/180?cb=20260901192010",
+      "income_str": "$2.8K/s",
+      "baseIncome": 2800.0
+    },
+    {
+      "id": 36,
+      "name": "Snake",
+      "rarity": "Legendary",
+      "biome": "Desert",
+      "image_file": "Snake.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/5a/Snake.png/revision/latest/scale-to-width-down/180?cb=20260901192437",
+      "income_str": "$3.6K/s",
+      "baseIncome": 3600.0
+    },
+    {
+      "id": 37,
+      "name": "Gorilla",
+      "rarity": "Legendary",
+      "biome": "Jungle",
+      "image_file": "Gorilla.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/8/84/Gorilla.png/revision/latest/scale-to-width-down/180?cb=20260904025208",
+      "income_str": "$4.8K/s",
+      "baseIncome": 4800.0
+    },
+    {
+      "id": 38,
+      "name": "Orangutini Ananassini",
+      "rarity": "Legendary",
+      "biome": "Jungle",
+      "image_file": "Orangutini_Ananassini.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a7/Orangutini_Ananassini.png/revision/latest/scale-to-width-down/180?cb=20260901191857",
+      "income_str": "$5.5K/s",
+      "baseIncome": 5500.0
+    },
+    {
+      "id": 39,
+      "name": "Polar Bear",
+      "rarity": "Legendary",
+      "biome": "Snow",
+      "image_file": "Polar_Bear.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/78/Polar_Bear.png/revision/latest/scale-to-width-down/180?cb=20260901190019",
+      "income_str": "$7K/s",
+      "baseIncome": 7000.0
+    },
+    {
+      "id": 40,
+      "name": "Flaming Bull",
+      "rarity": "Legendary",
+      "biome": "Volcano",
+      "image_file": "Flaming_Bull.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/19/Flaming_Bull.png/revision/latest/scale-to-width-down/180?cb=20260901195723",
+      "income_str": "$9.5K/s",
+      "baseIncome": 9500.0
+    },
+    {
+      "id": 41,
+      "name": "Lava Iguana",
+      "rarity": "Legendary",
+      "biome": "Volcano",
+      "image_file": "Lava_Iguana.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/f0/Lava_Iguana.png/revision/latest/scale-to-width-down/180?cb=20260901195731",
+      "income_str": "$11K/s",
+      "baseIncome": 11000.0
+    },
+    {
+      "id": 42,
+      "name": "Rift Eye",
+      "rarity": "Legendary",
+      "biome": "Rift",
+      "image_file": "Rift_Eye.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/13/Rift_Eye.png/revision/latest/scale-to-width-down/180?cb=20260907220800",
+      "income_str": "$11K/s",
+      "baseIncome": 11000.0
+    },
+    {
+      "id": 43,
+      "name": "Shark",
+      "rarity": "Legendary",
+      "biome": "Abyss Ocean",
+      "image_file": "Shark.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/14/Shark.png/revision/latest/scale-to-width-down/180?cb=20260904025214",
+      "income_str": "$15K/s",
+      "baseIncome": 15000.0
+    },
+    {
+      "id": 44,
+      "name": "Spike",
+      "rarity": "Legendary",
+      "biome": "Luminous Egg",
+      "image_file": "Spike.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/de/Spike.png/revision/latest/scale-to-width-down/180?cb=20260912182852",
+      "income_str": "$15K/s",
+      "baseIncome": 15000.0
+    },
+    {
+      "id": 45,
+      "name": "Pterodactyl",
+      "rarity": "Legendary",
+      "biome": "Prehistoric",
+      "image_file": "Pterodactyl.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/49/Pterodactyl.png/revision/latest/scale-to-width-down/180?cb=20260901195556",
+      "income_str": "$22K/s",
+      "baseIncome": 22000.0
+    },
+    {
+      "id": 46,
+      "name": "Cosmic Gecko",
+      "rarity": "Legendary",
+      "biome": "Cosmic",
+      "image_file": "Cosmic Gecko.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/2/2a/Cosmic_Gecko.png/revision/latest/scale-to-width-down/180?cb=20260901192914",
+      "income_str": "$30K/s",
+      "baseIncome": 30000.0
+    },
+    {
+      "id": 47,
+      "name": "Void Angler",
+      "rarity": "Legendary",
+      "biome": "Rift",
+      "image_file": "Void_Angler.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/9b/Void_Angler.png/revision/latest/scale-to-width-down/180?cb=20260907220925",
+      "income_str": "$30K/s",
+      "baseIncome": 30000.0
+    },
+    {
+      "id": 48,
+      "name": "Salamander",
+      "rarity": "Legendary",
+      "biome": "Cherry Blossom",
+      "image_file": "Salamander.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/53/Salamander.png/revision/latest/scale-to-width-down/180?cb=20260903135533",
+      "income_str": "$74K/s",
+      "baseIncome": 74000.0
+    },
+    {
+      "id": 49,
+      "name": "Spideron",
+      "rarity": "Legendary",
+      "biome": "Titan Temple",
+      "image_file": "Spideron.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/4b/Spideron.png/revision/latest/scale-to-width-down/180?cb=20260901190849",
+      "income_str": "$95K/s",
+      "baseIncome": 95000.0
+    },
+    {
+      "id": 50,
+      "name": "Crustacia",
+      "rarity": "Legendary",
+      "biome": "Titan Temple",
+      "image_file": "Crustacia.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c3/Crustacia.png/revision/latest/scale-to-width-down/180?cb=20260901190841",
+      "income_str": "$130K/s",
+      "baseIncome": 130000.0
+    },
+    {
+      "id": 51,
+      "name": "Glyptodon",
+      "rarity": "Legendary",
+      "biome": "Extinction Egg",
+      "image_file": "Glyptodon.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/54/Glyptodon.png/revision/latest/scale-to-width-down/180?cb=20260927050158",
+      "income_str": "$22.5K/s",
+      "baseIncome": 22500.0
+    },
+    {
+      "id": 52,
+      "name": "Eye Bat #021",
+      "rarity": "Legendary",
+      "biome": "Event",
+      "image_file": "Eye Bat.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/63/Eye_Bat.png/revision/latest/scale-to-width-down/180?cb=20260927050631",
+      "income_str": "$115K/s",
+      "baseIncome": 115000.0
+    },
+    {
+      "id": 53,
+      "name": "Prism Gecko",
+      "rarity": "Legendary",
+      "biome": "Enchanted Forest",
+      "image_file": "PrismGecko.png",
+      "image_url": "",
+      "income_str": "$350K/s",
+      "baseIncome": 350000.0
+    },
+    {
+      "id": 54,
+      "name": "Candy Corn",
+      "rarity": "Legendary",
+      "biome": "Halloween Dimension",
+      "image_file": "Candy Corn.png",
+      "image_url": "",
+      "income_str": "$17.5K/s",
+      "baseIncome": 17500.0
+    },
+    {
+      "id": 55,
+      "name": "Pumpkin Fiend",
+      "rarity": "Legendary",
+      "biome": "Halloween Dimension",
+      "image_file": "Pumpkin Fiend.png",
+      "image_url": "",
+      "income_str": "$35K/s",
+      "baseIncome": 35000.0
+    },
+    {
+      "id": 56,
+      "name": "Jesterpop",
+      "rarity": "Legendary",
+      "biome": "Halloween Dimension",
+      "image_file": "Jesterpop.png",
+      "image_url": "",
+      "income_str": "$40K/s",
+      "baseIncome": 40000.0
+    },
+    {
+      "id": 57,
+      "name": "Hooded Gerbil",
+      "rarity": "Legendary",
+      "biome": "Halloween Dimension",
+      "image_file": "Hooded Gerbil.png",
+      "image_url": "",
+      "income_str": "$300K/s",
+      "baseIncome": 300000.0
+    },
+    {
+      "id": 58,
+      "name": "Mimic Chest",
+      "rarity": "Legendary",
+      "biome": "Halloween Dimension",
+      "image_file": "Mimic Chest.png",
+      "image_url": "",
+      "income_str": "$600K/s",
+      "baseIncome": 600000.0
+    },
+    {
+      "id": 59,
+      "name": "Race Seahorse",
+      "rarity": "Legendary",
+      "biome": "Unknown",
+      "image_file": "Race Seahorse.png",
+      "image_url": "",
+      "income_str": "$140K/s",
+      "baseIncome": 140000.0
+    },
+    {
+      "id": 60,
+      "name": "Coffin Crawler",
+      "rarity": "Legendary",
+      "biome": "Unknown",
+      "image_file": "Coffin Crawler.png",
+      "image_url": "",
+      "income_str": "$175K/s",
+      "baseIncome": 175000.0
+    },
+    {
+      "id": 61,
+      "name": "Sand Spider",
+      "rarity": "Mythic",
+      "biome": "Desert",
+      "image_file": "Sand_Spider.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/50/Sand_Spider.png/revision/latest/scale-to-width-down/180?cb=20260901192429",
+      "income_str": "$16K/s",
+      "baseIncome": 16000.0
+    },
+    {
+      "id": 62,
+      "name": "Scorpion",
+      "rarity": "Mythic",
+      "biome": "Desert",
+      "image_file": "Scorpion.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/ab/Scorpion.png/revision/latest/scale-to-width-down/180?cb=20260901192421",
+      "income_str": "$18.5K/s",
+      "baseIncome": 18500.0
+    },
+    {
+      "id": 63,
+      "name": "Spider",
+      "rarity": "Mythic",
+      "biome": "Jungle",
+      "image_file": "Spider.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/8/84/Spider.png/revision/latest/scale-to-width-down/180?cb=20260901191847",
+      "income_str": "$22K/s",
+      "baseIncome": 22000.0
+    },
+    {
+      "id": 64,
+      "name": "Tiger",
+      "rarity": "Mythic",
+      "biome": "Jungle",
+      "image_file": "Tiger.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/ae/Tiger.png/revision/latest/scale-to-width-down/180?cb=20260901191839",
+      "income_str": "$28K/s",
+      "baseIncome": 28000.0
+    },
+    {
+      "id": 65,
+      "name": "Sabertooth Tiger",
+      "rarity": "Mythic",
+      "biome": "Snow",
+      "image_file": "Sabertooth_Tiger.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/8/88/Sabertooth_Tiger.png/revision/latest/scale-to-width-down/180?cb=20260904025152",
+      "income_str": "$35K/s",
+      "baseIncome": 35000.0
+    },
+    {
+      "id": 66,
+      "name": "Mammoth",
+      "rarity": "Mythic",
+      "biome": "Snow",
+      "image_file": "Mammoth.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a5/Mammoth.png/revision/latest/scale-to-width-down/180?cb=20260901190010",
+      "income_str": "$42K/s",
+      "baseIncome": 42000.0
+    },
+    {
+      "id": 67,
+      "name": "Voidmaw",
+      "rarity": "Mythic",
+      "biome": "Rift",
+      "image_file": "Voidmaw.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/8/84/Voidmaw.png/revision/latest/scale-to-width-down/180?cb=20260907220809",
+      "income_str": "$50K/s",
+      "baseIncome": 50000.0
+    },
+    {
+      "id": 68,
+      "name": "Chillin Chilli",
+      "rarity": "Mythic",
+      "biome": "Volcano",
+      "image_file": "Chillin_Chilli.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/3/3a/Chillin_Chilli.png/revision/latest/scale-to-width-down/180?cb=20260901195323",
+      "income_str": "$55K/s",
+      "baseIncome": 55000.0
+    },
+    {
+      "id": 69,
+      "name": "Spirit Manta",
+      "rarity": "Mythic",
+      "biome": "Luminous Egg",
+      "image_file": "Spirit_Manta.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/eb/Spirit_Manta.png/revision/latest/scale-to-width-down/180?cb=20260912182844",
+      "income_str": "$75K/s",
+      "baseIncome": 75000.0
+    },
+    {
+      "id": 70,
+      "name": "Orca",
+      "rarity": "Mythic",
+      "biome": "Abyss Ocean",
+      "image_file": "Orca.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/75/Orca.png/revision/latest/scale-to-width-down/180?cb=20260901184919",
+      "income_str": "$80K/s",
+      "baseIncome": 80000.0
+    },
+    {
+      "id": 71,
+      "name": "Ankylosaurus",
+      "rarity": "Mythic",
+      "biome": "Prehistoric",
+      "image_file": "Ankylosaurus.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a7/Ankylosaurus.png/revision/latest/scale-to-width-down/180?cb=20260903140754",
+      "income_str": "$120K/s",
+      "baseIncome": 120000.0
+    },
+    {
+      "id": 72,
+      "name": "Cosmic Gorilla",
+      "rarity": "Mythic",
+      "biome": "Cosmic",
+      "image_file": "Cosmic_Gorilla.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c3/Cosmic_Gorilla.png/revision/latest/scale-to-width-down/180?cb=20260903140729",
+      "income_str": "$180K/s",
+      "baseIncome": 180000.0
+    },
+    {
+      "id": 73,
+      "name": "Riftwing",
+      "rarity": "Mythic",
+      "biome": "Rift",
+      "image_file": "Riftwing.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/db/Riftwing.png/revision/latest/scale-to-width-down/180?cb=20260907221817",
+      "income_str": "$220K/s",
+      "baseIncome": 220000.0
+    },
+    {
+      "id": 74,
+      "name": "Red Panda",
+      "rarity": "Mythic",
+      "biome": "Cherry Blossom",
+      "image_file": "Red_Panda.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/8/8b/Red_Panda.png/revision/latest/scale-to-width-down/180?cb=20260903135550",
+      "income_str": "$450K/s",
+      "baseIncome": 450000.0
+    },
+    {
+      "id": 75,
+      "name": "Shardling",
+      "rarity": "Mythic",
+      "biome": "Rift",
+      "image_file": "Shardling.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/5b/Shardling.png/revision/latest/scale-to-width-down/180?cb=20260907221031",
+      "income_str": "$450K/s",
+      "baseIncome": 450000.0
+    },
+    {
+      "id": 76,
+      "name": "Bladehide",
+      "rarity": "Mythic",
+      "biome": "Titan Temple",
+      "image_file": "Bladehide.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0d/Bladehide.png/revision/latest/scale-to-width-down/180?cb=20260901190830",
+      "income_str": "$750K/s",
+      "baseIncome": 750000.0
+    },
+    {
+      "id": 77,
+      "name": "Winged Lamb",
+      "rarity": "Mythic",
+      "biome": "Angels & Demons",
+      "image_file": "Winged Lamb.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/91/Winged_Lamb.png/revision/latest/scale-to-width-down/180?cb=20260912164549",
+      "income_str": "$1.25M/s",
+      "baseIncome": 1250000.0
+    },
+    {
+      "id": 78,
+      "name": "Toro",
+      "rarity": "Mythic",
+      "biome": "Angels & Demons",
+      "image_file": "Toro.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/94/Toro.png/revision/latest/scale-to-width-down/180?cb=20260912164652",
+      "income_str": "$1.25M/s",
+      "baseIncome": 1250000.0
+    },
+    {
+      "id": 79,
+      "name": "Terrorbird",
+      "rarity": "Mythic",
+      "biome": "Skeletal Egg",
+      "image_file": "Terrorbird.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/8/82/Terrorbird.png/revision/latest/scale-to-width-down/180?cb=20260927050206",
+      "income_str": "$110K/s",
+      "baseIncome": 110000.0
+    },
+    {
+      "id": 80,
+      "name": "Toxic Rat",
+      "rarity": "Mythic",
+      "biome": "Biohazard Egg",
+      "image_file": "Toxic Rat.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/f0/Toxic_Rat.png/revision/latest/scale-to-width-down/180?cb=20260927050433",
+      "income_str": "$180K/s",
+      "baseIncome": 180000.0
+    },
+    {
+      "id": 81,
+      "name": "Wheel Hamster",
+      "rarity": "Mythic",
+      "biome": "Experimental Egg",
+      "image_file": "Wheel Hamster.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/47/Wheel_Hamster.png/revision/latest/scale-to-width-down/180?cb=20260927050509",
+      "income_str": "$450K/s",
+      "baseIncome": 450000.0
+    },
+    {
+      "id": 82,
+      "name": "Frogfly",
+      "rarity": "Mythic",
+      "biome": "Unstable Egg",
+      "image_file": "Frogfly.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a9/Frogfly.png/revision/latest/scale-to-width-down/180?cb=20260927050557",
+      "income_str": "$1.25M/s",
+      "baseIncome": 1250000.0
+    },
+    {
+      "id": 83,
+      "name": "Citadel Snail #007",
+      "rarity": "Mythic",
+      "biome": "Event",
+      "image_file": "Citadel Snail.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/cc/Citadel_Snail.png/revision/latest/scale-to-width-down/180?cb=20260927050705",
+      "income_str": "$12.5M/s",
+      "baseIncome": 12500000.0
+    },
+    {
+      "id": 84,
+      "name": "Petal Beetle",
+      "rarity": "Mythic",
+      "biome": "Enchanted Forest",
+      "image_file": "Petal Beetle.png",
+      "image_url": "",
+      "income_str": "$1.2M/s",
+      "baseIncome": 1200000.0
+    },
+    {
+      "id": 85,
+      "name": "Enchanted Bluejay",
+      "rarity": "Mythic",
+      "biome": "Enchanted Forest",
+      "image_file": "Enchanted Bluejay.png",
+      "image_url": "",
+      "income_str": "$2.5M/s",
+      "baseIncome": 2500000.0
+    },
+    {
+      "id": 86,
+      "name": "Hollow Bat",
+      "rarity": "Mythic",
+      "biome": "Halloween Dimension",
+      "image_file": "Hollow Bat.png",
+      "image_url": "",
+      "income_str": "$80K/s",
+      "baseIncome": 80000.0
+    },
+    {
+      "id": 87,
+      "name": "Candlefang",
+      "rarity": "Mythic",
+      "biome": "Halloween Dimension",
+      "image_file": "Candlefang.png",
+      "image_url": "",
+      "income_str": "$225K/s",
+      "baseIncome": 225000.0
+    },
+    {
+      "id": 88,
+      "name": "Toadstool",
+      "rarity": "Mythic",
+      "biome": "Halloween Dimension",
+      "image_file": "Toadstool.png",
+      "image_url": "",
+      "income_str": "$1.6M/s",
+      "baseIncome": 1600000.0
+    },
+    {
+      "id": 89,
+      "name": "Night Fang",
+      "rarity": "Mythic",
+      "biome": "Halloween Dimension",
+      "image_file": "Night Fang.png",
+      "image_url": "",
+      "income_str": "$160K/s",
+      "baseIncome": 160000.0
+    },
+    {
+      "id": 90,
+      "name": "Crowshade",
+      "rarity": "Mythic",
+      "biome": "Halloween Dimension",
+      "image_file": "Crowshade.png",
+      "image_url": "",
+      "income_str": "$4.5M/s",
+      "baseIncome": 4500000.0
+    },
+    {
+      "id": 91,
+      "name": "Race Lizard",
+      "rarity": "Mythic",
+      "biome": "Unknown",
+      "image_file": "Race Lizard.png",
+      "image_url": "",
+      "income_str": "$800K/s",
+      "baseIncome": 800000.0
+    },
+    {
+      "id": 92,
+      "name": "Bell Scream",
+      "rarity": "Mythic",
+      "biome": "Unknown",
+      "image_file": "Bell Scream.png",
+      "image_url": "",
+      "income_str": "$1M/s",
+      "baseIncome": 1000000.0
+    },
+    {
+      "id": 93,
+      "name": "Nibbles #013",
+      "rarity": "Cosmic",
+      "biome": "Event",
+      "image_file": "Nibbles -013.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/64/Nibbles_-013.png/revision/latest/scale-to-width-down/180?cb=20260919174441",
+      "income_str": "$185K/s",
+      "baseIncome": 185000.0
+    },
+    {
+      "id": 94,
+      "name": "Leviathan",
+      "rarity": "Cosmic",
+      "biome": "Lake",
+      "image_file": "Leviathan.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0a/Leviathan.png/revision/latest/scale-to-width-down/180?cb=20260904110656",
+      "income_str": "$220K/s",
+      "baseIncome": 220000.0
+    },
+    {
+      "id": 95,
+      "name": "Royal Sphinx",
+      "rarity": "Cosmic",
+      "biome": "Desert",
+      "image_file": "Royal_Sphinx.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/5a/Royal_Sphinx.png/revision/latest/scale-to-width-down/180?cb=20260904025135",
+      "income_str": "$280K/s",
+      "baseIncome": 280000.0
+    },
+    {
+      "id": 96,
+      "name": "King Mammoth",
+      "rarity": "Cosmic",
+      "biome": "Snow",
+      "image_file": "King_Mammoth.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/69/King_Mammoth.png/revision/latest/scale-to-width-down/180?cb=20260904025144",
+      "income_str": "$400K/s",
+      "baseIncome": 400000.0
+    },
+    {
+      "id": 97,
+      "name": "Ventinal",
+      "rarity": "Cosmic",
+      "biome": "Rift",
+      "image_file": "Ventinal.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/14/Ventinal.png/revision/latest/scale-to-width-down/180?cb=20260907220820",
+      "income_str": "$585K/s",
+      "baseIncome": 585000.0
+    },
+    {
+      "id": 98,
+      "name": "Whale Shark",
+      "rarity": "Cosmic",
+      "biome": "Abyss Ocean",
+      "image_file": "Whale_Shark.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/91/Whale_Shark.png/revision/latest/scale-to-width-down/180?cb=20260904025106",
+      "income_str": "$700K/s",
+      "baseIncome": 700000.0
+    },
+    {
+      "id": 99,
+      "name": "Beluga Whale",
+      "rarity": "Cosmic",
+      "biome": "Abyss Ocean",
+      "image_file": "Beluga_Whale.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/de/Beluga_Whale.png/revision/latest/scale-to-width-down/180?cb=20260904025050",
+      "income_str": "$850K/s",
+      "baseIncome": 850000.0
+    },
+    {
+      "id": 100,
+      "name": "Triceratops",
+      "rarity": "Cosmic",
+      "biome": "Prehistoric",
+      "image_file": "Triceratops.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a1/Triceratops.png/revision/latest?cb=20260904025118",
+      "income_str": "$1.2M/s",
+      "baseIncome": 1200000.0
+    },
+    {
+      "id": 101,
+      "name": "Bronto",
+      "rarity": "Cosmic",
+      "biome": "Prehistoric",
+      "image_file": "Bronto.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/19/Bronto.png/revision/latest?cb=20260904025043",
+      "income_str": "$1.5M/s",
+      "baseIncome": 1500000.0
+    },
+    {
+      "id": 102,
+      "name": "Dreadclaw",
+      "rarity": "Cosmic",
+      "biome": "Rift",
+      "image_file": "Dreadclaw.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/65/Dreadclaw.png/revision/latest/scale-to-width-down/180?cb=20260907220951",
+      "income_str": "$2.2M/s",
+      "baseIncome": 2200000.0
+    },
+    {
+      "id": 103,
+      "name": "La Vacca Saturno Saturnita",
+      "rarity": "Cosmic",
+      "biome": "Cosmic",
+      "image_file": "La_Vacca_Saturno_Saturnita.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/ec/La_Vacca_Saturno_Saturnita.png/revision/latest/scale-to-width-down/180?cb=20260901185226",
+      "income_str": "$2.2M/s",
+      "baseIncome": 2200000.0
+    },
+    {
+      "id": 104,
+      "name": "Abyss Shark",
+      "rarity": "Cosmic",
+      "biome": "Luminous Egg",
+      "image_file": "Abyss_Shark.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0f/Abyss_Shark.png/revision/latest/scale-to-width-down/180?cb=20260912182836",
+      "income_str": "$2.5M/s",
+      "baseIncome": 2500000.0
+    },
+    {
+      "id": 105,
+      "name": "Snowy Owl",
+      "rarity": "Cosmic",
+      "biome": "Cherry Blossom",
+      "image_file": "Snowy_Owl.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c6/Snowy_Owl.png/revision/latest/scale-to-width-down/180?cb=20260903135600",
+      "income_str": "$7.5M/s",
+      "baseIncome": 7500000.0
+    },
+    {
+      "id": 106,
+      "name": "Shattered Ram",
+      "rarity": "Cosmic",
+      "biome": "Rift",
+      "image_file": "Shattered_Ram.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/44/Shattered_Ram.png/revision/latest/scale-to-width-down/180?cb=20260907221048",
+      "income_str": "$8M/s",
+      "baseIncome": 8000000.0
+    },
+    {
+      "id": 107,
+      "name": "Mantaris",
+      "rarity": "Cosmic",
+      "biome": "Titan Temple",
+      "image_file": "Mantaris.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0e/Mantaris.png/revision/latest/scale-to-width-down/180?cb=20260901190821",
+      "income_str": "$11M/s",
+      "baseIncome": 11000000.0
+    },
+    {
+      "id": 108,
+      "name": "Koi",
+      "rarity": "Cosmic",
+      "biome": "Cherry Blossom",
+      "image_file": "Koi.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/66/Koi.png/revision/latest/scale-to-width-down/180?cb=20260903135610",
+      "income_str": "$12M/s",
+      "baseIncome": 12000000.0
+    },
+    {
+      "id": 109,
+      "name": "Sacred Moth",
+      "rarity": "Cosmic",
+      "biome": "Angels & Demons",
+      "image_file": "Sacred Moth.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/68/Sacred_Moth.png/revision/latest/scale-to-width-down/180?cb=20260912164556",
+      "income_str": "$16M/s",
+      "baseIncome": 16000000.0
+    },
+    {
+      "id": 110,
+      "name": "Imp",
+      "rarity": "Cosmic",
+      "biome": "Angels & Demons",
+      "image_file": "Imp.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/b3/Imp.png/revision/latest/scale-to-width-down/180?cb=20260912164659",
+      "income_str": "$16M/s",
+      "baseIncome": 16000000.0
+    },
+    {
+      "id": 111,
+      "name": "Rhinotaur",
+      "rarity": "Cosmic",
+      "biome": "Titan Temple",
+      "image_file": "Rhinotaur.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/3/31/Rhinotaur.png/revision/latest/scale-to-width-down/180?cb=20260901190811",
+      "income_str": "$17.5M/s",
+      "baseIncome": 17500000.0
+    },
+    {
+      "id": 112,
+      "name": "Holy Peacock",
+      "rarity": "Cosmic",
+      "biome": "Angels & Demons",
+      "image_file": "Holy Peacock.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/15/Holy_Peacock.png/revision/latest/scale-to-width-down/180?cb=20260912164606",
+      "income_str": "$25M/s",
+      "baseIncome": 25000000.0
+    },
+    {
+      "id": 113,
+      "name": "Demon Hound",
+      "rarity": "Cosmic",
+      "biome": "Angels & Demons",
+      "image_file": "Demon Hound.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/f2/Demon_Hound.png/revision/latest/scale-to-width-down/180?cb=20260912164706",
+      "income_str": "$25M/s",
+      "baseIncome": 25000000.0
+    },
+    {
+      "id": 114,
+      "name": "Giant Sloth",
+      "rarity": "Cosmic",
+      "biome": "Skeletal Egg",
+      "image_file": "Giant Sloth.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/1a/Giant_Sloth.png/revision/latest/scale-to-width-down/180?cb=20260927050213",
+      "income_str": "$4M/s",
+      "baseIncome": 4000000.0
+    },
+    {
+      "id": 115,
+      "name": "Radcoon",
+      "rarity": "Cosmic",
+      "biome": "Biohazard Egg",
+      "image_file": "Radcoon.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/ac/Radcoon.png/revision/latest/scale-to-width-down/180?cb=20260927050441",
+      "income_str": "$2.2M/s",
+      "baseIncome": 2200000.0
+    },
+    {
+      "id": 116,
+      "name": "Toucax",
+      "rarity": "Cosmic",
+      "biome": "Biohazard Egg",
+      "image_file": "Toucax.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/91/Toucax.png/revision/latest/scale-to-width-down/180?cb=20260927050448",
+      "income_str": "$30M/s",
+      "baseIncome": 30000000.0
+    },
+    {
+      "id": 117,
+      "name": "Stacked Turtle",
+      "rarity": "Cosmic",
+      "biome": "Experimental Egg",
+      "image_file": "Stacked Turtle.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/91/Stacked_Turtle.png/revision/latest/scale-to-width-down/180?cb=20260927050516",
+      "income_str": "$12M/s",
+      "baseIncome": 12000000.0
+    },
+    {
+      "id": 118,
+      "name": "Three Headed Chicken",
+      "rarity": "Cosmic",
+      "biome": "Experimental Egg",
+      "image_file": "Three Headed Chicken.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/45/Three_Headed_Chicken.png/revision/latest/scale-to-width-down/180?cb=20260927050524",
+      "income_str": "$165M/s",
+      "baseIncome": 165000000.0
+    },
+    {
+      "id": 119,
+      "name": "Spiderpig",
+      "rarity": "Cosmic",
+      "biome": "Unstable Egg",
+      "image_file": "Spiderpig.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0e/Spiderpig.png/revision/latest/scale-to-width-down/180?cb=20260927050548",
+      "income_str": "$25M/s",
+      "baseIncome": 25000000.0
+    },
+    {
+      "id": 120,
+      "name": "Uncoiled Armadillo",
+      "rarity": "Cosmic",
+      "biome": "Event",
+      "image_file": "Uncoiled Armadillo.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0d/Uncoiled_Armadillo.png/revision/latest/scale-to-width-down/180?cb=20260927050638",
+      "income_str": "$625K/s",
+      "baseIncome": 625000.0
+    },
+    {
+      "id": 121,
+      "name": "Astral Jackalope",
+      "rarity": "Cosmic",
+      "biome": "Enchanted Forest",
+      "image_file": "AstralJackalope.png",
+      "image_url": "",
+      "income_str": "$30M/s",
+      "baseIncome": 30000000.0
+    },
+    {
+      "id": 122,
+      "name": "Spirit Panda",
+      "rarity": "Cosmic",
+      "biome": "Enchanted Forest",
+      "image_file": "SpiritPanda.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/58/SpiritPanda.png/revision/latest/scale-to-width-down/180?cb=20261023122816",
+      "income_str": "$90M/s",
+      "baseIncome": 90000000.0
+    },
+    {
+      "id": 123,
+      "name": "Scarecrow",
+      "rarity": "Cosmic",
+      "biome": "Halloween Dimension",
+      "image_file": "Scarecrow.png",
+      "image_url": "",
+      "income_str": "$3M/s",
+      "baseIncome": 3000000.0
+    },
+    {
+      "id": 124,
+      "name": "Spirit Knight",
+      "rarity": "Cosmic",
+      "biome": "Halloween Dimension",
+      "image_file": "Spirit Knight.png",
+      "image_url": "",
+      "income_str": "$3M/s",
+      "baseIncome": 3000000.0
+    },
+    {
+      "id": 125,
+      "name": "Tombstone Bear",
+      "rarity": "Cosmic",
+      "biome": "Halloween Dimension",
+      "image_file": "Tombstone Bear.png",
+      "image_url": "",
+      "income_str": "$6M/s",
+      "baseIncome": 6000000.0
+    },
+    {
+      "id": 126,
+      "name": "Patchwork Imp",
+      "rarity": "Cosmic",
+      "biome": "Halloween Dimension",
+      "image_file": "Patchwork Imp.png",
+      "image_url": "",
+      "income_str": "$20M/s",
+      "baseIncome": 20000000.0
+    },
+    {
+      "id": 127,
+      "name": "Haunted Scorpio",
+      "rarity": "Cosmic",
+      "biome": "Halloween Dimension",
+      "image_file": "Haunted Scorpio.png",
+      "image_url": "",
+      "income_str": "$30M/s",
+      "baseIncome": 30000000.0
+    },
+    {
+      "id": 128,
+      "name": "Hexed Pumpkin",
+      "rarity": "Cosmic",
+      "biome": "Halloween Dimension",
+      "image_file": "Hexed Pumpkin.png",
+      "image_url": "",
+      "income_str": "$150M/s",
+      "baseIncome": 150000000.0
+    },
+    {
+      "id": 129,
+      "name": "Hellhound",
+      "rarity": "Cosmic",
+      "biome": "Event",
+      "image_file": "Hellhound.png",
+      "image_url": "",
+      "income_str": "$1.8M/s",
+      "baseIncome": 1800000.0
+    },
+    {
+      "id": 130,
+      "name": "Riptide Octopus",
+      "rarity": "Cosmic",
+      "biome": "Luminous Egg",
+      "image_file": "Riptide Octopus.png",
+      "image_url": "",
+      "income_str": "$1.5M/s",
+      "baseIncome": 1500000.0
+    },
+    {
+      "id": 131,
+      "name": "Depths Riptide Octopus",
+      "rarity": "Cosmic",
+      "biome": "Luminous Reroll Egg",
+      "image_file": "Depths Riptide Octopus.png",
+      "image_url": "",
+      "income_str": "$430M/s",
+      "baseIncome": 430000000.0
+    },
+    {
+      "id": 132,
+      "name": "Race Bird",
+      "rarity": "Cosmic",
+      "biome": "Unknown",
+      "image_file": "Race Bird.png",
+      "image_url": "",
+      "income_str": "$16M/s",
+      "baseIncome": 16000000.0
+    },
+    {
+      "id": 133,
+      "name": "Phantom Banshee",
+      "rarity": "Cosmic",
+      "biome": "Unknown",
+      "image_file": "Phantom Banshee.png",
+      "image_url": "",
+      "income_str": "$20M/s",
+      "baseIncome": 20000000.0
+    },
+    {
+      "id": 134,
+      "name": "67",
+      "rarity": "Secret",
+      "biome": "Event",
+      "image_file": "67.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/3/30/67.png/revision/latest/scale-to-width-down/180?cb=20260919174459",
+      "income_str": "$1.55M/s",
+      "baseIncome": 1550000.0
+    },
+    {
+      "id": 135,
+      "name": "King Snake",
+      "rarity": "Secret",
+      "biome": "Jungle",
+      "image_file": "King_Snake.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/fc/King_Snake.png/revision/latest/scale-to-width-down/180?cb=20260901191831",
+      "income_str": "$3.5M/s",
+      "baseIncome": 3500000.0
+    },
+    {
+      "id": 136,
+      "name": "Yeti",
+      "rarity": "Secret",
+      "biome": "Snow",
+      "image_file": "Yeti.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/7d/Yeti.png/revision/latest/scale-to-width-down/180?cb=20260904025057",
+      "income_str": "$5M/s",
+      "baseIncome": 5000000.0
+    },
+    {
+      "id": 137,
+      "name": "Cerberus",
+      "rarity": "Secret",
+      "biome": "Volcano",
+      "image_file": "Cerberus.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/45/Cerberus.png/revision/latest/scale-to-width-down/180?cb=20260901194510",
+      "income_str": "$8M/s",
+      "baseIncome": 8000000.0
+    },
+    {
+      "id": 138,
+      "name": "Ring Guard",
+      "rarity": "Secret",
+      "biome": ".",
+      "image_file": "Ring_Guard.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c7/Ring_Guard.png/revision/latest/scale-to-width-down/180?cb=20260913045444",
+      "income_str": "$15M/s",
+      "baseIncome": 15000000.0
+    },
+    {
+      "id": 139,
+      "name": "Wendigo",
+      "rarity": "Secret",
+      "biome": "Rift",
+      "image_file": "Wendigo.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/8/8a/Wendigo.png/revision/latest/scale-to-width-down/180?cb=20260907220833",
+      "income_str": "$15M/s",
+      "baseIncome": 15000000.0
+    },
+    {
+      "id": 140,
+      "name": "Kraken",
+      "rarity": "Secret",
+      "biome": "Abyss Ocean",
+      "image_file": "Kraken.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/d3/Kraken.png/revision/latest/scale-to-width-down/180?cb=20260904110057",
+      "income_str": "$15M/s",
+      "baseIncome": 15000000.0
+    },
+    {
+      "id": 141,
+      "name": "T-Rex",
+      "rarity": "Secret",
+      "biome": "Prehistoric",
+      "image_file": "T-Rex.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/f8/T-Rex.png/revision/latest/scale-to-width-down/180?cb=20260903161834",
+      "income_str": "$25M/s",
+      "baseIncome": 25000000.0
+    },
+    {
+      "id": 142,
+      "name": "Tralaledon",
+      "rarity": "Secret",
+      "biome": "Prehistoric",
+      "image_file": "Tralaledon.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/3/34/Tralaledon.png/revision/latest/scale-to-width-down/180?cb=20260901194501",
+      "income_str": "$32M/s",
+      "baseIncome": 32000000.0
+    },
+    {
+      "id": 143,
+      "name": "Cosmic Skeleton Boss",
+      "rarity": "Secret",
+      "biome": "Cosmic",
+      "image_file": "Cosmic_Skeleton_Boss.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/97/Cosmic_Skeleton_Boss.png/revision/latest/scale-to-width-down/180?cb=20260904110709",
+      "income_str": "$45M/s",
+      "baseIncome": 45000000.0
+    },
+    {
+      "id": 144,
+      "name": "Mawbreaker",
+      "rarity": "Secret",
+      "biome": "Rift",
+      "image_file": "Mawbreaker.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/43/Mawbreaker.png/revision/latest/scale-to-width-down/180?cb=20260907221007",
+      "income_str": "$60M/s",
+      "baseIncome": 60000000.0
+    },
+    {
+      "id": 145,
+      "name": "Cosmic Dragon",
+      "rarity": "Secret",
+      "biome": "Cosmic",
+      "image_file": "Cosmic_Dragon.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/3/3e/Cosmic_Dragon.png/revision/latest/scale-to-width-down/180?cb=20260903140720",
+      "income_str": "$60M/s",
+      "baseIncome": 60000000.0
+    },
+    {
+      "id": 146,
+      "name": "Stag",
+      "rarity": "Secret",
+      "biome": "Cherry Blossom",
+      "image_file": "Stag.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/10/Stag.png/revision/latest/scale-to-width-down/180?cb=20260903135633",
+      "income_str": "$145M/s",
+      "baseIncome": 145000000.0
+    },
+    {
+      "id": 147,
+      "name": "Shardwing",
+      "rarity": "Secret",
+      "biome": "Rift",
+      "image_file": "Shardwing.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/56/Shardwing.png/revision/latest/scale-to-width-down/180?cb=20260907221101",
+      "income_str": "$145M/s",
+      "baseIncome": 145000000.0
+    },
+    {
+      "id": 148,
+      "name": "Mutant Shark",
+      "rarity": "Secret",
+      "biome": "Titan Temple",
+      "image_file": "Mutant Shark.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e5/Mutant_Shark.png/revision/latest/scale-to-width-down/180?cb=20260901190802",
+      "income_str": "$215M/s",
+      "baseIncome": 215000000.0
+    },
+    {
+      "id": 149,
+      "name": "Experiment #001",
+      "rarity": "Secret",
+      "biome": "Event",
+      "image_file": "Experiment -001.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0a/Experiment_-001.png/revision/latest/scale-to-width-down/180?cb=20260919174451",
+      "income_str": "$285M/s",
+      "baseIncome": 285000000.0
+    },
+    {
+      "id": 150,
+      "name": "Dunkleosteus",
+      "rarity": "Secret",
+      "biome": "Skeletal Egg",
+      "image_file": "Dunkleosteus.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e5/Dunkleosteus.png/revision/latest/scale-to-width-down/180?cb=20260927050221",
+      "income_str": "$300M/s",
+      "baseIncome": 300000000.0
+    },
+    {
+      "id": 151,
+      "name": "Electric Eel",
+      "rarity": "Secret",
+      "biome": "Luminous Egg",
+      "image_file": "Electric_Eel.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/00/Electric_Eel.png/revision/latest/scale-to-width-down/180?cb=20260912182830",
+      "income_str": "$200M/s",
+      "baseIncome": 200000000.0
+    },
+    {
+      "id": 152,
+      "name": "Pure Jellyfish",
+      "rarity": "Secret",
+      "biome": "Angels & Demons",
+      "image_file": "Pure Jellyfish.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/7e/Pure_Jellyfish.png/revision/latest/scale-to-width-down/180?cb=20260912164614",
+      "income_str": "$225M/s",
+      "baseIncome": 225000000.0
+    },
+    {
+      "id": 153,
+      "name": "Gargoyle",
+      "rarity": "Secret",
+      "biome": "Angels & Demons",
+      "image_file": "Gargoyle.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/44/Gargoyle.png/revision/latest/scale-to-width-down/180?cb=20260912164712",
+      "income_str": "$225M/s",
+      "baseIncome": 225000000.0
+    },
+    {
+      "id": 154,
+      "name": "Centaur",
+      "rarity": "Secret",
+      "biome": "Angels & Demons",
+      "image_file": "Centaur.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/bc/Centaur.png/revision/latest/scale-to-width-down/180?cb=20260912164622",
+      "income_str": "$350M/s",
+      "baseIncome": 350000000.0
+    },
+    {
+      "id": 155,
+      "name": "RazorFang",
+      "rarity": "Secret",
+      "biome": "Angels & Demons",
+      "image_file": "RazorFang.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c2/RazorFang.png/revision/latest/scale-to-width-down/180?cb=20260912164720",
+      "income_str": "$350M/s",
+      "baseIncome": 350000000.0
+    },
+    {
+      "id": 156,
+      "name": "Luminous Spike",
+      "rarity": "Secret",
+      "biome": "Luminous Reroll Egg",
+      "image_file": "Luminous_Spike.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/13/Luminous_Spike.png/revision/latest/scale-to-width-down/180?cb=20260912182805",
+      "income_str": "$350M/s",
+      "baseIncome": 350000000.0
+    },
+    {
+      "id": 157,
+      "name": "Luminous Spirit Manta",
+      "rarity": "Secret",
+      "biome": "Luminous Reroll Egg",
+      "image_file": "Luminous_Spirit_Manta.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/bb/Luminous_Spirit_Manta.png/revision/latest/scale-to-width-down/180?cb=20260912182757",
+      "income_str": "$500M/s",
+      "baseIncome": 500000000.0
+    },
+    {
+      "id": 158,
+      "name": "Luminous Abyss Shark",
+      "rarity": "Secret",
+      "biome": "Luminous Reroll Egg",
+      "image_file": "Luminous_Abyss_Shark.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/2/20/Luminous_Abyss_Shark.png/revision/latest/scale-to-width-down/180?cb=20260912182750",
+      "income_str": "$600M/s",
+      "baseIncome": 600000000.0
+    },
+    {
+      "id": 159,
+      "name": "Ringlord",
+      "rarity": "Secret",
+      "biome": ".",
+      "image_file": "Ringlord.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e8/Ringlord.png/revision/latest/scale-to-width-down/180?cb=20260913045506",
+      "income_str": "$825M/s",
+      "baseIncome": 825000000.0
+    },
+    {
+      "id": 160,
+      "name": "Abyss Overlord",
+      "rarity": "Secret",
+      "biome": "Rift",
+      "image_file": "Abyss_Overlord.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/60/Abyss_Overlord.png/revision/latest/scale-to-width-down/180?cb=20260907221609",
+      "income_str": "$1.25M/s",
+      "baseIncome": 1250000.0
+    },
+    {
+      "id": 161,
+      "name": "Skeletal Glyptodon",
+      "rarity": "Secret",
+      "biome": "Skeletal Egg",
+      "image_file": "Skeletal Glyptodon.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/b7/Skeletal_Glyptodon.png/revision/latest/scale-to-width-down/180?cb=20260927050238",
+      "income_str": "$550M/s",
+      "baseIncome": 550000000.0
+    },
+    {
+      "id": 162,
+      "name": "Skeletal Terrorbird",
+      "rarity": "Secret",
+      "biome": "Skeletal Egg",
+      "image_file": "Skeletal Terrorbird.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/2/23/Skeletal_Terrorbird.png/revision/latest/scale-to-width-down/180?cb=20260927050249",
+      "income_str": "$750M/s",
+      "baseIncome": 750000000.0
+    },
+    {
+      "id": 163,
+      "name": "Skeletal Giant Sloth",
+      "rarity": "Secret",
+      "biome": "Skeletal Egg",
+      "image_file": "Skeletal Giant Sloth.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/4a/Skeletal_Giant_Sloth.png/revision/latest/scale-to-width-down/180?cb=20260927050304",
+      "income_str": "$900M/s",
+      "baseIncome": 900000000.0
+    },
+    {
+      "id": 164,
+      "name": "Nuceodile",
+      "rarity": "Secret",
+      "biome": "Biohazard Egg",
+      "image_file": "Nuceodile.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/2/24/Nuceodile.png/revision/latest/scale-to-width-down/180?cb=20260927050455",
+      "income_str": "$500M/s",
+      "baseIncome": 500000000.0
+    },
+    {
+      "id": 165,
+      "name": "Eyeball Crab",
+      "rarity": "Secret",
+      "biome": "Experimental Egg",
+      "image_file": "Eyeball Crab.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/93/Eyeball_Crab.png/revision/latest/scale-to-width-down/180?cb=20260927050532",
+      "income_str": "$825M/s",
+      "baseIncome": 825000000.0
+    },
+    {
+      "id": 166,
+      "name": "Sharkodile",
+      "rarity": "Secret",
+      "biome": "Unstable Egg",
+      "image_file": "Sharkodile.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a3/Sharkodile.png/revision/latest/scale-to-width-down/180?cb=20260927050605",
+      "income_str": "$350M/s",
+      "baseIncome": 350000000.0
+    },
+    {
+      "id": 167,
+      "name": "Toxic Hedgehog",
+      "rarity": "Secret",
+      "biome": "Event",
+      "image_file": "Toxic Hedgehog.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/ba/Toxic_Hedgehog.png/revision/latest/scale-to-width-down/180?cb=20260927050740",
+      "income_str": "$1.75M/s",
+      "baseIncome": 1750000.0
+    },
+    {
+      "id": 168,
+      "name": "Mecha Chompa",
+      "rarity": "Secret",
+      "biome": "Event",
+      "image_file": "Mecha Chompa.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/13/Mecha_Chompa.png/revision/latest/scale-to-width-down/180?cb=20260928133741",
+      "income_str": "$600M/s",
+      "baseIncome": 600000000.0
+    },
+    {
+      "id": 169,
+      "name": "Toxic Crocodile",
+      "rarity": "Secret",
+      "biome": "Event",
+      "image_file": "Toxic Crocodile.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/d3/Toxic_Crocodile.png/revision/latest/scale-to-width-down/180?cb=20260927135222",
+      "income_str": "$600M/s",
+      "baseIncome": 600000000.0
+    },
+    {
+      "id": 170,
+      "name": "Starry Fox",
+      "rarity": "Secret",
+      "biome": "Enchanted Forest",
+      "image_file": "Starry Fox.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/40/Starry_Fox.png/revision/latest?cb=20261006232700",
+      "income_str": "$750M/s",
+      "baseIncome": 750000000.0
+    },
+    {
+      "id": 171,
+      "name": "Graveyard Brute",
+      "rarity": "Secret",
+      "biome": "Halloween Dimension",
+      "image_file": "Graveyard Brute.png",
+      "image_url": "",
+      "income_str": "$75M/s",
+      "baseIncome": 75000000.0
+    },
+    {
+      "id": 172,
+      "name": "Pumpkin Golem",
+      "rarity": "Secret",
+      "biome": "Halloween Dimension",
+      "image_file": "Pumpkin Golem.png",
+      "image_url": "",
+      "income_str": "$350M/s",
+      "baseIncome": 350000000.0
+    },
+    {
+      "id": 173,
+      "name": "Grave Cerberus",
+      "rarity": "Secret",
+      "biome": "Halloween Dimension",
+      "image_file": "Grave Cerberus.png",
+      "image_url": "",
+      "income_str": "$450M/s",
+      "baseIncome": 450000000.0
+    },
+    {
+      "id": 174,
+      "name": "BloodBloom",
+      "rarity": "Secret",
+      "biome": "Halloween Dimension",
+      "image_file": "BloodBloom.png",
+      "image_url": "",
+      "income_str": "$450M/s",
+      "baseIncome": 450000000.0
+    },
+    {
+      "id": 175,
+      "name": "Werewolf",
+      "rarity": "Secret",
+      "biome": "Halloween Dimension",
+      "image_file": "Werewolf.png",
+      "image_url": "",
+      "income_str": "$1.3B/s",
+      "baseIncome": 1300000000.0
+    },
+    {
+      "id": 176,
+      "name": "Zombified Pumpkin Fiend",
+      "rarity": "Secret",
+      "biome": "Zombified Halloween Egg",
+      "image_file": "Zombified Pumpkin Fiend.png",
+      "image_url": "",
+      "income_str": "$800M/s",
+      "baseIncome": 800000000.0
+    },
+    {
+      "id": 177,
+      "name": "Zombified Night Fang",
+      "rarity": "Secret",
+      "biome": "Zombified Halloween Egg",
+      "image_file": "Zombified Night Fang.png",
+      "image_url": "",
+      "income_str": "$1.1B/s",
+      "baseIncome": 1100000000.0
+    },
+    {
+      "id": 178,
+      "name": "Zombified Tombstone Bear",
+      "rarity": "Secret",
+      "biome": "Zombified Halloween Egg",
+      "image_file": "Zombified Tombstone Bear.png",
+      "image_url": "",
+      "income_str": "$1.4B/s",
+      "baseIncome": 1400000000.0
+    },
+    {
+      "id": 179,
+      "name": "Amethyst Runebear",
+      "rarity": "Secret",
+      "biome": "Unknown",
+      "image_file": "Amethyst Runebear.png",
+      "image_url": "",
+      "income_str": "$1.95M/s",
+      "baseIncome": 1950000.0
+    },
+    {
+      "id": 180,
+      "name": "Midnight Mimic",
+      "rarity": "Secret",
+      "biome": "Unknown",
+      "image_file": "Midnight Mimic.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/3/3b/Midnight_Mimic.png/revision/latest/scale-to-width-down/180?cb=20261025104633",
+      "income_str": "$2.345M/s",
+      "baseIncome": 2345000.0
+    },
+    {
+      "id": 181,
+      "name": "Ostrich",
+      "rarity": "Secret",
+      "biome": "Unknown",
+      "image_file": "Ostrich.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/ad/Ostrich.png/revision/latest/scale-to-width-down/180?cb=20261017111400",
+      "income_str": "$2.145M/s",
+      "baseIncome": 2145000.0
+    },
+    {
+      "id": 182,
+      "name": "Jitterbug",
+      "rarity": "Secret",
+      "biome": "Unknown",
+      "image_file": "Jitterbug.png",
+      "image_url": "",
+      "income_str": "$155M/s",
+      "baseIncome": 155000000.0
+    },
+    {
+      "id": 183,
+      "name": "Race Cheetah",
+      "rarity": "Secret",
+      "biome": "Unknown",
+      "image_file": "Race Cheetah.png",
+      "image_url": "",
+      "income_str": "$250M/s",
+      "baseIncome": 250000000.0
+    },
+    {
+      "id": 184,
+      "name": "Vespera",
+      "rarity": "Secret",
+      "biome": "Unknown",
+      "image_file": "Vespera.png",
+      "image_url": "",
+      "income_str": "$300M/s",
+      "baseIncome": 300000000.0
+    },
+    {
+      "id": 185,
+      "name": "Ice Dragon",
+      "rarity": "Eternal",
+      "biome": "Snow",
+      "image_file": "Ice_Dragon.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/bb/Ice_Dragon.png/revision/latest/scale-to-width-down/180?cb=20260904110044",
+      "income_str": "$65M/s",
+      "baseIncome": 65000000.0
+    },
+    {
+      "id": 186,
+      "name": "Phoenix",
+      "rarity": "Eternal",
+      "biome": "Volcano",
+      "image_file": "Phoenix.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c1/Phoenix.png/revision/latest?cb=20260904025201",
+      "income_str": "$85M/s",
+      "baseIncome": 85000000.0
+    },
+    {
+      "id": 187,
+      "name": "Lava Dragon",
+      "rarity": "Eternal",
+      "biome": "Volcano",
+      "image_file": "Lava_Dragon.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/77/Lava_Dragon.png/revision/latest?cb=20260904025223",
+      "income_str": "$100M/s",
+      "baseIncome": 100000000.0
+    },
+    {
+      "id": 188,
+      "name": "El Maja",
+      "rarity": "Eternal",
+      "biome": "Abyss Ocean",
+      "image_file": "El_Maja.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/9b/El_Maja.png/revision/latest/scale-to-width-down/180?cb=20260908051427",
+      "income_str": "$130M/s",
+      "baseIncome": 130000000.0
+    },
+    {
+      "id": 189,
+      "name": "Mosasaurus",
+      "rarity": "Eternal",
+      "biome": "Prehistoric",
+      "image_file": "Mosasaurus.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/b0/Mosasaurus.png/revision/latest?cb=20260904025233",
+      "income_str": "$180M/s",
+      "baseIncome": 180000000.0
+    },
+    {
+      "id": 190,
+      "name": "Eternal Lunar Dragon",
+      "rarity": "Eternal",
+      "biome": "Cosmic",
+      "image_file": "Eternal_Lunar_Dragon.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/07/Eternal_Lunar_Dragon.png/revision/latest/scale-to-width-down/180?cb=20260904025034",
+      "income_str": "$250M/s",
+      "baseIncome": 250000000.0
+    },
+    {
+      "id": 191,
+      "name": "World Eater",
+      "rarity": "Eternal",
+      "biome": "Rift",
+      "image_file": "World_Eater.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/40/World_Eater.png/revision/latest/scale-to-width-down/180?cb=20260907220911",
+      "income_str": "$500M/s",
+      "baseIncome": 500000000.0
+    },
+    {
+      "id": 192,
+      "name": "Oni Tiger",
+      "rarity": "Eternal",
+      "biome": "Cherry Blossom",
+      "image_file": "Oni_Tiger.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/55/Oni_Tiger.png/revision/latest/scale-to-width-down/180?cb=20260903135620",
+      "income_str": "$600M/s",
+      "baseIncome": 600000000.0
+    },
+    {
+      "id": 193,
+      "name": "Terra Snapper",
+      "rarity": "Eternal",
+      "biome": "Luminous Egg",
+      "image_file": "Terra_Snapper.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/1b/Terra_Snapper.png/revision/latest/scale-to-width-down/180?cb=20260912182822",
+      "income_str": "$750M/s",
+      "baseIncome": 750000000.0
+    },
+    {
+      "id": 194,
+      "name": "Shattered Drake",
+      "rarity": "Eternal",
+      "biome": "Rift",
+      "image_file": "Shattered_Drake.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/ce/Shattered_Drake.png/revision/latest/scale-to-width-down/180?cb=20260907221122",
+      "income_str": "$800M/s",
+      "baseIncome": 800000000.0
+    },
+    {
+      "id": 195,
+      "name": "Gorilla King",
+      "rarity": "Eternal",
+      "biome": "Titan Temple",
+      "image_file": "Gorilla_King.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/bc/Gorilla_King.png/revision/latest/scale-to-width-down/180?cb=20260901190751",
+      "income_str": "$880M/s",
+      "baseIncome": 880000000.0
+    },
+    {
+      "id": 196,
+      "name": "Void Serpent",
+      "rarity": "Eternal",
+      "biome": "Rift",
+      "image_file": "Void_Serpent.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/04/Void_Serpent.png/revision/latest/scale-to-width-down/180?cb=20260907221017",
+      "income_str": "$900M/s",
+      "baseIncome": 900000000.0
+    },
+    {
+      "id": 197,
+      "name": "Pegasus",
+      "rarity": "Eternal",
+      "biome": "Angels & Demons",
+      "image_file": "Pegasus.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/4a/Pegasus.png/revision/latest/scale-to-width-down/180?cb=20260912164629",
+      "income_str": "$1.3B/s",
+      "baseIncome": 1300000000.0
+    },
+    {
+      "id": 198,
+      "name": "Skeleton Horse",
+      "rarity": "Eternal",
+      "biome": "Angels & Demons",
+      "image_file": "Skeleton Horse.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/de/Skeleton_Horse.png/revision/latest/scale-to-width-down/180?cb=20260912164727",
+      "income_str": "$1.3B/s",
+      "baseIncome": 1300000000.0
+    },
+    {
+      "id": 199,
+      "name": "Luminous Electric Eel",
+      "rarity": "Eternal",
+      "biome": "Luminous Reroll Egg",
+      "image_file": "Luminous_Electric_Eel.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c3/Luminous_Electric_Eel.png/revision/latest/scale-to-width-down/180?cb=20260912182742",
+      "income_str": "$1.75B/s",
+      "baseIncome": 1750000000.0
+    },
+    {
+      "id": 200,
+      "name": "Equinox",
+      "rarity": "Eternal",
+      "biome": "Angels & Demons",
+      "image_file": "Equinox.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e7/Equinox.png/revision/latest/scale-to-width-down/180?cb=20260913045536",
+      "income_str": "$1.8B/s",
+      "baseIncome": 1800000000.0
+    },
+    {
+      "id": 201,
+      "name": "Luminous Terra Snapper",
+      "rarity": "Eternal",
+      "biome": "Luminous Reroll Egg",
+      "image_file": "Luminous_Terra_Snapper.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0b/Luminous_Terra_Snapper.png/revision/latest/scale-to-width-down/180?cb=20260912182734",
+      "income_str": "$2.5B/s",
+      "baseIncome": 2500000000.0
+    },
+    {
+      "id": 202,
+      "name": "Gigantus",
+      "rarity": "Eternal",
+      "biome": "Skeletal Egg",
+      "image_file": "Gigantus.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0d/Gigantus.png/revision/latest/scale-to-width-down/180?cb=20260927050405",
+      "income_str": "$1B/s",
+      "baseIncome": 1000000000.0
+    },
+    {
+      "id": 203,
+      "name": "Skeletal Dunkleosteus",
+      "rarity": "Eternal",
+      "biome": "Skeletal Egg",
+      "image_file": "Skeletal Dunkleosteus.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/b8/Skeletal_Dunkleosteus.png/revision/latest/scale-to-width-down/180?cb=20260927050316",
+      "income_str": "$2.5B/s",
+      "baseIncome": 2500000000.0
+    },
+    {
+      "id": 204,
+      "name": "Skeletal Gigantus",
+      "rarity": "Eternal",
+      "biome": "Skeletal Egg",
+      "image_file": "Skeletal Gigantus.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0a/Skeletal_Gigantus.png/revision/latest/scale-to-width-down/180?cb=20260927050353",
+      "income_str": "$4B/s",
+      "baseIncome": 4000000000.0
+    },
+    {
+      "id": 205,
+      "name": "Nuclear Mantis",
+      "rarity": "Eternal",
+      "biome": "Biohazard Egg",
+      "image_file": "Nuclear Mantis.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/1f/Nuclear_Mantis.png/revision/latest/scale-to-width-down/180?cb=20260927050502",
+      "income_str": "$1.5B/s",
+      "baseIncome": 1500000000.0
+    },
+    {
+      "id": 206,
+      "name": "Hazardhog",
+      "rarity": "Eternal",
+      "biome": "Biohazard Egg",
+      "image_file": "Hazardhog.png",
+      "image_url": "",
+      "income_str": "$500M/s",
+      "baseIncome": 500000000.0
+    },
+    {
+      "id": 207,
+      "name": "Dreadstinger",
+      "rarity": "Eternal",
+      "biome": "Experimental Egg",
+      "image_file": "Dreadstinger.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/15/Dreadstinger.png/revision/latest/scale-to-width-down/180?cb=20260927050539",
+      "income_str": "$2B/s",
+      "baseIncome": 2000000000.0
+    },
+    {
+      "id": 208,
+      "name": "Rhinobear",
+      "rarity": "Eternal",
+      "biome": "Unstable Egg",
+      "image_file": "Rhinobear.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/fe/Rhinobear.png/revision/latest/scale-to-width-down/180?cb=20260927050612",
+      "income_str": "$1B/s",
+      "baseIncome": 1000000000.0
+    },
+    {
+      "id": 209,
+      "name": "Pink Dragon Experiment #010",
+      "rarity": "Eternal",
+      "biome": "Event",
+      "image_file": "Pink Dragon Experiment.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/f7/Pink_Dragon_Experiment.png/revision/latest/scale-to-width-down/180?cb=20260927050657",
+      "income_str": "$2.5B/s",
+      "baseIncome": 2500000000.0
+    },
+    {
+      "id": 210,
+      "name": "Celestial Sunlion",
+      "rarity": "Eternal",
+      "biome": "Enchanted Forest",
+      "image_file": "Celestial Sunlion.png",
+      "image_url": "",
+      "income_str": "$2B/s",
+      "baseIncome": 2000000000.0
+    },
+    {
+      "id": 211,
+      "name": "Ghost Reaper",
+      "rarity": "Eternal",
+      "biome": "Halloween Dimension",
+      "image_file": "Ghost Reaper.png",
+      "image_url": "",
+      "income_str": "$300M/s",
+      "baseIncome": 300000000.0
+    },
+    {
+      "id": 212,
+      "name": "Phantom Dragon",
+      "rarity": "Eternal",
+      "biome": "Halloween Dimension",
+      "image_file": "Phantom Dragon.png",
+      "image_url": "",
+      "income_str": "$1.5B/s",
+      "baseIncome": 1500000000.0
+    },
+    {
+      "id": 213,
+      "name": "Shelltide Voyager",
+      "rarity": "Eternal",
+      "biome": "Halloween Dimension",
+      "image_file": "Shelltide Voyager.png",
+      "image_url": "",
+      "income_str": "$1.6B/s",
+      "baseIncome": 1600000000.0
+    },
+    {
+      "id": 214,
+      "name": "Soul Phantom",
+      "rarity": "Eternal",
+      "biome": "Halloween Dimension",
+      "image_file": "Soul Phantom.png",
+      "image_url": "",
+      "income_str": "$2.5B/s",
+      "baseIncome": 2500000000.0
+    },
+    {
+      "id": 215,
+      "name": "Gorillastein",
+      "rarity": "Eternal",
+      "biome": "Halloween Dimension",
+      "image_file": "Abomination Kong.png",
+      "image_url": "",
+      "income_str": "$3.5B/s",
+      "baseIncome": 3500000000.0
+    },
+    {
+      "id": 216,
+      "name": "Zombified Grave Cerberus",
+      "rarity": "Eternal",
+      "biome": "Zombified Halloween Egg",
+      "image_file": "Zombified Grave Cerberus.png",
+      "image_url": "",
+      "income_str": "$4B/s",
+      "baseIncome": 4000000000.0
+    },
+    {
+      "id": 217,
+      "name": "Zombified Phantom Dragon",
+      "rarity": "Eternal",
+      "biome": "Zombified Halloween Egg",
+      "image_file": "Zombified Phantom Dragon.png",
+      "image_url": "",
+      "income_str": "$6B/s",
+      "baseIncome": 6000000000.0
+    },
+    {
+      "id": 218,
+      "name": "Ghost Fish",
+      "rarity": "Eternal",
+      "biome": "Unknown",
+      "image_file": "Ghost Fish.png",
+      "image_url": "",
+      "income_str": "$1.5B/s",
+      "baseIncome": 1500000000.0
+    },
+    {
+      "id": 219,
+      "name": "Engine Snail",
+      "rarity": "Eternal",
+      "biome": "Unknown",
+      "image_file": "Engine Snail.png",
+      "image_url": "",
+      "income_str": "$3B/s",
+      "baseIncome": 3000000000.0
+    },
+    {
+      "id": 220,
+      "name": "Pumpkin Brute",
+      "rarity": "Eternal",
+      "biome": "Unknown",
+      "image_file": "Pumpkin Brute.png",
+      "image_url": "",
+      "income_str": "$3.5B/s",
+      "baseIncome": 3500000000.0
+    },
+    {
+      "id": 221,
+      "name": "Unicorn",
+      "rarity": "Divine",
+      "biome": "Cosmic",
+      "image_file": "Unicorn.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/7e/Unicorn.png/revision/latest/scale-to-width-down/180?cb=20260901185215",
+      "income_str": "$1B/s",
+      "baseIncome": 1000000000.0
+    },
+    {
+      "id": 222,
+      "name": "Kitsune",
+      "rarity": "Divine",
+      "biome": "Cherry Blossom",
+      "image_file": "Kitsune.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/04/Kitsune.png/revision/latest/scale-to-width-down/180?cb=20260903135644",
+      "income_str": "$1.8B/s",
+      "baseIncome": 1800000000.0
+    },
+    {
+      "id": 223,
+      "name": "Cthulhu",
+      "rarity": "Divine",
+      "biome": "Luminous Egg",
+      "image_file": "Cthulhu.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/9e/Cthulhu.png/revision/latest/scale-to-width-down/180?cb=20260912182814",
+      "income_str": "$3B/s",
+      "baseIncome": 3000000000.0
+    },
+    {
+      "id": 224,
+      "name": "Nightflame",
+      "rarity": "Divine",
+      "biome": "Titan Temple",
+      "image_file": "Nightflame.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/aa/Nightflame.png/revision/latest/scale-to-width-down/180?cb=20260901190742",
+      "income_str": "$3B/s",
+      "baseIncome": 3000000000.0
+    },
+    {
+      "id": 225,
+      "name": "Shattered Colossus",
+      "rarity": "Divine",
+      "biome": "Rift",
+      "image_file": "Shattered_Colossus.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a4/Shattered_Colossus.png/revision/latest/scale-to-width-down/180?cb=20260907221329",
+      "income_str": "$3.5B/s",
+      "baseIncome": 3500000000.0
+    },
+    {
+      "id": 226,
+      "name": "ArchAngel",
+      "rarity": "Divine",
+      "biome": "Angels & Demons",
+      "image_file": "ArchAngel.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/60/ArchAngel.png/revision/latest/scale-to-width-down/180?cb=20260912164639",
+      "income_str": "$5B/s",
+      "baseIncome": 5000000000.0
+    },
+    {
+      "id": 227,
+      "name": "World Burner",
+      "rarity": "Divine",
+      "biome": "Angels & Demons",
+      "image_file": "World Burner.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/fe/World_Burner.png/revision/latest/scale-to-width-down/180?cb=20260912164738",
+      "income_str": "$5B/s",
+      "baseIncome": 5000000000.0
+    },
+    {
+      "id": 228,
+      "name": "Luminous Cthulhu",
+      "rarity": "Divine",
+      "biome": "Luminous Reroll Egg",
+      "image_file": "Luminous_Cthulhu.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/54/Luminous_Cthulhu.png/revision/latest/scale-to-width-down/180?cb=20260912182725",
+      "income_str": "$6.5B/s",
+      "baseIncome": 6500000000.0
+    },
+    {
+      "id": 229,
+      "name": "Aetheron",
+      "rarity": "Divine",
+      "biome": "Angels & Demons",
+      "image_file": "Aetheron.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e7/Aetheron.png/revision/latest/scale-to-width-down/180?cb=20260913045520",
+      "income_str": "$6.9B/s",
+      "baseIncome": 6900000000.0
+    },
+    {
+      "id": 230,
+      "name": "Sabertooth",
+      "rarity": "Divine",
+      "biome": "Extinction Egg",
+      "image_file": "Sabertooth.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a4/Sabertooth.png/revision/latest/scale-to-width-down/180?cb=20260927050256",
+      "income_str": "$5B/s",
+      "baseIncome": 5000000000.0
+    },
+    {
+      "id": 231,
+      "name": "Skeletal Sabertooth",
+      "rarity": "Divine",
+      "biome": "Skeletal Egg",
+      "image_file": "Skeletal Sabertooth.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/63/Skeletal_Sabertooth.png/revision/latest/scale-to-width-down/180?cb=20260927050416",
+      "income_str": "$9B/s",
+      "baseIncome": 9000000000.0
+    },
+    {
+      "id": 232,
+      "name": "Octophant",
+      "rarity": "Divine",
+      "biome": "Unstable Egg",
+      "image_file": "Octophant.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/18/Octophant.png/revision/latest/scale-to-width-down/180?cb=20260927050620",
+      "income_str": "$4B/s",
+      "baseIncome": 4000000000.0
+    },
+    {
+      "id": 233,
+      "name": "Mecha Scrambler",
+      "rarity": "Divine",
+      "biome": "Event",
+      "image_file": "Mecha Scrambler.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/70/Mecha_Scrambler.png/revision/latest/scale-to-width-down/180?cb=20260927050809",
+      "income_str": "$7.5B/s",
+      "baseIncome": 7500000000.0
+    },
+    {
+      "id": 234,
+      "name": "Royal Skywhale",
+      "rarity": "Divine",
+      "biome": "Enchanted Forest",
+      "image_file": "Royal Skywhale.png",
+      "image_url": "",
+      "income_str": "$8B/s",
+      "baseIncome": 8000000000.0
+    },
+    {
+      "id": 235,
+      "name": "Spirit World Guardian",
+      "rarity": "Divine",
+      "biome": "Enchanted Forest",
+      "image_file": "Spirit World Guardian.png",
+      "image_url": "",
+      "income_str": "$15B/s",
+      "baseIncome": 15000000000.0
+    },
+    {
+      "id": 236,
+      "name": "Bone Emperor",
+      "rarity": "Divine",
+      "biome": "Halloween Dimension",
+      "image_file": "Bone Emperor.png",
+      "image_url": "",
+      "income_str": "$7.5B/s",
+      "baseIncome": 7500000000.0
+    },
+    {
+      "id": 237,
+      "name": "Voidseer Pumpkin",
+      "rarity": "Divine",
+      "biome": "Halloween Dimension",
+      "image_file": "Voidseer Pumpkin.png",
+      "image_url": "",
+      "income_str": "$14B/s",
+      "baseIncome": 14000000000.0
+    },
+    {
+      "id": 238,
+      "name": "Zombified Bone Emperor",
+      "rarity": "Divine",
+      "biome": "Zombified Halloween Egg",
+      "image_file": "Zombified Bone Emperor.png",
+      "image_url": "",
+      "income_str": "$14B/s",
+      "baseIncome": 14000000000.0
+    },
+    {
+      "id": 239,
+      "name": "Pumpkin King",
+      "rarity": "Divine",
+      "biome": "Unknown",
+      "image_file": "Pumpkin King.png",
+      "image_url": "",
+      "income_str": "$8.5B/s",
+      "baseIncome": 8500000000.0
+    },
+    {
+      "id": 240,
+      "name": "Cursed Monarch",
+      "rarity": "Divine",
+      "biome": "Unknown",
+      "image_file": "Cursed Monarch.png",
+      "image_url": "",
+      "income_str": "$12.5B/s",
+      "baseIncome": 12500000000.0
+    },
+    {
+      "id": 241,
+      "name": "Tung Tung Sahur",
+      "rarity": "Brainrot",
+      "biome": "Brainrot Egg",
+      "image_file": "Tung_Tung_Sahur.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/65/Tung_Tung_Sahur.png/revision/latest/scale-to-width-down/180?cb=20260901184501",
+      "income_str": "$100/s",
+      "baseIncome": 100.0
+    },
+    {
+      "id": 242,
+      "name": "Bananita Dolphinita",
+      "rarity": "Brainrot",
+      "biome": "Brainrot Egg",
+      "image_file": "Bananita_Dolphinita.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e4/Bananita_Dolphinita.png/revision/latest/scale-to-width-down/180?cb=20260901184453",
+      "income_str": "$400/s",
+      "baseIncome": 400.0
+    },
+    {
+      "id": 243,
+      "name": "Belula Beluga",
+      "rarity": "Brainrot",
+      "biome": "Brainrot Egg",
+      "image_file": "Belula_Beluga.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/16/Belula_Beluga.png/revision/latest/scale-to-width-down/180?cb=20260901184444",
+      "income_str": "$40K/s",
+      "baseIncome": 40000.0
+    },
+    {
+      "id": 244,
+      "name": "Mangolini Parrochini",
+      "rarity": "Brainrot",
+      "biome": "Brainrot Egg",
+      "image_file": "Mangolini_Parrochini.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/91/Mangolini_Parrochini.png/revision/latest/scale-to-width-down/180?cb=20260901184435",
+      "income_str": "$800K/s",
+      "baseIncome": 800000.0
+    },
+    {
+      "id": 245,
+      "name": "Bomboclat Crocolat",
+      "rarity": "Brainrot",
+      "biome": "Brainrot Egg",
+      "image_file": "Bomboclat_Crocolat.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/3/3c/Bomboclat_Crocolat.png/revision/latest/scale-to-width-down/180?cb=20260901184425",
+      "income_str": "$20M/s",
+      "baseIncome": 20000000.0
+    },
+    {
+      "id": 246,
+      "name": "Strawberry Elephant",
+      "rarity": "Brainrot",
+      "biome": "Brainrot Egg",
+      "image_file": "Strawberry_Elephant.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/7b/Strawberry_Elephant.png/revision/latest/scale-to-width-down/180?cb=20260901184411",
+      "income_str": "$110M/s",
+      "baseIncome": 110000000.0
+    },
+    {
+      "id": 247,
+      "name": "Scorpio",
+      "rarity": "Monster",
+      "biome": "Monster Egg",
+      "image_file": "Scorpio.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/69/Scorpio.png/revision/latest/scale-to-width-down/180?cb=20260904023541",
+      "income_str": "$10K/s",
+      "baseIncome": 10000.0
+    },
+    {
+      "id": 248,
+      "name": "Froggo",
+      "rarity": "Monster",
+      "biome": "Monster Egg",
+      "image_file": "Froggo.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/fc/Froggo.png/revision/latest/scale-to-width-down/180?cb=20260904023547",
+      "income_str": "$50K/s",
+      "baseIncome": 50000.0
+    },
+    {
+      "id": 249,
+      "name": "Crawler",
+      "rarity": "Monster",
+      "biome": "Monster Egg",
+      "image_file": "Crawler.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/48/Crawler.png/revision/latest/scale-to-width-down/180?cb=20260904023508",
+      "income_str": "$1.5M/s",
+      "baseIncome": 1500000.0
+    },
+    {
+      "id": 250,
+      "name": "Crocodon",
+      "rarity": "Monster",
+      "biome": "Monster Egg",
+      "image_file": "Crocodon.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/61/Crocodon.png/revision/latest/scale-to-width-down/180?cb=20260904023516",
+      "income_str": "$30M/s",
+      "baseIncome": 30000000.0
+    },
+    {
+      "id": 251,
+      "name": "Mecha Scorpio",
+      "rarity": "Monster",
+      "biome": "Mecha Egg",
+      "image_file": "Mecha_Scorpio.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/76/Mecha_Scorpio.png/revision/latest/scale-to-width-down/180?cb=20260904025421",
+      "income_str": "$45M/s",
+      "baseIncome": 45000000.0
+    },
+    {
+      "id": 252,
+      "name": "Mecha Froggo",
+      "rarity": "Monster",
+      "biome": "Mecha Egg",
+      "image_file": "Mecha_Froggo.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/18/Mecha_Froggo.png/revision/latest/scale-to-width-down/180?cb=20260904023614",
+      "income_str": "$155M/s",
+      "baseIncome": 155000000.0
+    },
+    {
+      "id": 253,
+      "name": "Mecha Crawler",
+      "rarity": "Monster",
+      "biome": "Mecha Egg",
+      "image_file": "Mecha_Crawler.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0d/Mecha_Crawler.png/revision/latest/scale-to-width-down/180?cb=20260904023554",
+      "income_str": "$320M/s",
+      "baseIncome": 320000000.0
+    },
+    {
+      "id": 254,
+      "name": "Krakenoid",
+      "rarity": "Monster",
+      "biome": "Monster Egg",
+      "image_file": "Krakenoid.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c6/Krakenoid.png/revision/latest/scale-to-width-down/180?cb=20260904023524",
+      "income_str": "$500M/s",
+      "baseIncome": 500000000.0
+    },
+    {
+      "id": 255,
+      "name": "Mecha Crocodon",
+      "rarity": "Monster",
+      "biome": "Mecha Egg",
+      "image_file": "Mecha_Crocodon.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/ff/Mecha_Crocodon.png/revision/latest/scale-to-width-down/180?cb=20260904023600",
+      "income_str": "$680M/s",
+      "baseIncome": 680000000.0
+    },
+    {
+      "id": 256,
+      "name": "Mecha Krakenoid",
+      "rarity": "Monster",
+      "biome": "Mecha Egg",
+      "image_file": "Mecha_Krakenoid.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/1b/Mecha_Krakenoid.png/revision/latest/scale-to-width-down/180?cb=20260904023626",
+      "income_str": "$1B/s",
+      "baseIncome": 1000000000.0
+    },
+    {
+      "id": 257,
+      "name": "Dreadscale",
+      "rarity": "Monster",
+      "biome": "Monster Egg",
+      "image_file": "Dreadscale.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/3/3b/Dreadscale.png/revision/latest/scale-to-width-down/180?cb=20260904023534",
+      "income_str": "$2B/s",
+      "baseIncome": 2000000000.0
+    },
+    {
+      "id": 258,
+      "name": "Mecha Dreadscale",
+      "rarity": "Monster",
+      "biome": "Mecha Egg",
+      "image_file": "Mecha_Dreadscale.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c7/Mecha_Dreadscale.png/revision/latest/scale-to-width-down/180?cb=20260904110011",
+      "income_str": "$4B/s",
+      "baseIncome": 4000000000.0
+    },
+    {
+      "id": 259,
+      "name": "Baby Aurora Dragon",
+      "rarity": "Event",
+      "biome": "Event",
+      "image_file": "Baby_Aurora_Dragon.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/17/Baby_Aurora_Dragon.png/revision/latest/scale-to-width-down/180?cb=20260910041443",
+      "income_str": "$5M/s",
+      "baseIncome": 5000000.0
+    },
+    {
+      "id": 260,
+      "name": "Shadow Dragon",
+      "rarity": "Event",
+      "biome": "Event",
+      "image_file": "Shadow_Dragon.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/d5/Shadow_Dragon.png/revision/latest/scale-to-width-down/180?cb=20260910041434",
+      "income_str": "$25M/s",
+      "baseIncome": 25000000.0
+    },
+    {
+      "id": 261,
+      "name": "Scorched Dragon",
+      "rarity": "Event",
+      "biome": "Event",
+      "image_file": "Scorched_Dragon.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c2/Scorched_Dragon.png/revision/latest/scale-to-width-down/180?cb=20260910041417",
+      "income_str": "$35M/s",
+      "baseIncome": 35000000.0
+    },
+    {
+      "id": 262,
+      "name": "Drilla",
+      "rarity": "Event",
+      "biome": "Event",
+      "image_file": "Drilla.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c9/Drilla.png/revision/latest/scale-to-width-down/180?cb=20260908022914",
+      "income_str": "$100M/s",
+      "baseIncome": 100000000.0
+    },
+    {
+      "id": 263,
+      "name": "Void Dragon",
+      "rarity": "Event",
+      "biome": "Event",
+      "image_file": "Void_Dragon.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/fb/Void_Dragon.png/revision/latest/scale-to-width-down/180?cb=20260907221522",
+      "income_str": "$120M/s",
+      "baseIncome": 120000000.0
+    },
+    {
+      "id": 264,
+      "name": "Ember Dragon",
+      "rarity": "Event",
+      "biome": "Event",
+      "image_file": "Ember_Dragon.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/bb/Ember_Dragon.png/revision/latest/scale-to-width-down/180?cb=20260910041425",
+      "income_str": "$600M/s",
+      "baseIncome": 600000000.0
+    },
+    {
+      "id": 265,
+      "name": "Archdemon Dragon",
+      "rarity": "Event",
+      "biome": "Event",
+      "image_file": "Archdemon_Dragon.png",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/53/Archdemon_Dragon.png/revision/latest/scale-to-width-down/180?cb=20260910041451",
+      "income_str": "$1.25B/s",
+      "baseIncome": 1250000000.0
+    }
   ]
 }
