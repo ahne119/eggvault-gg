@@ -1,11 +1,11 @@
 {
   "stats": {
     "name": "Steal An Egg",
-    "playing": 5139936,
-    "visits": 11685700081,
-    "favorites": 10184627,
-    "updated": "2026-11-21T13:55:44.069Z",
-    "fetched_at": "2026-11-21 15:48 UTC",
+    "playing": 620977,
+    "visits": 11705059851,
+    "favorites": 10195547,
+    "updated": "2026-11-21T17:06:23.593Z",
+    "fetched_at": "2026-11-21 20:13 UTC",
     "icon_url": "https://tr.rbxcdn.com/180DAY-de1fa1528e87871c3acb258c9e70ef2f/512/512/Image/Png/noFilter"
   },
   "history": [
@@ -16,9 +16,13 @@
     {
       "time": "2026-11-21 15:48 UTC",
       "playing": 5139936
+    },
+    {
+      "time": "2026-11-21 20:13 UTC",
+      "playing": 620977
     }
   ],
-  "pets_updated_ts": 1795268390,
+  "pets_updated_ts": 1795292016,
   "pets_count": 265,
   "pets": [
     {
@@ -27,7 +31,7 @@
       "rarity": "Common",
       "biome": "Forest",
       "image_file": "Chicken.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a3/Chicken.png/revision/latest/scale-to-width-down/180?cb=20260901193312",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a3/Chicken.png/revision/latest/scale-to-width-down/220?cb=20260901193312",
       "income_str": "$1/s",
       "baseIncome": 1.0,
       "slug": "chicken"
@@ -38,7 +42,7 @@
       "rarity": "Common",
       "biome": "Forest",
       "image_file": "Dog.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/3/35/Dog.png/revision/latest/scale-to-width-down/180?cb=20260904110641",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/3/35/Dog.png/revision/latest/scale-to-width-down/220?cb=20260904110641",
       "income_str": "$2/s",
       "baseIncome": 2.0,
       "slug": "dog"
@@ -49,7 +53,7 @@
       "rarity": "Common",
       "biome": "Lake",
       "image_file": "Frog.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e6/Frog.png/revision/latest/scale-to-width-down/180?cb=20260901192136",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e6/Frog.png/revision/latest/scale-to-width-down/220?cb=20260901192136",
       "income_str": "$3/s",
       "baseIncome": 3.0,
       "slug": "frog"
@@ -60,7 +64,7 @@
       "rarity": "Common",
       "biome": "Lake",
       "image_file": "Duckling.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/b6/Duckling.png/revision/latest/scale-to-width-down/180?cb=20260901192123",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/b6/Duckling.png/revision/latest/scale-to-width-down/220?cb=20260901192123",
       "income_str": "$4/s",
       "baseIncome": 4.0,
       "slug": "duckling"
@@ -71,7 +75,7 @@
       "rarity": "Common",
       "biome": "Desert",
       "image_file": "Jerboa.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/7a/Jerboa.png/revision/latest/scale-to-width-down/180?cb=20260901192531",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/7a/Jerboa.png/revision/latest/scale-to-width-down/220?cb=20260901192531",
       "income_str": "$6/s",
       "baseIncome": 6.0,
       "slug": "jerboa"
@@ -82,7 +86,7 @@
       "rarity": "Uncommon",
       "biome": "Forest",
       "image_file": "Bird.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/70/Bird.png/revision/latest/scale-to-width-down/180?cb=20260901193301",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/70/Bird.png/revision/latest/scale-to-width-down/220?cb=20260901193301",
       "income_str": "$8/s",
       "baseIncome": 8.0,
       "slug": "bird"
@@ -93,7 +97,7 @@
       "rarity": "Uncommon",
       "biome": "Lake",
       "image_file": "Catfish.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/99/Catfish.png/revision/latest/scale-to-width-down/180?cb=20260901192110",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/99/Catfish.png/revision/latest/scale-to-width-down/220?cb=20260901192110",
       "income_str": "$12/s",
       "baseIncome": 12.0,
       "slug": "catfish"
@@ -104,7 +108,7 @@
       "rarity": "Uncommon",
       "biome": "Desert",
       "image_file": "Fennec.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/91/Fennec.png/revision/latest/scale-to-width-down/180?cb=20260901192514",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/91/Fennec.png/revision/latest/scale-to-width-down/220?cb=20260901192514",
       "income_str": "$18/s",
       "baseIncome": 18.0,
       "slug": "fennec"
@@ -115,7 +119,7 @@
       "rarity": "Rare",
       "biome": "Forest",
       "image_file": "Burrowing Owl.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/12/Burrowing_Owl.png/revision/latest/scale-to-width-down/180?cb=20260901193251",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/12/Burrowing_Owl.png/revision/latest/scale-to-width-down/220?cb=20260901193251",
       "income_str": "$35/s",
       "baseIncome": 35.0,
       "slug": "burrowing-owl"
@@ -126,7 +130,7 @@
       "rarity": "Rare",
       "biome": "Forest",
       "image_file": "Raccoon.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/7c/Raccoon.png/revision/latest/scale-to-width-down/180?cb=20260901193235",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/7c/Raccoon.png/revision/latest/scale-to-width-down/220?cb=20260901193235",
       "income_str": "$45/s",
       "baseIncome": 45.0,
       "slug": "raccoon"
@@ -137,7 +141,7 @@
       "rarity": "Rare",
       "biome": "Lake",
       "image_file": "Turtle.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e9/Turtle.png/revision/latest/scale-to-width-down/180?cb=20260901192056",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e9/Turtle.png/revision/latest/scale-to-width-down/220?cb=20260901192056",
       "income_str": "$60/s",
       "baseIncome": 60.0,
       "slug": "turtle"
@@ -148,7 +152,7 @@
       "rarity": "Rare",
       "biome": "Desert",
       "image_file": "Camel.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/09/Camel.png/revision/latest/scale-to-width-down/180?cb=20260901192500",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/09/Camel.png/revision/latest/scale-to-width-down/220?cb=20260901192500",
       "income_str": "$75/s",
       "baseIncome": 75.0,
       "slug": "camel"
@@ -159,7 +163,7 @@
       "rarity": "Rare",
       "biome": "Jungle",
       "image_file": "Chimpanzee.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0c/Chimpanzee.png/revision/latest/scale-to-width-down/180?cb=20260901191956",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0c/Chimpanzee.png/revision/latest/scale-to-width-down/220?cb=20260901191956",
       "income_str": "$90/s",
       "baseIncome": 90.0,
       "slug": "chimpanzee"
@@ -170,7 +174,7 @@
       "rarity": "Rare",
       "biome": "Jungle",
       "image_file": "Toucan.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e2/Toucan.png/revision/latest/scale-to-width-down/180?cb=20260901191930",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e2/Toucan.png/revision/latest/scale-to-width-down/220?cb=20260901191930",
       "income_str": "$110/s",
       "baseIncome": 110.0,
       "slug": "toucan"
@@ -181,7 +185,7 @@
       "rarity": "Rare",
       "biome": "Snow",
       "image_file": "Penguin.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/97/Penguin.png/revision/latest/scale-to-width-down/180?cb=20260901190041",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/97/Penguin.png/revision/latest/scale-to-width-down/220?cb=20260901190041",
       "income_str": "$140/s",
       "baseIncome": 140.0,
       "slug": "penguin"
@@ -192,7 +196,7 @@
       "rarity": "Rare",
       "biome": "Volcano",
       "image_file": "Lava_Gecko.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/be/Lava_Gecko.png/revision/latest/scale-to-width-down/180?cb=20260904110033",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/be/Lava_Gecko.png/revision/latest/scale-to-width-down/220?cb=20260904110033",
       "income_str": "$180/s",
       "baseIncome": 180.0,
       "slug": "lava-gecko"
@@ -203,7 +207,7 @@
       "rarity": "Rare",
       "biome": "Abyss Ocean",
       "image_file": "Parrotfish.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/7e/Parrotfish.png/revision/latest/scale-to-width-down/180?cb=20260901184958",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/7e/Parrotfish.png/revision/latest/scale-to-width-down/220?cb=20260901184958",
       "income_str": "$220/s",
       "baseIncome": 220.0,
       "slug": "parrotfish"
@@ -214,7 +218,7 @@
       "rarity": "Rare",
       "biome": "Prehistoric",
       "image_file": "Dodo.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/fc/Dodo.png/revision/latest/scale-to-width-down/180?cb=20260901195001",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/fc/Dodo.png/revision/latest/scale-to-width-down/220?cb=20260901195001",
       "income_str": "$280/s",
       "baseIncome": 280.0,
       "slug": "dodo"
@@ -225,7 +229,7 @@
       "rarity": "Epic",
       "biome": "Forest",
       "image_file": "Fox.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/73/Fox.png/revision/latest/scale-to-width-down/180?cb=20260904110112",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/73/Fox.png/revision/latest/scale-to-width-down/220?cb=20260904110112",
       "income_str": "$180/s",
       "baseIncome": 180.0,
       "slug": "fox"
@@ -236,7 +240,7 @@
       "rarity": "Epic",
       "biome": "Forest",
       "image_file": "Bear.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a4/Bear.png/revision/latest/scale-to-width-down/180?cb=20260901193222",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a4/Bear.png/revision/latest/scale-to-width-down/220?cb=20260901193222",
       "income_str": "$240/s",
       "baseIncome": 240.0,
       "slug": "bear"
@@ -247,7 +251,7 @@
       "rarity": "Epic",
       "biome": "Lake",
       "image_file": "Trulimero_Trulicina.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/d3/Trulimero_Trulicina.png/revision/latest/scale-to-width-down/180?cb=20260901192042",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/d3/Trulimero_Trulicina.png/revision/latest/scale-to-width-down/220?cb=20260901192042",
       "income_str": "$260/s",
       "baseIncome": 260.0,
       "slug": "trulimero-trulicina"
@@ -258,7 +262,7 @@
       "rarity": "Epic",
       "biome": "Lake",
       "image_file": "Swan.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/8/87/Swan.png/revision/latest/scale-to-width-down/180?cb=20260901192021",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/8/87/Swan.png/revision/latest/scale-to-width-down/220?cb=20260901192021",
       "income_str": "$320/s",
       "baseIncome": 320.0,
       "slug": "swan"
@@ -269,7 +273,7 @@
       "rarity": "Epic",
       "biome": "Desert",
       "image_file": "Tob_Tobi_Tob_Tob.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e9/Tob_Tobi_Tob_Tob.png/revision/latest/scale-to-width-down/180?cb=20260901192447",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e9/Tob_Tobi_Tob_Tob.png/revision/latest/scale-to-width-down/220?cb=20260901192447",
       "income_str": "$325/s",
       "baseIncome": 325.0,
       "slug": "tob-tobi-tob-tob"
@@ -280,7 +284,7 @@
       "rarity": "Epic",
       "biome": "Jungle",
       "image_file": "Crocodile.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/d6/Crocodile.png/revision/latest/scale-to-width-down/180?cb=20260901191914",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/d6/Crocodile.png/revision/latest/scale-to-width-down/220?cb=20260901191914",
       "income_str": "$420/s",
       "baseIncome": 420.0,
       "slug": "crocodile"
@@ -291,7 +295,7 @@
       "rarity": "Epic",
       "biome": "Snow",
       "image_file": "Walrus.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/79/Walrus.png/revision/latest/scale-to-width-down/180?cb=20260901190028",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/79/Walrus.png/revision/latest/scale-to-width-down/220?cb=20260901190028",
       "income_str": "$600/s",
       "baseIncome": 600.0,
       "slug": "walrus"
@@ -302,7 +306,7 @@
       "rarity": "Epic",
       "biome": "Volcano",
       "image_file": "Lava_Frog.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/bb/Lava_Frog.png/revision/latest/scale-to-width-down/180?cb=20260904110021",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/bb/Lava_Frog.png/revision/latest/scale-to-width-down/220?cb=20260904110021",
       "income_str": "$850/s",
       "baseIncome": 850.0,
       "slug": "lava-frog"
@@ -313,7 +317,7 @@
       "rarity": "Epic",
       "biome": "Abyss Ocean",
       "image_file": "Swordfish.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/f7/Swordfish.png/revision/latest/scale-to-width-down/180?cb=20260901184942",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/f7/Swordfish.png/revision/latest/scale-to-width-down/220?cb=20260901184942",
       "income_str": "$1.1K/s",
       "baseIncome": 1100.0,
       "slug": "swordfish"
@@ -324,7 +328,7 @@
       "rarity": "Epic",
       "biome": "Cosmic",
       "image_file": "Centapede.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a7/Centapede.png/revision/latest/scale-to-width-down/180?cb=20260903140743",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a7/Centapede.png/revision/latest/scale-to-width-down/220?cb=20260903140743",
       "income_str": "$1.5K/s",
       "baseIncome": 1500.0,
       "slug": "centapede"
@@ -335,7 +339,7 @@
       "rarity": "Epic",
       "biome": "Cherry Blossom",
       "image_file": "Crane.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/2/20/Crane.png/revision/latest/scale-to-width-down/180?cb=20260903140823",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/2/20/Crane.png/revision/latest/scale-to-width-down/220?cb=20260903140823",
       "income_str": "$4K/s",
       "baseIncome": 4000.0,
       "slug": "crane"
@@ -357,7 +361,7 @@
       "rarity": "Epic",
       "biome": "Unknown",
       "image_file": "Bubblelord.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/d1/Bubblelord.png/revision/latest/scale-to-width-down/180?cb=20261027121713",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/d1/Bubblelord.png/revision/latest/scale-to-width-down/220?cb=20261027121713",
       "income_str": "$5K/s",
       "baseIncome": 5000.0,
       "slug": "bubblelord"
@@ -368,7 +372,7 @@
       "rarity": "Legendary",
       "biome": "Angels & Demons",
       "image_file": "Light Dove.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/90/Light_Dove.png/revision/latest/scale-to-width-down/180?cb=20260912164541",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/90/Light_Dove.png/revision/latest/scale-to-width-down/220?cb=20260912164541",
       "income_str": "$225K/s",
       "baseIncome": 225000.0,
       "slug": "light-dove"
@@ -379,7 +383,7 @@
       "rarity": "Legendary",
       "biome": "Angels & Demons",
       "image_file": "Flame Sprite.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e1/Flame_Sprite.png/revision/latest/scale-to-width-down/180?cb=20260912164646",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e1/Flame_Sprite.png/revision/latest/scale-to-width-down/220?cb=20260912164646",
       "income_str": "$225K/s",
       "baseIncome": 225000.0,
       "slug": "flame-sprite"
@@ -390,7 +394,7 @@
       "rarity": "Legendary",
       "biome": "Forest",
       "image_file": "Brr_Brr_Patapim.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/f7/Brr_Brr_Patapim.png/revision/latest/scale-to-width-down/180?cb=20260901193213",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/f7/Brr_Brr_Patapim.png/revision/latest/scale-to-width-down/220?cb=20260901193213",
       "income_str": "$1.8K/s",
       "baseIncome": 1800.0,
       "slug": "brr-brr-patapim"
@@ -401,7 +405,7 @@
       "rarity": "Legendary",
       "biome": "Lake",
       "image_file": "Axolotl.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/91/Axolotl.png/revision/latest/scale-to-width-down/180?cb=20260901192010",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/91/Axolotl.png/revision/latest/scale-to-width-down/220?cb=20260901192010",
       "income_str": "$2.8K/s",
       "baseIncome": 2800.0,
       "slug": "axolotl"
@@ -412,7 +416,7 @@
       "rarity": "Legendary",
       "biome": "Desert",
       "image_file": "Snake.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/5a/Snake.png/revision/latest/scale-to-width-down/180?cb=20260901192437",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/5a/Snake.png/revision/latest/scale-to-width-down/220?cb=20260901192437",
       "income_str": "$3.6K/s",
       "baseIncome": 3600.0,
       "slug": "snake"
@@ -423,7 +427,7 @@
       "rarity": "Legendary",
       "biome": "Jungle",
       "image_file": "Gorilla.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/8/84/Gorilla.png/revision/latest/scale-to-width-down/180?cb=20260904025208",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/8/84/Gorilla.png/revision/latest?cb=20260904025208",
       "income_str": "$4.8K/s",
       "baseIncome": 4800.0,
       "slug": "gorilla"
@@ -434,7 +438,7 @@
       "rarity": "Legendary",
       "biome": "Jungle",
       "image_file": "Orangutini_Ananassini.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a7/Orangutini_Ananassini.png/revision/latest/scale-to-width-down/180?cb=20260901191857",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a7/Orangutini_Ananassini.png/revision/latest/scale-to-width-down/220?cb=20260901191857",
       "income_str": "$5.5K/s",
       "baseIncome": 5500.0,
       "slug": "orangutini-ananassini"
@@ -445,7 +449,7 @@
       "rarity": "Legendary",
       "biome": "Snow",
       "image_file": "Polar_Bear.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/78/Polar_Bear.png/revision/latest/scale-to-width-down/180?cb=20260901190019",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/78/Polar_Bear.png/revision/latest/scale-to-width-down/220?cb=20260901190019",
       "income_str": "$7K/s",
       "baseIncome": 7000.0,
       "slug": "polar-bear"
@@ -456,7 +460,7 @@
       "rarity": "Legendary",
       "biome": "Volcano",
       "image_file": "Flaming_Bull.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/19/Flaming_Bull.png/revision/latest/scale-to-width-down/180?cb=20260901195723",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/19/Flaming_Bull.png/revision/latest/scale-to-width-down/220?cb=20260901195723",
       "income_str": "$9.5K/s",
       "baseIncome": 9500.0,
       "slug": "flaming-bull"
@@ -467,7 +471,7 @@
       "rarity": "Legendary",
       "biome": "Volcano",
       "image_file": "Lava_Iguana.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/f0/Lava_Iguana.png/revision/latest/scale-to-width-down/180?cb=20260901195731",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/f0/Lava_Iguana.png/revision/latest/scale-to-width-down/220?cb=20260901195731",
       "income_str": "$11K/s",
       "baseIncome": 11000.0,
       "slug": "lava-iguana"
@@ -478,7 +482,7 @@
       "rarity": "Legendary",
       "biome": "Rift",
       "image_file": "Rift_Eye.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/13/Rift_Eye.png/revision/latest/scale-to-width-down/180?cb=20260907220800",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/13/Rift_Eye.png/revision/latest/scale-to-width-down/220?cb=20260907220800",
       "income_str": "$11K/s",
       "baseIncome": 11000.0,
       "slug": "rift-eye"
@@ -489,7 +493,7 @@
       "rarity": "Legendary",
       "biome": "Abyss Ocean",
       "image_file": "Shark.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/14/Shark.png/revision/latest/scale-to-width-down/180?cb=20260904025214",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/14/Shark.png/revision/latest/scale-to-width-down/220?cb=20260904025214",
       "income_str": "$15K/s",
       "baseIncome": 15000.0,
       "slug": "shark"
@@ -500,7 +504,7 @@
       "rarity": "Legendary",
       "biome": "Luminous Egg",
       "image_file": "Spike.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/de/Spike.png/revision/latest/scale-to-width-down/180?cb=20260912182852",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/de/Spike.png/revision/latest/scale-to-width-down/220?cb=20260912182852",
       "income_str": "$15K/s",
       "baseIncome": 15000.0,
       "slug": "spike"
@@ -511,7 +515,7 @@
       "rarity": "Legendary",
       "biome": "Prehistoric",
       "image_file": "Pterodactyl.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/49/Pterodactyl.png/revision/latest/scale-to-width-down/180?cb=20260901195556",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/49/Pterodactyl.png/revision/latest/scale-to-width-down/220?cb=20260901195556",
       "income_str": "$22K/s",
       "baseIncome": 22000.0,
       "slug": "pterodactyl"
@@ -522,7 +526,7 @@
       "rarity": "Legendary",
       "biome": "Cosmic",
       "image_file": "Cosmic Gecko.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/2/2a/Cosmic_Gecko.png/revision/latest/scale-to-width-down/180?cb=20260901192914",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/2/2a/Cosmic_Gecko.png/revision/latest/scale-to-width-down/220?cb=20260901192914",
       "income_str": "$30K/s",
       "baseIncome": 30000.0,
       "slug": "cosmic-gecko"
@@ -533,7 +537,7 @@
       "rarity": "Legendary",
       "biome": "Rift",
       "image_file": "Void_Angler.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/9b/Void_Angler.png/revision/latest/scale-to-width-down/180?cb=20260907220925",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/9b/Void_Angler.png/revision/latest/scale-to-width-down/220?cb=20260907220925",
       "income_str": "$30K/s",
       "baseIncome": 30000.0,
       "slug": "void-angler"
@@ -544,7 +548,7 @@
       "rarity": "Legendary",
       "biome": "Cherry Blossom",
       "image_file": "Salamander.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/53/Salamander.png/revision/latest/scale-to-width-down/180?cb=20260903135533",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/53/Salamander.png/revision/latest/scale-to-width-down/220?cb=20260903135533",
       "income_str": "$74K/s",
       "baseIncome": 74000.0,
       "slug": "salamander"
@@ -555,7 +559,7 @@
       "rarity": "Legendary",
       "biome": "Titan Temple",
       "image_file": "Spideron.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/4b/Spideron.png/revision/latest/scale-to-width-down/180?cb=20260901190849",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/4b/Spideron.png/revision/latest/scale-to-width-down/220?cb=20260901190849",
       "income_str": "$95K/s",
       "baseIncome": 95000.0,
       "slug": "spideron"
@@ -566,7 +570,7 @@
       "rarity": "Legendary",
       "biome": "Titan Temple",
       "image_file": "Crustacia.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c3/Crustacia.png/revision/latest/scale-to-width-down/180?cb=20260901190841",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c3/Crustacia.png/revision/latest/scale-to-width-down/220?cb=20260901190841",
       "income_str": "$130K/s",
       "baseIncome": 130000.0,
       "slug": "crustacia"
@@ -577,7 +581,7 @@
       "rarity": "Legendary",
       "biome": "Extinction Egg",
       "image_file": "Glyptodon.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/54/Glyptodon.png/revision/latest/scale-to-width-down/180?cb=20260927050158",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/54/Glyptodon.png/revision/latest/scale-to-width-down/220?cb=20260927050158",
       "income_str": "$22.5K/s",
       "baseIncome": 22500.0,
       "slug": "glyptodon"
@@ -588,7 +592,7 @@
       "rarity": "Legendary",
       "biome": "Event",
       "image_file": "Eye Bat.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/63/Eye_Bat.png/revision/latest/scale-to-width-down/180?cb=20260927050631",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/63/Eye_Bat.png/revision/latest/scale-to-width-down/220?cb=20260927050631",
       "income_str": "$115K/s",
       "baseIncome": 115000.0,
       "slug": "eye-bat-021"
@@ -687,7 +691,7 @@
       "rarity": "Mythic",
       "biome": "Desert",
       "image_file": "Sand_Spider.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/50/Sand_Spider.png/revision/latest/scale-to-width-down/180?cb=20260901192429",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/50/Sand_Spider.png/revision/latest/scale-to-width-down/220?cb=20260901192429",
       "income_str": "$16K/s",
       "baseIncome": 16000.0,
       "slug": "sand-spider"
@@ -698,7 +702,7 @@
       "rarity": "Mythic",
       "biome": "Desert",
       "image_file": "Scorpion.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/ab/Scorpion.png/revision/latest/scale-to-width-down/180?cb=20260901192421",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/ab/Scorpion.png/revision/latest/scale-to-width-down/220?cb=20260901192421",
       "income_str": "$18.5K/s",
       "baseIncome": 18500.0,
       "slug": "scorpion"
@@ -709,7 +713,7 @@
       "rarity": "Mythic",
       "biome": "Jungle",
       "image_file": "Spider.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/8/84/Spider.png/revision/latest/scale-to-width-down/180?cb=20260901191847",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/8/84/Spider.png/revision/latest/scale-to-width-down/220?cb=20260901191847",
       "income_str": "$22K/s",
       "baseIncome": 22000.0,
       "slug": "spider"
@@ -720,7 +724,7 @@
       "rarity": "Mythic",
       "biome": "Jungle",
       "image_file": "Tiger.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/ae/Tiger.png/revision/latest/scale-to-width-down/180?cb=20260901191839",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/ae/Tiger.png/revision/latest/scale-to-width-down/220?cb=20260901191839",
       "income_str": "$28K/s",
       "baseIncome": 28000.0,
       "slug": "tiger"
@@ -731,7 +735,7 @@
       "rarity": "Mythic",
       "biome": "Snow",
       "image_file": "Sabertooth_Tiger.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/8/88/Sabertooth_Tiger.png/revision/latest/scale-to-width-down/180?cb=20260904025152",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/8/88/Sabertooth_Tiger.png/revision/latest?cb=20260904025152",
       "income_str": "$35K/s",
       "baseIncome": 35000.0,
       "slug": "sabertooth-tiger"
@@ -742,7 +746,7 @@
       "rarity": "Mythic",
       "biome": "Snow",
       "image_file": "Mammoth.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a5/Mammoth.png/revision/latest/scale-to-width-down/180?cb=20260901190010",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a5/Mammoth.png/revision/latest/scale-to-width-down/220?cb=20260901190010",
       "income_str": "$42K/s",
       "baseIncome": 42000.0,
       "slug": "mammoth"
@@ -753,7 +757,7 @@
       "rarity": "Mythic",
       "biome": "Rift",
       "image_file": "Voidmaw.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/8/84/Voidmaw.png/revision/latest/scale-to-width-down/180?cb=20260907220809",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/8/84/Voidmaw.png/revision/latest/scale-to-width-down/220?cb=20260907220809",
       "income_str": "$50K/s",
       "baseIncome": 50000.0,
       "slug": "voidmaw"
@@ -764,7 +768,7 @@
       "rarity": "Mythic",
       "biome": "Volcano",
       "image_file": "Chillin_Chilli.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/3/3a/Chillin_Chilli.png/revision/latest/scale-to-width-down/180?cb=20260901195323",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/3/3a/Chillin_Chilli.png/revision/latest/scale-to-width-down/220?cb=20260901195323",
       "income_str": "$55K/s",
       "baseIncome": 55000.0,
       "slug": "chillin-chilli"
@@ -775,7 +779,7 @@
       "rarity": "Mythic",
       "biome": "Luminous Egg",
       "image_file": "Spirit_Manta.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/eb/Spirit_Manta.png/revision/latest/scale-to-width-down/180?cb=20260912182844",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/eb/Spirit_Manta.png/revision/latest/scale-to-width-down/220?cb=20260912182844",
       "income_str": "$75K/s",
       "baseIncome": 75000.0,
       "slug": "spirit-manta"
@@ -786,7 +790,7 @@
       "rarity": "Mythic",
       "biome": "Abyss Ocean",
       "image_file": "Orca.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/75/Orca.png/revision/latest/scale-to-width-down/180?cb=20260901184919",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/75/Orca.png/revision/latest/scale-to-width-down/220?cb=20260901184919",
       "income_str": "$80K/s",
       "baseIncome": 80000.0,
       "slug": "orca"
@@ -797,7 +801,7 @@
       "rarity": "Mythic",
       "biome": "Prehistoric",
       "image_file": "Ankylosaurus.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a7/Ankylosaurus.png/revision/latest/scale-to-width-down/180?cb=20260903140754",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a7/Ankylosaurus.png/revision/latest/scale-to-width-down/220?cb=20260903140754",
       "income_str": "$120K/s",
       "baseIncome": 120000.0,
       "slug": "ankylosaurus"
@@ -808,7 +812,7 @@
       "rarity": "Mythic",
       "biome": "Cosmic",
       "image_file": "Cosmic_Gorilla.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c3/Cosmic_Gorilla.png/revision/latest/scale-to-width-down/180?cb=20260903140729",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c3/Cosmic_Gorilla.png/revision/latest/scale-to-width-down/220?cb=20260903140729",
       "income_str": "$180K/s",
       "baseIncome": 180000.0,
       "slug": "cosmic-gorilla"
@@ -819,7 +823,7 @@
       "rarity": "Mythic",
       "biome": "Rift",
       "image_file": "Riftwing.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/db/Riftwing.png/revision/latest/scale-to-width-down/180?cb=20260907221817",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/db/Riftwing.png/revision/latest/scale-to-width-down/220?cb=20260907221817",
       "income_str": "$220K/s",
       "baseIncome": 220000.0,
       "slug": "riftwing"
@@ -830,7 +834,7 @@
       "rarity": "Mythic",
       "biome": "Cherry Blossom",
       "image_file": "Red_Panda.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/8/8b/Red_Panda.png/revision/latest/scale-to-width-down/180?cb=20260903135550",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/8/8b/Red_Panda.png/revision/latest/scale-to-width-down/220?cb=20260903135550",
       "income_str": "$450K/s",
       "baseIncome": 450000.0,
       "slug": "red-panda"
@@ -841,7 +845,7 @@
       "rarity": "Mythic",
       "biome": "Rift",
       "image_file": "Shardling.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/5b/Shardling.png/revision/latest/scale-to-width-down/180?cb=20260907221031",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/5b/Shardling.png/revision/latest/scale-to-width-down/220?cb=20260907221031",
       "income_str": "$450K/s",
       "baseIncome": 450000.0,
       "slug": "shardling"
@@ -852,7 +856,7 @@
       "rarity": "Mythic",
       "biome": "Titan Temple",
       "image_file": "Bladehide.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0d/Bladehide.png/revision/latest/scale-to-width-down/180?cb=20260901190830",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0d/Bladehide.png/revision/latest/scale-to-width-down/220?cb=20260901190830",
       "income_str": "$750K/s",
       "baseIncome": 750000.0,
       "slug": "bladehide"
@@ -863,7 +867,7 @@
       "rarity": "Mythic",
       "biome": "Angels & Demons",
       "image_file": "Winged Lamb.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/91/Winged_Lamb.png/revision/latest/scale-to-width-down/180?cb=20260912164549",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/91/Winged_Lamb.png/revision/latest/scale-to-width-down/220?cb=20260912164549",
       "income_str": "$1.25M/s",
       "baseIncome": 1250000.0,
       "slug": "winged-lamb"
@@ -874,7 +878,7 @@
       "rarity": "Mythic",
       "biome": "Angels & Demons",
       "image_file": "Toro.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/94/Toro.png/revision/latest/scale-to-width-down/180?cb=20260912164652",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/94/Toro.png/revision/latest/scale-to-width-down/220?cb=20260912164652",
       "income_str": "$1.25M/s",
       "baseIncome": 1250000.0,
       "slug": "toro"
@@ -885,7 +889,7 @@
       "rarity": "Mythic",
       "biome": "Skeletal Egg",
       "image_file": "Terrorbird.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/8/82/Terrorbird.png/revision/latest/scale-to-width-down/180?cb=20260927050206",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/8/82/Terrorbird.png/revision/latest/scale-to-width-down/220?cb=20260927050206",
       "income_str": "$110K/s",
       "baseIncome": 110000.0,
       "slug": "terrorbird"
@@ -896,7 +900,7 @@
       "rarity": "Mythic",
       "biome": "Biohazard Egg",
       "image_file": "Toxic Rat.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/f0/Toxic_Rat.png/revision/latest/scale-to-width-down/180?cb=20260927050433",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/f0/Toxic_Rat.png/revision/latest/scale-to-width-down/220?cb=20260927050433",
       "income_str": "$180K/s",
       "baseIncome": 180000.0,
       "slug": "toxic-rat"
@@ -907,7 +911,7 @@
       "rarity": "Mythic",
       "biome": "Experimental Egg",
       "image_file": "Wheel Hamster.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/47/Wheel_Hamster.png/revision/latest/scale-to-width-down/180?cb=20260927050509",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/47/Wheel_Hamster.png/revision/latest/scale-to-width-down/220?cb=20260927050509",
       "income_str": "$450K/s",
       "baseIncome": 450000.0,
       "slug": "wheel-hamster"
@@ -918,7 +922,7 @@
       "rarity": "Mythic",
       "biome": "Unstable Egg",
       "image_file": "Frogfly.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a9/Frogfly.png/revision/latest/scale-to-width-down/180?cb=20260927050557",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a9/Frogfly.png/revision/latest/scale-to-width-down/220?cb=20260927050557",
       "income_str": "$1.25M/s",
       "baseIncome": 1250000.0,
       "slug": "frogfly"
@@ -929,7 +933,7 @@
       "rarity": "Mythic",
       "biome": "Event",
       "image_file": "Citadel Snail.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/cc/Citadel_Snail.png/revision/latest/scale-to-width-down/180?cb=20260927050705",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/cc/Citadel_Snail.png/revision/latest/scale-to-width-down/220?cb=20260927050705",
       "income_str": "$12.5M/s",
       "baseIncome": 12500000.0,
       "slug": "citadel-snail-007"
@@ -1039,7 +1043,7 @@
       "rarity": "Cosmic",
       "biome": "Event",
       "image_file": "Nibbles -013.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/64/Nibbles_-013.png/revision/latest/scale-to-width-down/180?cb=20260919174441",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/64/Nibbles_-013.png/revision/latest/scale-to-width-down/220?cb=20260919174441",
       "income_str": "$185K/s",
       "baseIncome": 185000.0,
       "slug": "nibbles-013"
@@ -1050,7 +1054,7 @@
       "rarity": "Cosmic",
       "biome": "Lake",
       "image_file": "Leviathan.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0a/Leviathan.png/revision/latest/scale-to-width-down/180?cb=20260904110656",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0a/Leviathan.png/revision/latest/scale-to-width-down/220?cb=20260904110656",
       "income_str": "$220K/s",
       "baseIncome": 220000.0,
       "slug": "leviathan"
@@ -1061,7 +1065,7 @@
       "rarity": "Cosmic",
       "biome": "Desert",
       "image_file": "Royal_Sphinx.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/5a/Royal_Sphinx.png/revision/latest/scale-to-width-down/180?cb=20260904025135",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/5a/Royal_Sphinx.png/revision/latest/scale-to-width-down/220?cb=20260904025135",
       "income_str": "$280K/s",
       "baseIncome": 280000.0,
       "slug": "royal-sphinx"
@@ -1072,7 +1076,7 @@
       "rarity": "Cosmic",
       "biome": "Snow",
       "image_file": "King_Mammoth.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/69/King_Mammoth.png/revision/latest/scale-to-width-down/180?cb=20260904025144",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/69/King_Mammoth.png/revision/latest?cb=20260904025144",
       "income_str": "$400K/s",
       "baseIncome": 400000.0,
       "slug": "king-mammoth"
@@ -1083,7 +1087,7 @@
       "rarity": "Cosmic",
       "biome": "Rift",
       "image_file": "Ventinal.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/14/Ventinal.png/revision/latest/scale-to-width-down/180?cb=20260907220820",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/14/Ventinal.png/revision/latest/scale-to-width-down/220?cb=20260907220820",
       "income_str": "$585K/s",
       "baseIncome": 585000.0,
       "slug": "ventinal"
@@ -1094,7 +1098,7 @@
       "rarity": "Cosmic",
       "biome": "Abyss Ocean",
       "image_file": "Whale_Shark.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/91/Whale_Shark.png/revision/latest/scale-to-width-down/180?cb=20260904025106",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/91/Whale_Shark.png/revision/latest/scale-to-width-down/220?cb=20260904025106",
       "income_str": "$700K/s",
       "baseIncome": 700000.0,
       "slug": "whale-shark"
@@ -1105,7 +1109,7 @@
       "rarity": "Cosmic",
       "biome": "Abyss Ocean",
       "image_file": "Beluga_Whale.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/de/Beluga_Whale.png/revision/latest/scale-to-width-down/180?cb=20260904025050",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/de/Beluga_Whale.png/revision/latest/scale-to-width-down/220?cb=20260904025050",
       "income_str": "$850K/s",
       "baseIncome": 850000.0,
       "slug": "beluga-whale"
@@ -1138,7 +1142,7 @@
       "rarity": "Cosmic",
       "biome": "Rift",
       "image_file": "Dreadclaw.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/65/Dreadclaw.png/revision/latest/scale-to-width-down/180?cb=20260907220951",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/65/Dreadclaw.png/revision/latest/scale-to-width-down/220?cb=20260907220951",
       "income_str": "$2.2M/s",
       "baseIncome": 2200000.0,
       "slug": "dreadclaw"
@@ -1149,7 +1153,7 @@
       "rarity": "Cosmic",
       "biome": "Cosmic",
       "image_file": "La_Vacca_Saturno_Saturnita.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/ec/La_Vacca_Saturno_Saturnita.png/revision/latest/scale-to-width-down/180?cb=20260901185226",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/ec/La_Vacca_Saturno_Saturnita.png/revision/latest/scale-to-width-down/220?cb=20260901185226",
       "income_str": "$2.2M/s",
       "baseIncome": 2200000.0,
       "slug": "la-vacca-saturno-saturnita"
@@ -1160,7 +1164,7 @@
       "rarity": "Cosmic",
       "biome": "Luminous Egg",
       "image_file": "Abyss_Shark.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0f/Abyss_Shark.png/revision/latest/scale-to-width-down/180?cb=20260912182836",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0f/Abyss_Shark.png/revision/latest/scale-to-width-down/220?cb=20260912182836",
       "income_str": "$2.5M/s",
       "baseIncome": 2500000.0,
       "slug": "abyss-shark"
@@ -1171,7 +1175,7 @@
       "rarity": "Cosmic",
       "biome": "Cherry Blossom",
       "image_file": "Snowy_Owl.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c6/Snowy_Owl.png/revision/latest/scale-to-width-down/180?cb=20260903135600",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c6/Snowy_Owl.png/revision/latest/scale-to-width-down/220?cb=20260903135600",
       "income_str": "$7.5M/s",
       "baseIncome": 7500000.0,
       "slug": "snowy-owl"
@@ -1182,7 +1186,7 @@
       "rarity": "Cosmic",
       "biome": "Rift",
       "image_file": "Shattered_Ram.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/44/Shattered_Ram.png/revision/latest/scale-to-width-down/180?cb=20260907221048",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/44/Shattered_Ram.png/revision/latest/scale-to-width-down/220?cb=20260907221048",
       "income_str": "$8M/s",
       "baseIncome": 8000000.0,
       "slug": "shattered-ram"
@@ -1193,7 +1197,7 @@
       "rarity": "Cosmic",
       "biome": "Titan Temple",
       "image_file": "Mantaris.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0e/Mantaris.png/revision/latest/scale-to-width-down/180?cb=20260901190821",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0e/Mantaris.png/revision/latest/scale-to-width-down/220?cb=20260901190821",
       "income_str": "$11M/s",
       "baseIncome": 11000000.0,
       "slug": "mantaris"
@@ -1204,7 +1208,7 @@
       "rarity": "Cosmic",
       "biome": "Cherry Blossom",
       "image_file": "Koi.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/66/Koi.png/revision/latest/scale-to-width-down/180?cb=20260903135610",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/66/Koi.png/revision/latest/scale-to-width-down/220?cb=20260903135610",
       "income_str": "$12M/s",
       "baseIncome": 12000000.0,
       "slug": "koi"
@@ -1215,7 +1219,7 @@
       "rarity": "Cosmic",
       "biome": "Angels & Demons",
       "image_file": "Sacred Moth.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/68/Sacred_Moth.png/revision/latest/scale-to-width-down/180?cb=20260912164556",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/68/Sacred_Moth.png/revision/latest/scale-to-width-down/220?cb=20260912164556",
       "income_str": "$16M/s",
       "baseIncome": 16000000.0,
       "slug": "sacred-moth"
@@ -1226,7 +1230,7 @@
       "rarity": "Cosmic",
       "biome": "Angels & Demons",
       "image_file": "Imp.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/b3/Imp.png/revision/latest/scale-to-width-down/180?cb=20260912164659",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/b3/Imp.png/revision/latest/scale-to-width-down/220?cb=20260912164659",
       "income_str": "$16M/s",
       "baseIncome": 16000000.0,
       "slug": "imp"
@@ -1237,7 +1241,7 @@
       "rarity": "Cosmic",
       "biome": "Titan Temple",
       "image_file": "Rhinotaur.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/3/31/Rhinotaur.png/revision/latest/scale-to-width-down/180?cb=20260901190811",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/3/31/Rhinotaur.png/revision/latest/scale-to-width-down/220?cb=20260901190811",
       "income_str": "$17.5M/s",
       "baseIncome": 17500000.0,
       "slug": "rhinotaur"
@@ -1248,7 +1252,7 @@
       "rarity": "Cosmic",
       "biome": "Angels & Demons",
       "image_file": "Holy Peacock.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/15/Holy_Peacock.png/revision/latest/scale-to-width-down/180?cb=20260912164606",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/15/Holy_Peacock.png/revision/latest/scale-to-width-down/220?cb=20260912164606",
       "income_str": "$25M/s",
       "baseIncome": 25000000.0,
       "slug": "holy-peacock"
@@ -1259,7 +1263,7 @@
       "rarity": "Cosmic",
       "biome": "Angels & Demons",
       "image_file": "Demon Hound.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/f2/Demon_Hound.png/revision/latest/scale-to-width-down/180?cb=20260912164706",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/f2/Demon_Hound.png/revision/latest/scale-to-width-down/220?cb=20260912164706",
       "income_str": "$25M/s",
       "baseIncome": 25000000.0,
       "slug": "demon-hound"
@@ -1270,7 +1274,7 @@
       "rarity": "Cosmic",
       "biome": "Skeletal Egg",
       "image_file": "Giant Sloth.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/1a/Giant_Sloth.png/revision/latest/scale-to-width-down/180?cb=20260927050213",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/1a/Giant_Sloth.png/revision/latest/scale-to-width-down/220?cb=20260927050213",
       "income_str": "$4M/s",
       "baseIncome": 4000000.0,
       "slug": "giant-sloth"
@@ -1281,7 +1285,7 @@
       "rarity": "Cosmic",
       "biome": "Biohazard Egg",
       "image_file": "Radcoon.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/ac/Radcoon.png/revision/latest/scale-to-width-down/180?cb=20260927050441",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/ac/Radcoon.png/revision/latest/scale-to-width-down/220?cb=20260927050441",
       "income_str": "$2.2M/s",
       "baseIncome": 2200000.0,
       "slug": "radcoon"
@@ -1292,7 +1296,7 @@
       "rarity": "Cosmic",
       "biome": "Biohazard Egg",
       "image_file": "Toucax.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/91/Toucax.png/revision/latest/scale-to-width-down/180?cb=20260927050448",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/91/Toucax.png/revision/latest/scale-to-width-down/220?cb=20260927050448",
       "income_str": "$30M/s",
       "baseIncome": 30000000.0,
       "slug": "toucax"
@@ -1303,7 +1307,7 @@
       "rarity": "Cosmic",
       "biome": "Experimental Egg",
       "image_file": "Stacked Turtle.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/91/Stacked_Turtle.png/revision/latest/scale-to-width-down/180?cb=20260927050516",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/91/Stacked_Turtle.png/revision/latest/scale-to-width-down/220?cb=20260927050516",
       "income_str": "$12M/s",
       "baseIncome": 12000000.0,
       "slug": "stacked-turtle"
@@ -1314,7 +1318,7 @@
       "rarity": "Cosmic",
       "biome": "Experimental Egg",
       "image_file": "Three Headed Chicken.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/45/Three_Headed_Chicken.png/revision/latest/scale-to-width-down/180?cb=20260927050524",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/45/Three_Headed_Chicken.png/revision/latest/scale-to-width-down/220?cb=20260927050524",
       "income_str": "$165M/s",
       "baseIncome": 165000000.0,
       "slug": "three-headed-chicken"
@@ -1325,7 +1329,7 @@
       "rarity": "Cosmic",
       "biome": "Unstable Egg",
       "image_file": "Spiderpig.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0e/Spiderpig.png/revision/latest/scale-to-width-down/180?cb=20260927050548",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0e/Spiderpig.png/revision/latest/scale-to-width-down/220?cb=20260927050548",
       "income_str": "$25M/s",
       "baseIncome": 25000000.0,
       "slug": "spiderpig"
@@ -1336,7 +1340,7 @@
       "rarity": "Cosmic",
       "biome": "Event",
       "image_file": "Uncoiled Armadillo.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0d/Uncoiled_Armadillo.png/revision/latest/scale-to-width-down/180?cb=20260927050638",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0d/Uncoiled_Armadillo.png/revision/latest/scale-to-width-down/220?cb=20260927050638",
       "income_str": "$625K/s",
       "baseIncome": 625000.0,
       "slug": "uncoiled-armadillo"
@@ -1358,7 +1362,7 @@
       "rarity": "Cosmic",
       "biome": "Enchanted Forest",
       "image_file": "SpiritPanda.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/58/SpiritPanda.png/revision/latest/scale-to-width-down/180?cb=20261023122816",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/58/SpiritPanda.png/revision/latest/scale-to-width-down/220?cb=20261023122816",
       "income_str": "$90M/s",
       "baseIncome": 90000000.0,
       "slug": "spirit-panda"
@@ -1490,7 +1494,7 @@
       "rarity": "Secret",
       "biome": "Event",
       "image_file": "67.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/3/30/67.png/revision/latest/scale-to-width-down/180?cb=20260919174459",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/3/30/67.png/revision/latest/scale-to-width-down/220?cb=20260919174459",
       "income_str": "$1.55M/s",
       "baseIncome": 1550000.0,
       "slug": "67"
@@ -1501,7 +1505,7 @@
       "rarity": "Secret",
       "biome": "Jungle",
       "image_file": "King_Snake.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/fc/King_Snake.png/revision/latest/scale-to-width-down/180?cb=20260901191831",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/fc/King_Snake.png/revision/latest/scale-to-width-down/220?cb=20260901191831",
       "income_str": "$3.5M/s",
       "baseIncome": 3500000.0,
       "slug": "king-snake"
@@ -1512,7 +1516,7 @@
       "rarity": "Secret",
       "biome": "Snow",
       "image_file": "Yeti.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/7d/Yeti.png/revision/latest/scale-to-width-down/180?cb=20260904025057",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/7d/Yeti.png/revision/latest?cb=20260904025057",
       "income_str": "$5M/s",
       "baseIncome": 5000000.0,
       "slug": "yeti"
@@ -1523,7 +1527,7 @@
       "rarity": "Secret",
       "biome": "Volcano",
       "image_file": "Cerberus.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/45/Cerberus.png/revision/latest/scale-to-width-down/180?cb=20260901194510",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/45/Cerberus.png/revision/latest/scale-to-width-down/220?cb=20260901194510",
       "income_str": "$8M/s",
       "baseIncome": 8000000.0,
       "slug": "cerberus"
@@ -1534,7 +1538,7 @@
       "rarity": "Secret",
       "biome": ".",
       "image_file": "Ring_Guard.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c7/Ring_Guard.png/revision/latest/scale-to-width-down/180?cb=20260913045444",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c7/Ring_Guard.png/revision/latest/scale-to-width-down/220?cb=20260913045444",
       "income_str": "$15M/s",
       "baseIncome": 15000000.0,
       "slug": "ring-guard"
@@ -1545,7 +1549,7 @@
       "rarity": "Secret",
       "biome": "Rift",
       "image_file": "Wendigo.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/8/8a/Wendigo.png/revision/latest/scale-to-width-down/180?cb=20260907220833",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/8/8a/Wendigo.png/revision/latest/scale-to-width-down/220?cb=20260907220833",
       "income_str": "$15M/s",
       "baseIncome": 15000000.0,
       "slug": "wendigo"
@@ -1556,7 +1560,7 @@
       "rarity": "Secret",
       "biome": "Abyss Ocean",
       "image_file": "Kraken.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/d3/Kraken.png/revision/latest/scale-to-width-down/180?cb=20260904110057",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/d3/Kraken.png/revision/latest/scale-to-width-down/220?cb=20260904110057",
       "income_str": "$15M/s",
       "baseIncome": 15000000.0,
       "slug": "kraken"
@@ -1567,7 +1571,7 @@
       "rarity": "Secret",
       "biome": "Prehistoric",
       "image_file": "T-Rex.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/f8/T-Rex.png/revision/latest/scale-to-width-down/180?cb=20260903161834",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/f8/T-Rex.png/revision/latest/scale-to-width-down/220?cb=20260903161834",
       "income_str": "$25M/s",
       "baseIncome": 25000000.0,
       "slug": "t-rex"
@@ -1578,7 +1582,7 @@
       "rarity": "Secret",
       "biome": "Prehistoric",
       "image_file": "Tralaledon.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/3/34/Tralaledon.png/revision/latest/scale-to-width-down/180?cb=20260901194501",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/3/34/Tralaledon.png/revision/latest/scale-to-width-down/220?cb=20260901194501",
       "income_str": "$32M/s",
       "baseIncome": 32000000.0,
       "slug": "tralaledon"
@@ -1589,7 +1593,7 @@
       "rarity": "Secret",
       "biome": "Cosmic",
       "image_file": "Cosmic_Skeleton_Boss.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/97/Cosmic_Skeleton_Boss.png/revision/latest/scale-to-width-down/180?cb=20260904110709",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/97/Cosmic_Skeleton_Boss.png/revision/latest?cb=20260904110709",
       "income_str": "$45M/s",
       "baseIncome": 45000000.0,
       "slug": "cosmic-skeleton-boss"
@@ -1600,7 +1604,7 @@
       "rarity": "Secret",
       "biome": "Rift",
       "image_file": "Mawbreaker.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/43/Mawbreaker.png/revision/latest/scale-to-width-down/180?cb=20260907221007",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/43/Mawbreaker.png/revision/latest/scale-to-width-down/220?cb=20260907221007",
       "income_str": "$60M/s",
       "baseIncome": 60000000.0,
       "slug": "mawbreaker"
@@ -1611,7 +1615,7 @@
       "rarity": "Secret",
       "biome": "Cosmic",
       "image_file": "Cosmic_Dragon.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/3/3e/Cosmic_Dragon.png/revision/latest/scale-to-width-down/180?cb=20260903140720",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/3/3e/Cosmic_Dragon.png/revision/latest/scale-to-width-down/220?cb=20260903140720",
       "income_str": "$60M/s",
       "baseIncome": 60000000.0,
       "slug": "cosmic-dragon"
@@ -1622,7 +1626,7 @@
       "rarity": "Secret",
       "biome": "Cherry Blossom",
       "image_file": "Stag.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/10/Stag.png/revision/latest/scale-to-width-down/180?cb=20260903135633",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/10/Stag.png/revision/latest/scale-to-width-down/220?cb=20260903135633",
       "income_str": "$145M/s",
       "baseIncome": 145000000.0,
       "slug": "stag"
@@ -1633,7 +1637,7 @@
       "rarity": "Secret",
       "biome": "Rift",
       "image_file": "Shardwing.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/56/Shardwing.png/revision/latest/scale-to-width-down/180?cb=20260907221101",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/56/Shardwing.png/revision/latest/scale-to-width-down/220?cb=20260907221101",
       "income_str": "$145M/s",
       "baseIncome": 145000000.0,
       "slug": "shardwing"
@@ -1644,7 +1648,7 @@
       "rarity": "Secret",
       "biome": "Titan Temple",
       "image_file": "Mutant Shark.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e5/Mutant_Shark.png/revision/latest/scale-to-width-down/180?cb=20260901190802",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e5/Mutant_Shark.png/revision/latest/scale-to-width-down/220?cb=20260901190802",
       "income_str": "$215M/s",
       "baseIncome": 215000000.0,
       "slug": "mutant-shark"
@@ -1655,7 +1659,7 @@
       "rarity": "Secret",
       "biome": "Event",
       "image_file": "Experiment -001.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0a/Experiment_-001.png/revision/latest/scale-to-width-down/180?cb=20260919174451",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0a/Experiment_-001.png/revision/latest/scale-to-width-down/220?cb=20260919174451",
       "income_str": "$285M/s",
       "baseIncome": 285000000.0,
       "slug": "experiment-001"
@@ -1666,7 +1670,7 @@
       "rarity": "Secret",
       "biome": "Skeletal Egg",
       "image_file": "Dunkleosteus.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e5/Dunkleosteus.png/revision/latest/scale-to-width-down/180?cb=20260927050221",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e5/Dunkleosteus.png/revision/latest/scale-to-width-down/220?cb=20260927050221",
       "income_str": "$300M/s",
       "baseIncome": 300000000.0,
       "slug": "dunkleosteus"
@@ -1677,7 +1681,7 @@
       "rarity": "Secret",
       "biome": "Luminous Egg",
       "image_file": "Electric_Eel.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/00/Electric_Eel.png/revision/latest/scale-to-width-down/180?cb=20260912182830",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/00/Electric_Eel.png/revision/latest/scale-to-width-down/220?cb=20260912182830",
       "income_str": "$200M/s",
       "baseIncome": 200000000.0,
       "slug": "electric-eel"
@@ -1688,7 +1692,7 @@
       "rarity": "Secret",
       "biome": "Angels & Demons",
       "image_file": "Pure Jellyfish.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/7e/Pure_Jellyfish.png/revision/latest/scale-to-width-down/180?cb=20260912164614",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/7e/Pure_Jellyfish.png/revision/latest/scale-to-width-down/220?cb=20260912164614",
       "income_str": "$225M/s",
       "baseIncome": 225000000.0,
       "slug": "pure-jellyfish"
@@ -1699,7 +1703,7 @@
       "rarity": "Secret",
       "biome": "Angels & Demons",
       "image_file": "Gargoyle.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/44/Gargoyle.png/revision/latest/scale-to-width-down/180?cb=20260912164712",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/44/Gargoyle.png/revision/latest/scale-to-width-down/220?cb=20260912164712",
       "income_str": "$225M/s",
       "baseIncome": 225000000.0,
       "slug": "gargoyle"
@@ -1710,7 +1714,7 @@
       "rarity": "Secret",
       "biome": "Angels & Demons",
       "image_file": "Centaur.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/bc/Centaur.png/revision/latest/scale-to-width-down/180?cb=20260912164622",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/bc/Centaur.png/revision/latest/scale-to-width-down/220?cb=20260912164622",
       "income_str": "$350M/s",
       "baseIncome": 350000000.0,
       "slug": "centaur"
@@ -1721,7 +1725,7 @@
       "rarity": "Secret",
       "biome": "Angels & Demons",
       "image_file": "RazorFang.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c2/RazorFang.png/revision/latest/scale-to-width-down/180?cb=20260912164720",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c2/RazorFang.png/revision/latest/scale-to-width-down/220?cb=20260912164720",
       "income_str": "$350M/s",
       "baseIncome": 350000000.0,
       "slug": "razorfang"
@@ -1732,7 +1736,7 @@
       "rarity": "Secret",
       "biome": "Luminous Reroll Egg",
       "image_file": "Luminous_Spike.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/13/Luminous_Spike.png/revision/latest/scale-to-width-down/180?cb=20260912182805",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/13/Luminous_Spike.png/revision/latest/scale-to-width-down/220?cb=20260912182805",
       "income_str": "$350M/s",
       "baseIncome": 350000000.0,
       "slug": "luminous-spike"
@@ -1743,7 +1747,7 @@
       "rarity": "Secret",
       "biome": "Luminous Reroll Egg",
       "image_file": "Luminous_Spirit_Manta.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/bb/Luminous_Spirit_Manta.png/revision/latest/scale-to-width-down/180?cb=20260912182757",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/bb/Luminous_Spirit_Manta.png/revision/latest/scale-to-width-down/220?cb=20260912182757",
       "income_str": "$500M/s",
       "baseIncome": 500000000.0,
       "slug": "luminous-spirit-manta"
@@ -1754,7 +1758,7 @@
       "rarity": "Secret",
       "biome": "Luminous Reroll Egg",
       "image_file": "Luminous_Abyss_Shark.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/2/20/Luminous_Abyss_Shark.png/revision/latest/scale-to-width-down/180?cb=20260912182750",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/2/20/Luminous_Abyss_Shark.png/revision/latest/scale-to-width-down/220?cb=20260912182750",
       "income_str": "$600M/s",
       "baseIncome": 600000000.0,
       "slug": "luminous-abyss-shark"
@@ -1765,7 +1769,7 @@
       "rarity": "Secret",
       "biome": ".",
       "image_file": "Ringlord.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e8/Ringlord.png/revision/latest/scale-to-width-down/180?cb=20260913045506",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e8/Ringlord.png/revision/latest/scale-to-width-down/220?cb=20260913045506",
       "income_str": "$825M/s",
       "baseIncome": 825000000.0,
       "slug": "ringlord"
@@ -1776,7 +1780,7 @@
       "rarity": "Secret",
       "biome": "Rift",
       "image_file": "Abyss_Overlord.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/60/Abyss_Overlord.png/revision/latest/scale-to-width-down/180?cb=20260907221609",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/60/Abyss_Overlord.png/revision/latest/scale-to-width-down/220?cb=20260907221609",
       "income_str": "$1.25M/s",
       "baseIncome": 1250000.0,
       "slug": "abyss-overlord"
@@ -1787,7 +1791,7 @@
       "rarity": "Secret",
       "biome": "Skeletal Egg",
       "image_file": "Skeletal Glyptodon.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/b7/Skeletal_Glyptodon.png/revision/latest/scale-to-width-down/180?cb=20260927050238",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/b7/Skeletal_Glyptodon.png/revision/latest/scale-to-width-down/220?cb=20260927050238",
       "income_str": "$550M/s",
       "baseIncome": 550000000.0,
       "slug": "skeletal-glyptodon"
@@ -1798,7 +1802,7 @@
       "rarity": "Secret",
       "biome": "Skeletal Egg",
       "image_file": "Skeletal Terrorbird.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/2/23/Skeletal_Terrorbird.png/revision/latest/scale-to-width-down/180?cb=20260927050249",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/2/23/Skeletal_Terrorbird.png/revision/latest/scale-to-width-down/220?cb=20260927050249",
       "income_str": "$750M/s",
       "baseIncome": 750000000.0,
       "slug": "skeletal-terrorbird"
@@ -1809,7 +1813,7 @@
       "rarity": "Secret",
       "biome": "Skeletal Egg",
       "image_file": "Skeletal Giant Sloth.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/4a/Skeletal_Giant_Sloth.png/revision/latest/scale-to-width-down/180?cb=20260927050304",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/4a/Skeletal_Giant_Sloth.png/revision/latest/scale-to-width-down/220?cb=20260927050304",
       "income_str": "$900M/s",
       "baseIncome": 900000000.0,
       "slug": "skeletal-giant-sloth"
@@ -1820,7 +1824,7 @@
       "rarity": "Secret",
       "biome": "Biohazard Egg",
       "image_file": "Nuceodile.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/2/24/Nuceodile.png/revision/latest/scale-to-width-down/180?cb=20260927050455",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/2/24/Nuceodile.png/revision/latest/scale-to-width-down/220?cb=20260927050455",
       "income_str": "$500M/s",
       "baseIncome": 500000000.0,
       "slug": "nuceodile"
@@ -1831,7 +1835,7 @@
       "rarity": "Secret",
       "biome": "Experimental Egg",
       "image_file": "Eyeball Crab.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/93/Eyeball_Crab.png/revision/latest/scale-to-width-down/180?cb=20260927050532",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/93/Eyeball_Crab.png/revision/latest/scale-to-width-down/220?cb=20260927050532",
       "income_str": "$825M/s",
       "baseIncome": 825000000.0,
       "slug": "eyeball-crab"
@@ -1842,7 +1846,7 @@
       "rarity": "Secret",
       "biome": "Unstable Egg",
       "image_file": "Sharkodile.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a3/Sharkodile.png/revision/latest/scale-to-width-down/180?cb=20260927050605",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a3/Sharkodile.png/revision/latest/scale-to-width-down/220?cb=20260927050605",
       "income_str": "$350M/s",
       "baseIncome": 350000000.0,
       "slug": "sharkodile"
@@ -1853,7 +1857,7 @@
       "rarity": "Secret",
       "biome": "Event",
       "image_file": "Toxic Hedgehog.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/ba/Toxic_Hedgehog.png/revision/latest/scale-to-width-down/180?cb=20260927050740",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/ba/Toxic_Hedgehog.png/revision/latest/scale-to-width-down/220?cb=20260927050740",
       "income_str": "$1.75M/s",
       "baseIncome": 1750000.0,
       "slug": "toxic-hedgehog"
@@ -1864,7 +1868,7 @@
       "rarity": "Secret",
       "biome": "Event",
       "image_file": "Mecha Chompa.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/13/Mecha_Chompa.png/revision/latest/scale-to-width-down/180?cb=20260928133741",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/13/Mecha_Chompa.png/revision/latest/scale-to-width-down/220?cb=20260928133741",
       "income_str": "$600M/s",
       "baseIncome": 600000000.0,
       "slug": "mecha-chompa"
@@ -1875,7 +1879,7 @@
       "rarity": "Secret",
       "biome": "Event",
       "image_file": "Toxic Crocodile.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/d3/Toxic_Crocodile.png/revision/latest/scale-to-width-down/180?cb=20260927135222",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/d3/Toxic_Crocodile.png/revision/latest/scale-to-width-down/220?cb=20260927135222",
       "income_str": "$600M/s",
       "baseIncome": 600000000.0,
       "slug": "toxic-crocodile"
@@ -1996,7 +2000,7 @@
       "rarity": "Secret",
       "biome": "Unknown",
       "image_file": "Midnight Mimic.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/3/3b/Midnight_Mimic.png/revision/latest/scale-to-width-down/180?cb=20261025104633",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/3/3b/Midnight_Mimic.png/revision/latest/scale-to-width-down/220?cb=20261025104633",
       "income_str": "$2.345M/s",
       "baseIncome": 2345000.0,
       "slug": "midnight-mimic"
@@ -2007,7 +2011,7 @@
       "rarity": "Secret",
       "biome": "Unknown",
       "image_file": "Ostrich.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/ad/Ostrich.png/revision/latest/scale-to-width-down/180?cb=20261017111400",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/ad/Ostrich.png/revision/latest/scale-to-width-down/220?cb=20261017111400",
       "income_str": "$2.145M/s",
       "baseIncome": 2145000.0,
       "slug": "ostrich"
@@ -2051,7 +2055,7 @@
       "rarity": "Eternal",
       "biome": "Snow",
       "image_file": "Ice_Dragon.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/bb/Ice_Dragon.png/revision/latest/scale-to-width-down/180?cb=20260904110044",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/bb/Ice_Dragon.png/revision/latest/scale-to-width-down/220?cb=20260904110044",
       "income_str": "$65M/s",
       "baseIncome": 65000000.0,
       "slug": "ice-dragon"
@@ -2084,7 +2088,7 @@
       "rarity": "Eternal",
       "biome": "Abyss Ocean",
       "image_file": "El_Maja.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/9b/El_Maja.png/revision/latest/scale-to-width-down/180?cb=20260908051427",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/9b/El_Maja.png/revision/latest/scale-to-width-down/220?cb=20260908051427",
       "income_str": "$130M/s",
       "baseIncome": 130000000.0,
       "slug": "el-maja"
@@ -2106,7 +2110,7 @@
       "rarity": "Eternal",
       "biome": "Cosmic",
       "image_file": "Eternal_Lunar_Dragon.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/07/Eternal_Lunar_Dragon.png/revision/latest/scale-to-width-down/180?cb=20260904025034",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/07/Eternal_Lunar_Dragon.png/revision/latest?cb=20260904025034",
       "income_str": "$250M/s",
       "baseIncome": 250000000.0,
       "slug": "eternal-lunar-dragon"
@@ -2117,7 +2121,7 @@
       "rarity": "Eternal",
       "biome": "Rift",
       "image_file": "World_Eater.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/40/World_Eater.png/revision/latest/scale-to-width-down/180?cb=20260907220911",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/40/World_Eater.png/revision/latest/scale-to-width-down/220?cb=20260907220911",
       "income_str": "$500M/s",
       "baseIncome": 500000000.0,
       "slug": "world-eater"
@@ -2128,7 +2132,7 @@
       "rarity": "Eternal",
       "biome": "Cherry Blossom",
       "image_file": "Oni_Tiger.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/55/Oni_Tiger.png/revision/latest/scale-to-width-down/180?cb=20260903135620",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/55/Oni_Tiger.png/revision/latest/scale-to-width-down/220?cb=20260903135620",
       "income_str": "$600M/s",
       "baseIncome": 600000000.0,
       "slug": "oni-tiger"
@@ -2139,7 +2143,7 @@
       "rarity": "Eternal",
       "biome": "Luminous Egg",
       "image_file": "Terra_Snapper.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/1b/Terra_Snapper.png/revision/latest/scale-to-width-down/180?cb=20260912182822",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/1b/Terra_Snapper.png/revision/latest/scale-to-width-down/220?cb=20260912182822",
       "income_str": "$750M/s",
       "baseIncome": 750000000.0,
       "slug": "terra-snapper"
@@ -2150,7 +2154,7 @@
       "rarity": "Eternal",
       "biome": "Rift",
       "image_file": "Shattered_Drake.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/ce/Shattered_Drake.png/revision/latest/scale-to-width-down/180?cb=20260907221122",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/ce/Shattered_Drake.png/revision/latest/scale-to-width-down/220?cb=20260907221122",
       "income_str": "$800M/s",
       "baseIncome": 800000000.0,
       "slug": "shattered-drake"
@@ -2161,7 +2165,7 @@
       "rarity": "Eternal",
       "biome": "Titan Temple",
       "image_file": "Gorilla_King.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/bc/Gorilla_King.png/revision/latest/scale-to-width-down/180?cb=20260901190751",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/bc/Gorilla_King.png/revision/latest/scale-to-width-down/220?cb=20260901190751",
       "income_str": "$880M/s",
       "baseIncome": 880000000.0,
       "slug": "gorilla-king"
@@ -2172,7 +2176,7 @@
       "rarity": "Eternal",
       "biome": "Rift",
       "image_file": "Void_Serpent.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/04/Void_Serpent.png/revision/latest/scale-to-width-down/180?cb=20260907221017",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/04/Void_Serpent.png/revision/latest/scale-to-width-down/220?cb=20260907221017",
       "income_str": "$900M/s",
       "baseIncome": 900000000.0,
       "slug": "void-serpent"
@@ -2183,7 +2187,7 @@
       "rarity": "Eternal",
       "biome": "Angels & Demons",
       "image_file": "Pegasus.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/4a/Pegasus.png/revision/latest/scale-to-width-down/180?cb=20260912164629",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/4a/Pegasus.png/revision/latest/scale-to-width-down/220?cb=20260912164629",
       "income_str": "$1.3B/s",
       "baseIncome": 1300000000.0,
       "slug": "pegasus"
@@ -2194,7 +2198,7 @@
       "rarity": "Eternal",
       "biome": "Angels & Demons",
       "image_file": "Skeleton Horse.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/de/Skeleton_Horse.png/revision/latest/scale-to-width-down/180?cb=20260912164727",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/de/Skeleton_Horse.png/revision/latest/scale-to-width-down/220?cb=20260912164727",
       "income_str": "$1.3B/s",
       "baseIncome": 1300000000.0,
       "slug": "skeleton-horse"
@@ -2205,7 +2209,7 @@
       "rarity": "Eternal",
       "biome": "Luminous Reroll Egg",
       "image_file": "Luminous_Electric_Eel.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c3/Luminous_Electric_Eel.png/revision/latest/scale-to-width-down/180?cb=20260912182742",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c3/Luminous_Electric_Eel.png/revision/latest/scale-to-width-down/220?cb=20260912182742",
       "income_str": "$1.75B/s",
       "baseIncome": 1750000000.0,
       "slug": "luminous-electric-eel"
@@ -2216,7 +2220,7 @@
       "rarity": "Eternal",
       "biome": "Angels & Demons",
       "image_file": "Equinox.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e7/Equinox.png/revision/latest/scale-to-width-down/180?cb=20260913045536",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e7/Equinox.png/revision/latest/scale-to-width-down/220?cb=20260913045536",
       "income_str": "$1.8B/s",
       "baseIncome": 1800000000.0,
       "slug": "equinox"
@@ -2227,7 +2231,7 @@
       "rarity": "Eternal",
       "biome": "Luminous Reroll Egg",
       "image_file": "Luminous_Terra_Snapper.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0b/Luminous_Terra_Snapper.png/revision/latest/scale-to-width-down/180?cb=20260912182734",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0b/Luminous_Terra_Snapper.png/revision/latest/scale-to-width-down/220?cb=20260912182734",
       "income_str": "$2.5B/s",
       "baseIncome": 2500000000.0,
       "slug": "luminous-terra-snapper"
@@ -2238,7 +2242,7 @@
       "rarity": "Eternal",
       "biome": "Skeletal Egg",
       "image_file": "Gigantus.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0d/Gigantus.png/revision/latest/scale-to-width-down/180?cb=20260927050405",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0d/Gigantus.png/revision/latest/scale-to-width-down/220?cb=20260927050405",
       "income_str": "$1B/s",
       "baseIncome": 1000000000.0,
       "slug": "gigantus"
@@ -2249,7 +2253,7 @@
       "rarity": "Eternal",
       "biome": "Skeletal Egg",
       "image_file": "Skeletal Dunkleosteus.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/b8/Skeletal_Dunkleosteus.png/revision/latest/scale-to-width-down/180?cb=20260927050316",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/b8/Skeletal_Dunkleosteus.png/revision/latest/scale-to-width-down/220?cb=20260927050316",
       "income_str": "$2.5B/s",
       "baseIncome": 2500000000.0,
       "slug": "skeletal-dunkleosteus"
@@ -2260,7 +2264,7 @@
       "rarity": "Eternal",
       "biome": "Skeletal Egg",
       "image_file": "Skeletal Gigantus.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0a/Skeletal_Gigantus.png/revision/latest/scale-to-width-down/180?cb=20260927050353",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0a/Skeletal_Gigantus.png/revision/latest/scale-to-width-down/220?cb=20260927050353",
       "income_str": "$4B/s",
       "baseIncome": 4000000000.0,
       "slug": "skeletal-gigantus"
@@ -2271,7 +2275,7 @@
       "rarity": "Eternal",
       "biome": "Biohazard Egg",
       "image_file": "Nuclear Mantis.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/1f/Nuclear_Mantis.png/revision/latest/scale-to-width-down/180?cb=20260927050502",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/1f/Nuclear_Mantis.png/revision/latest/scale-to-width-down/220?cb=20260927050502",
       "income_str": "$1.5B/s",
       "baseIncome": 1500000000.0,
       "slug": "nuclear-mantis"
@@ -2293,7 +2297,7 @@
       "rarity": "Eternal",
       "biome": "Experimental Egg",
       "image_file": "Dreadstinger.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/15/Dreadstinger.png/revision/latest/scale-to-width-down/180?cb=20260927050539",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/15/Dreadstinger.png/revision/latest/scale-to-width-down/220?cb=20260927050539",
       "income_str": "$2B/s",
       "baseIncome": 2000000000.0,
       "slug": "dreadstinger"
@@ -2304,7 +2308,7 @@
       "rarity": "Eternal",
       "biome": "Unstable Egg",
       "image_file": "Rhinobear.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/fe/Rhinobear.png/revision/latest/scale-to-width-down/180?cb=20260927050612",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/fe/Rhinobear.png/revision/latest/scale-to-width-down/220?cb=20260927050612",
       "income_str": "$1B/s",
       "baseIncome": 1000000000.0,
       "slug": "rhinobear"
@@ -2315,7 +2319,7 @@
       "rarity": "Eternal",
       "biome": "Event",
       "image_file": "Pink Dragon Experiment.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/f7/Pink_Dragon_Experiment.png/revision/latest/scale-to-width-down/180?cb=20260927050657",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/f7/Pink_Dragon_Experiment.png/revision/latest/scale-to-width-down/220?cb=20260927050657",
       "income_str": "$2.5B/s",
       "baseIncome": 2500000000.0,
       "slug": "pink-dragon-experiment-010"
@@ -2447,7 +2451,7 @@
       "rarity": "Divine",
       "biome": "Cosmic",
       "image_file": "Unicorn.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/7e/Unicorn.png/revision/latest/scale-to-width-down/180?cb=20260901185215",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/7e/Unicorn.png/revision/latest/scale-to-width-down/220?cb=20260901185215",
       "income_str": "$1B/s",
       "baseIncome": 1000000000.0,
       "slug": "unicorn"
@@ -2458,7 +2462,7 @@
       "rarity": "Divine",
       "biome": "Cherry Blossom",
       "image_file": "Kitsune.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/04/Kitsune.png/revision/latest/scale-to-width-down/180?cb=20260903135644",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/04/Kitsune.png/revision/latest/scale-to-width-down/220?cb=20260903135644",
       "income_str": "$1.8B/s",
       "baseIncome": 1800000000.0,
       "slug": "kitsune"
@@ -2469,7 +2473,7 @@
       "rarity": "Divine",
       "biome": "Luminous Egg",
       "image_file": "Cthulhu.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/9e/Cthulhu.png/revision/latest/scale-to-width-down/180?cb=20260912182814",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/9e/Cthulhu.png/revision/latest/scale-to-width-down/220?cb=20260912182814",
       "income_str": "$3B/s",
       "baseIncome": 3000000000.0,
       "slug": "cthulhu"
@@ -2480,7 +2484,7 @@
       "rarity": "Divine",
       "biome": "Titan Temple",
       "image_file": "Nightflame.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/aa/Nightflame.png/revision/latest/scale-to-width-down/180?cb=20260901190742",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/aa/Nightflame.png/revision/latest/scale-to-width-down/220?cb=20260901190742",
       "income_str": "$3B/s",
       "baseIncome": 3000000000.0,
       "slug": "nightflame"
@@ -2491,7 +2495,7 @@
       "rarity": "Divine",
       "biome": "Rift",
       "image_file": "Shattered_Colossus.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a4/Shattered_Colossus.png/revision/latest/scale-to-width-down/180?cb=20260907221329",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a4/Shattered_Colossus.png/revision/latest/scale-to-width-down/220?cb=20260907221329",
       "income_str": "$3.5B/s",
       "baseIncome": 3500000000.0,
       "slug": "shattered-colossus"
@@ -2502,7 +2506,7 @@
       "rarity": "Divine",
       "biome": "Angels & Demons",
       "image_file": "ArchAngel.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/60/ArchAngel.png/revision/latest/scale-to-width-down/180?cb=20260912164639",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/60/ArchAngel.png/revision/latest/scale-to-width-down/220?cb=20260912164639",
       "income_str": "$5B/s",
       "baseIncome": 5000000000.0,
       "slug": "archangel"
@@ -2513,7 +2517,7 @@
       "rarity": "Divine",
       "biome": "Angels & Demons",
       "image_file": "World Burner.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/fe/World_Burner.png/revision/latest/scale-to-width-down/180?cb=20260912164738",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/fe/World_Burner.png/revision/latest/scale-to-width-down/220?cb=20260912164738",
       "income_str": "$5B/s",
       "baseIncome": 5000000000.0,
       "slug": "world-burner"
@@ -2524,7 +2528,7 @@
       "rarity": "Divine",
       "biome": "Luminous Reroll Egg",
       "image_file": "Luminous_Cthulhu.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/54/Luminous_Cthulhu.png/revision/latest/scale-to-width-down/180?cb=20260912182725",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/54/Luminous_Cthulhu.png/revision/latest/scale-to-width-down/220?cb=20260912182725",
       "income_str": "$6.5B/s",
       "baseIncome": 6500000000.0,
       "slug": "luminous-cthulhu"
@@ -2535,7 +2539,7 @@
       "rarity": "Divine",
       "biome": "Angels & Demons",
       "image_file": "Aetheron.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e7/Aetheron.png/revision/latest/scale-to-width-down/180?cb=20260913045520",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e7/Aetheron.png/revision/latest/scale-to-width-down/220?cb=20260913045520",
       "income_str": "$6.9B/s",
       "baseIncome": 6900000000.0,
       "slug": "aetheron"
@@ -2546,7 +2550,7 @@
       "rarity": "Divine",
       "biome": "Extinction Egg",
       "image_file": "Sabertooth.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a4/Sabertooth.png/revision/latest/scale-to-width-down/180?cb=20260927050256",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a4/Sabertooth.png/revision/latest/scale-to-width-down/220?cb=20260927050256",
       "income_str": "$5B/s",
       "baseIncome": 5000000000.0,
       "slug": "sabertooth"
@@ -2557,7 +2561,7 @@
       "rarity": "Divine",
       "biome": "Skeletal Egg",
       "image_file": "Skeletal Sabertooth.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/63/Skeletal_Sabertooth.png/revision/latest/scale-to-width-down/180?cb=20260927050416",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/63/Skeletal_Sabertooth.png/revision/latest/scale-to-width-down/220?cb=20260927050416",
       "income_str": "$9B/s",
       "baseIncome": 9000000000.0,
       "slug": "skeletal-sabertooth"
@@ -2568,7 +2572,7 @@
       "rarity": "Divine",
       "biome": "Unstable Egg",
       "image_file": "Octophant.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/18/Octophant.png/revision/latest/scale-to-width-down/180?cb=20260927050620",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/18/Octophant.png/revision/latest/scale-to-width-down/220?cb=20260927050620",
       "income_str": "$4B/s",
       "baseIncome": 4000000000.0,
       "slug": "octophant"
@@ -2579,7 +2583,7 @@
       "rarity": "Divine",
       "biome": "Event",
       "image_file": "Mecha Scrambler.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/70/Mecha_Scrambler.png/revision/latest/scale-to-width-down/180?cb=20260927050809",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/70/Mecha_Scrambler.png/revision/latest/scale-to-width-down/220?cb=20260927050809",
       "income_str": "$7.5B/s",
       "baseIncome": 7500000000.0,
       "slug": "mecha-scrambler"
@@ -2667,7 +2671,7 @@
       "rarity": "Brainrot",
       "biome": "Brainrot Egg",
       "image_file": "Tung_Tung_Sahur.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/65/Tung_Tung_Sahur.png/revision/latest/scale-to-width-down/180?cb=20260901184501",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/65/Tung_Tung_Sahur.png/revision/latest/scale-to-width-down/220?cb=20260901184501",
       "income_str": "$100/s",
       "baseIncome": 100.0,
       "slug": "tung-tung-sahur"
@@ -2678,7 +2682,7 @@
       "rarity": "Brainrot",
       "biome": "Brainrot Egg",
       "image_file": "Bananita_Dolphinita.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e4/Bananita_Dolphinita.png/revision/latest/scale-to-width-down/180?cb=20260901184453",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e4/Bananita_Dolphinita.png/revision/latest/scale-to-width-down/220?cb=20260901184453",
       "income_str": "$400/s",
       "baseIncome": 400.0,
       "slug": "bananita-dolphinita"
@@ -2689,7 +2693,7 @@
       "rarity": "Brainrot",
       "biome": "Brainrot Egg",
       "image_file": "Belula_Beluga.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/16/Belula_Beluga.png/revision/latest/scale-to-width-down/180?cb=20260901184444",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/16/Belula_Beluga.png/revision/latest/scale-to-width-down/220?cb=20260901184444",
       "income_str": "$40K/s",
       "baseIncome": 40000.0,
       "slug": "belula-beluga"
@@ -2700,7 +2704,7 @@
       "rarity": "Brainrot",
       "biome": "Brainrot Egg",
       "image_file": "Mangolini_Parrochini.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/91/Mangolini_Parrochini.png/revision/latest/scale-to-width-down/180?cb=20260901184435",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/91/Mangolini_Parrochini.png/revision/latest/scale-to-width-down/220?cb=20260901184435",
       "income_str": "$800K/s",
       "baseIncome": 800000.0,
       "slug": "mangolini-parrochini"
@@ -2711,7 +2715,7 @@
       "rarity": "Brainrot",
       "biome": "Brainrot Egg",
       "image_file": "Bomboclat_Crocolat.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/3/3c/Bomboclat_Crocolat.png/revision/latest/scale-to-width-down/180?cb=20260901184425",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/3/3c/Bomboclat_Crocolat.png/revision/latest/scale-to-width-down/220?cb=20260901184425",
       "income_str": "$20M/s",
       "baseIncome": 20000000.0,
       "slug": "bomboclat-crocolat"
@@ -2722,7 +2726,7 @@
       "rarity": "Brainrot",
       "biome": "Brainrot Egg",
       "image_file": "Strawberry_Elephant.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/7b/Strawberry_Elephant.png/revision/latest/scale-to-width-down/180?cb=20260901184411",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/7b/Strawberry_Elephant.png/revision/latest/scale-to-width-down/220?cb=20260901184411",
       "income_str": "$110M/s",
       "baseIncome": 110000000.0,
       "slug": "strawberry-elephant"
@@ -2733,7 +2737,7 @@
       "rarity": "Monster",
       "biome": "Monster Egg",
       "image_file": "Scorpio.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/69/Scorpio.png/revision/latest/scale-to-width-down/180?cb=20260904023541",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/69/Scorpio.png/revision/latest?cb=20260904023541",
       "income_str": "$10K/s",
       "baseIncome": 10000.0,
       "slug": "scorpio"
@@ -2744,7 +2748,7 @@
       "rarity": "Monster",
       "biome": "Monster Egg",
       "image_file": "Froggo.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/fc/Froggo.png/revision/latest/scale-to-width-down/180?cb=20260904023547",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/fc/Froggo.png/revision/latest?cb=20260904023547",
       "income_str": "$50K/s",
       "baseIncome": 50000.0,
       "slug": "froggo"
@@ -2755,7 +2759,7 @@
       "rarity": "Monster",
       "biome": "Monster Egg",
       "image_file": "Crawler.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/48/Crawler.png/revision/latest/scale-to-width-down/180?cb=20260904023508",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/48/Crawler.png/revision/latest?cb=20260904023508",
       "income_str": "$1.5M/s",
       "baseIncome": 1500000.0,
       "slug": "crawler"
@@ -2766,7 +2770,7 @@
       "rarity": "Monster",
       "biome": "Monster Egg",
       "image_file": "Crocodon.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/61/Crocodon.png/revision/latest/scale-to-width-down/180?cb=20260904023516",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/6/61/Crocodon.png/revision/latest?cb=20260904023516",
       "income_str": "$30M/s",
       "baseIncome": 30000000.0,
       "slug": "crocodon"
@@ -2777,7 +2781,7 @@
       "rarity": "Monster",
       "biome": "Mecha Egg",
       "image_file": "Mecha_Scorpio.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/76/Mecha_Scorpio.png/revision/latest/scale-to-width-down/180?cb=20260904025421",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/7/76/Mecha_Scorpio.png/revision/latest?cb=20260904025421",
       "income_str": "$45M/s",
       "baseIncome": 45000000.0,
       "slug": "mecha-scorpio"
@@ -2788,7 +2792,7 @@
       "rarity": "Monster",
       "biome": "Mecha Egg",
       "image_file": "Mecha_Froggo.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/18/Mecha_Froggo.png/revision/latest/scale-to-width-down/180?cb=20260904023614",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/18/Mecha_Froggo.png/revision/latest?cb=20260904023614",
       "income_str": "$155M/s",
       "baseIncome": 155000000.0,
       "slug": "mecha-froggo"
@@ -2799,7 +2803,7 @@
       "rarity": "Monster",
       "biome": "Mecha Egg",
       "image_file": "Mecha_Crawler.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0d/Mecha_Crawler.png/revision/latest/scale-to-width-down/180?cb=20260904023554",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/0/0d/Mecha_Crawler.png/revision/latest?cb=20260904023554",
       "income_str": "$320M/s",
       "baseIncome": 320000000.0,
       "slug": "mecha-crawler"
@@ -2810,7 +2814,7 @@
       "rarity": "Monster",
       "biome": "Monster Egg",
       "image_file": "Krakenoid.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c6/Krakenoid.png/revision/latest/scale-to-width-down/180?cb=20260904023524",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c6/Krakenoid.png/revision/latest?cb=20260904023524",
       "income_str": "$500M/s",
       "baseIncome": 500000000.0,
       "slug": "krakenoid"
@@ -2821,7 +2825,7 @@
       "rarity": "Monster",
       "biome": "Mecha Egg",
       "image_file": "Mecha_Crocodon.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/ff/Mecha_Crocodon.png/revision/latest/scale-to-width-down/180?cb=20260904023600",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/ff/Mecha_Crocodon.png/revision/latest?cb=20260904023600",
       "income_str": "$680M/s",
       "baseIncome": 680000000.0,
       "slug": "mecha-crocodon"
@@ -2832,7 +2836,7 @@
       "rarity": "Monster",
       "biome": "Mecha Egg",
       "image_file": "Mecha_Krakenoid.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/1b/Mecha_Krakenoid.png/revision/latest/scale-to-width-down/180?cb=20260904023626",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/1b/Mecha_Krakenoid.png/revision/latest?cb=20260904023626",
       "income_str": "$1B/s",
       "baseIncome": 1000000000.0,
       "slug": "mecha-krakenoid"
@@ -2843,7 +2847,7 @@
       "rarity": "Monster",
       "biome": "Monster Egg",
       "image_file": "Dreadscale.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/3/3b/Dreadscale.png/revision/latest/scale-to-width-down/180?cb=20260904023534",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/3/3b/Dreadscale.png/revision/latest?cb=20260904023534",
       "income_str": "$2B/s",
       "baseIncome": 2000000000.0,
       "slug": "dreadscale"
@@ -2854,7 +2858,7 @@
       "rarity": "Monster",
       "biome": "Mecha Egg",
       "image_file": "Mecha_Dreadscale.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c7/Mecha_Dreadscale.png/revision/latest/scale-to-width-down/180?cb=20260904110011",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c7/Mecha_Dreadscale.png/revision/latest/scale-to-width-down/220?cb=20260904110011",
       "income_str": "$4B/s",
       "baseIncome": 4000000000.0,
       "slug": "mecha-dreadscale"
@@ -2865,7 +2869,7 @@
       "rarity": "Event",
       "biome": "Event",
       "image_file": "Baby_Aurora_Dragon.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/17/Baby_Aurora_Dragon.png/revision/latest/scale-to-width-down/180?cb=20260910041443",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/1/17/Baby_Aurora_Dragon.png/revision/latest/scale-to-width-down/220?cb=20260910041443",
       "income_str": "$5M/s",
       "baseIncome": 5000000.0,
       "slug": "baby-aurora-dragon"
@@ -2876,7 +2880,7 @@
       "rarity": "Event",
       "biome": "Event",
       "image_file": "Shadow_Dragon.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/d5/Shadow_Dragon.png/revision/latest/scale-to-width-down/180?cb=20260910041434",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/d5/Shadow_Dragon.png/revision/latest/scale-to-width-down/220?cb=20260910041434",
       "income_str": "$25M/s",
       "baseIncome": 25000000.0,
       "slug": "shadow-dragon"
@@ -2887,7 +2891,7 @@
       "rarity": "Event",
       "biome": "Event",
       "image_file": "Scorched_Dragon.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c2/Scorched_Dragon.png/revision/latest/scale-to-width-down/180?cb=20260910041417",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c2/Scorched_Dragon.png/revision/latest/scale-to-width-down/220?cb=20260910041417",
       "income_str": "$35M/s",
       "baseIncome": 35000000.0,
       "slug": "scorched-dragon"
@@ -2898,7 +2902,7 @@
       "rarity": "Event",
       "biome": "Event",
       "image_file": "Drilla.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c9/Drilla.png/revision/latest/scale-to-width-down/180?cb=20260908022914",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/c/c9/Drilla.png/revision/latest/scale-to-width-down/220?cb=20260908022914",
       "income_str": "$100M/s",
       "baseIncome": 100000000.0,
       "slug": "drilla"
@@ -2909,7 +2913,7 @@
       "rarity": "Event",
       "biome": "Event",
       "image_file": "Void_Dragon.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/fb/Void_Dragon.png/revision/latest/scale-to-width-down/180?cb=20260907221522",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/fb/Void_Dragon.png/revision/latest/scale-to-width-down/220?cb=20260907221522",
       "income_str": "$120M/s",
       "baseIncome": 120000000.0,
       "slug": "void-dragon"
@@ -2920,7 +2924,7 @@
       "rarity": "Event",
       "biome": "Event",
       "image_file": "Ember_Dragon.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/bb/Ember_Dragon.png/revision/latest/scale-to-width-down/180?cb=20260910041425",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/bb/Ember_Dragon.png/revision/latest/scale-to-width-down/220?cb=20260910041425",
       "income_str": "$600M/s",
       "baseIncome": 600000000.0,
       "slug": "ember-dragon"
@@ -2931,7 +2935,7 @@
       "rarity": "Event",
       "biome": "Event",
       "image_file": "Archdemon_Dragon.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/53/Archdemon_Dragon.png/revision/latest/scale-to-width-down/180?cb=20260910041451",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/5/53/Archdemon_Dragon.png/revision/latest/scale-to-width-down/220?cb=20260910041451",
       "income_str": "$1.25B/s",
       "baseIncome": 1250000000.0,
       "slug": "archdemon-dragon"
