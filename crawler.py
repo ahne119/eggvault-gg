@@ -9,7 +9,7 @@ from datetime import datetime, timezone
 
 UNIVERSE_ID = "10563114921"
 SITE_URL = "https://ahne119.github.io/eggvault-gg"
-GA_ID = "GTM-NSHLLT3J"
+GA_ID = "G-YPEB4EYT4F"
 GA_SCRIPT = (
     f'<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>\n'
     '  <script>\n'
