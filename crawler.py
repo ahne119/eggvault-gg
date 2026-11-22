@@ -9,6 +9,16 @@ from datetime import datetime, timezone
 
 UNIVERSE_ID = "10563114921"
 SITE_URL = "https://ahne119.github.io/eggvault-gg"
+GA_ID = "GTM-NSHLLT3J"
+GA_SCRIPT = (
+    f'<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>\n'
+    '  <script>\n'
+    '    window.dataLayer = window.dataLayer || [];\n'
+    '    function gtag(){dataLayer.push(arguments);}\n'
+    "    gtag('js', new Date());\n"
+    f"    gtag('config', '{GA_ID}');\n"
+    '  </script>'
+) if GA_ID else ""
 DATA_FILE = "game_data.json"
 WIKI_API = "https://stealanegg.fandom.com/api.php"
 HEADERS = {"User-Agent": "EggVaultBot/1.0 (https://github.com/ahne119/eggvault-gg)"}
@@ -329,6 +339,7 @@ def generate_seo_pages(pets):
   <meta property="og:url" content="{page_url}" />
   {og_image_tag}
   <meta name="theme-color" content="#f59e0b" />
+  {GA_SCRIPT}
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     body {{ background-color: #0b0f19; color: #e2e8f0; font-family: 'Inter', system-ui, -apple-system, sans-serif; }}
