@@ -13,6 +13,15 @@ DATA_FILE = "game_data.json"
 WIKI_API = "https://stealanegg.fandom.com/api.php"
 HEADERS = {"User-Agent": "EggVaultBot/1.0 (https://github.com/ahne119/eggvault-gg)"}
 
+GA_SCRIPT = (
+    '<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NSHLLT3J"></script>\n'
+    '  <script>\n'
+    '    window.dataLayer = window.dataLayer || [];\n'
+    '    function gtag(){dataLayer.push(arguments);}\n'
+    "    gtag('js', new Date());\n"
+    '  </script>'
+)
+
 MUTATIONS = [
     ("Normal", 1.0, "text-slate-200"),
     ("Silver", 1.2, "text-slate-300"),
@@ -280,7 +289,6 @@ def generate_seo_pages(pets):
             else '<div class="w-24 h-24 rounded-2xl bg-slate-800 flex items-center justify-center text-4xl border border-slate-700">🥚</div>'
         )
 
-        # 변이 + 무게(1kg, 2.5kg, 5kg) 표 생성
         mut_rows = []
         for m_name, mult, cls in MUTATIONS:
             v1 = html.escape(format_money(base_inc * mult * 1.0))
@@ -295,7 +303,6 @@ def generate_seo_pages(pets):
                 f'</tr>'
             )
 
-        # 같은 바이옴 또는 같은 등급의 연관 펫 최대 6개 내부 링크(SEO 핵심)
         related = [
             x for x in pets
             if x["slug"] != slug and (x["biome"] == p["biome"] or x["rarity"] == p["rarity"])
@@ -329,6 +336,7 @@ def generate_seo_pages(pets):
   <meta property="og:url" content="{page_url}" />
   {og_image_tag}
   <meta name="theme-color" content="#f59e0b" />
+  {GA_SCRIPT}
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     body {{ background-color: #0b0f19; color: #e2e8f0; font-family: 'Inter', system-ui, -apple-system, sans-serif; }}
@@ -489,7 +497,7 @@ def load_existing_data():
 
 
 def main():
-    print("🚀 Steal An Egg v4 (SEO Page Generator) 시작...")
+    print("🚀 Steal An Egg v4 (SEO + GA Page Generator) 시작...")
     existing = load_existing_data()
 
     live_stats = fetch_roblox_live_stats()
