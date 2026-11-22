@@ -11,13 +11,13 @@
   </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>EggVault.gg — Steal An Egg Values, WFL Calculator & P2P Trading Hub</title>
-  <meta name="description" content="Complete Steal An Egg pet index, live base income values, mutation multipliers, WFL trade calculator, and safe P2P trading hub." />
+  <title>EggVault.gg — Steal An Egg Values, Codes, WFL Calculator & P2P Trading Hub</title>
+  <meta name="description" content="Complete Steal An Egg pet index, working codes tracker, live base income values, mutation multipliers, WFL trade calculator, and safe P2P trading hub." />
 
   <!-- Open Graph / Discord / Social Preview -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="EggVault.gg — Steal An Egg Values, WFL Calculator & P2P Trades" />
-  <meta property="og:description" content="Live Steal An Egg pet values, base $/s income, mutation multipliers, WFL trade calculator, and safe P2P trading board." />
+  <meta property="og:title" content="EggVault.gg — Steal An Egg Values, Codes, WFL Calculator & P2P Trades" />
+  <meta property="og:description" content="Live Steal An Egg pet values, codes status, base $/s income, mutation multipliers, WFL trade calculator, and safe P2P trading board." />
   <meta property="og:url" content="https://ahne119.github.io/eggvault-gg/" />
   <meta name="theme-color" content="#f59e0b" />
 
@@ -51,23 +51,24 @@
 
   <!-- Navbar -->
   <header class="glass sticky top-0 z-40">
-    <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-      <div class="flex items-center gap-2.5">
+    <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between gap-2">
+      <div class="flex items-center gap-2.5 shrink-0">
         <img id="game-icon-img" src="" alt="Steal An Egg" class="hidden w-9 h-9 rounded-xl object-cover shadow-lg border border-amber-400/40" />
         <div id="game-icon-fallback" class="w-9 h-9 rounded-xl bg-gradient-to-br from-amber-400 to-orange-600 flex items-center justify-center text-xl shadow-lg">🥚</div>
-        <div>
+        <div class="hidden sm:block">
           <span class="font-extrabold text-lg tracking-tight text-white">EggVault<span class="text-amber-400">.gg</span></span>
           <p class="text-[10px] text-slate-400 -mt-1">Steal An Egg Values &amp; Trades</p>
         </div>
       </div>
 
-      <nav class="flex items-center gap-1 sm:gap-2">
-        <button onclick="switchTab('database')" id="nav-database" class="tab-btn px-3 py-2 rounded-lg text-sm font-semibold bg-indigo-600 text-white transition">📚 Pet Wiki</button>
-        <button onclick="switchTab('calculator')" id="nav-calculator" class="tab-btn px-3 py-2 rounded-lg text-sm font-semibold text-slate-300 hover:bg-slate-800 transition">⚖️ WFL Calc</button>
-        <button onclick="switchTab('trades')" id="nav-trades" class="tab-btn px-3 py-2 rounded-lg text-sm font-semibold text-slate-300 hover:bg-slate-800 transition">🤝 Trade Board</button>
+      <nav class="flex items-center gap-1 sm:gap-2 overflow-x-auto">
+        <button onclick="switchTab('database')" id="nav-database" class="tab-btn whitespace-nowrap px-2.5 sm:px-3 py-2 rounded-lg text-xs sm:text-sm font-semibold bg-indigo-600 text-white transition">📚 Pet Wiki</button>
+        <button onclick="switchTab('calculator')" id="nav-calculator" class="tab-btn whitespace-nowrap px-2.5 sm:px-3 py-2 rounded-lg text-xs sm:text-sm font-semibold text-slate-300 hover:bg-slate-800 transition">⚖️ WFL Calc</button>
+        <button onclick="switchTab('trades')" id="nav-trades" class="tab-btn whitespace-nowrap px-2.5 sm:px-3 py-2 rounded-lg text-xs sm:text-sm font-semibold text-slate-300 hover:bg-slate-800 transition">🤝 Trades</button>
+        <button onclick="switchTab('codes')" id="nav-codes" class="tab-btn whitespace-nowrap px-2.5 sm:px-3 py-2 rounded-lg text-xs sm:text-sm font-semibold text-slate-300 hover:bg-slate-800 transition">🎁 Codes</button>
       </nav>
 
-      <button onclick="alert('Pro Plan ($4.99/mo): Ad-free + Auto-bump listings + Discord Sniper Alerts!')" class="hidden md:flex items-center gap-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-slate-950 font-bold text-xs px-3.5 py-2 rounded-lg hover:opacity-90 transition">
+      <button onclick="alert('Pro Plan ($4.99/mo): Ad-free + Auto-bump listings + Discord Sniper Alerts!')" class="hidden md:flex items-center gap-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-slate-950 font-bold text-xs px-3.5 py-2 rounded-lg hover:opacity-90 transition shrink-0">
         ⚡ Go Pro
       </button>
     </div>
@@ -246,6 +247,39 @@
       <div id="trade-list" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
     </section>
 
+    <!-- TAB 4: WORKING CODES & FREE REWARDS -->
+    <section id="tab-codes" class="hidden space-y-6">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+        <div>
+          <h1 class="text-2xl sm:text-3xl font-extrabold text-white">Steal An Egg Codes &amp; Free Rewards</h1>
+          <p class="text-sm text-slate-400 mt-1">Verified code tracker for Steal An Egg (Updated November 2026).</p>
+        </div>
+        <a href="./codes.html" class="text-xs font-bold px-3.5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-indigo-300 border border-slate-700 transition self-start">
+          🔗 Dedicated Codes Guide
+        </a>
+      </div>
+
+      <div class="glass rounded-2xl p-5 space-y-3 border-l-4 border-l-amber-400">
+        <h2 class="text-lg font-bold text-white">📢 Current Code Status: <span class="text-amber-400">0 Active Codes</span></h2>
+        <p class="text-sm text-slate-300 leading-relaxed">
+          As of <strong>November 2026</strong>, the developers (<em>and Collect Rare Pets</em>) have not added a code redemption box to Steal An Egg yet. Whenever codes are introduced in a Saturday update, they will appear here immediately!
+        </p>
+        <p class="text-xs text-rose-300 bg-rose-500/10 border border-rose-500/20 rounded-lg p-2.5">
+          <b>⚠️ Watch out for fake code videos:</b> Codes like <code>CYBERBIOME</code> or <code>FUSEMACHINE</code> belong to <em>Jump To Steal An Egg</em>, a different Roblox game.
+        </p>
+      </div>
+
+      <div class="glass rounded-2xl p-6 space-y-4">
+        <h2 class="text-xl font-bold text-white">🎁 How to Claim Free +10,000 Speed Right Now</h2>
+        <ol class="list-decimal list-inside space-y-2 text-sm text-slate-200">
+          <li>Open <strong>Steal An Egg</strong> and walk to the <strong>right side of your base area</strong> next to the <strong>Most Money leaderboard</strong>.</li>
+          <li>Stand in the green circle by the <strong>large yellow gift box</strong>.</li>
+          <li><strong>Like &amp; Favorite</strong> the game and join the <strong>"and Collect Rare Pets"</strong> Roblox group.</li>
+          <li>Click <strong>Claim</strong> for an instant <strong class="text-emerald-400">+10,000 Speed</strong> boost!</li>
+        </ol>
+      </div>
+    </section>
+
   </main>
 
   <!-- Post Trade Modal -->
@@ -275,6 +309,8 @@
 
   <footer class="border-t border-slate-800 py-6 text-center text-xs text-slate-500 mt-10 space-y-2">
     <div class="flex justify-center gap-4 text-slate-400">
+      <a href="./codes.html" class="hover:text-white transition">Codes</a>
+      <span>•</span>
       <a href="./about.html" class="hover:text-white transition">About &amp; Contact</a>
       <span>•</span>
       <a href="./privacy.html" class="hover:text-white transition">Privacy Policy</a>
@@ -499,12 +535,12 @@
       }).catch(() => {});
 
     function switchTab(tab) {
-      ['database', 'calculator', 'trades'].forEach(t => {
+      ['database', 'calculator', 'trades', 'codes'].forEach(t => {
         document.getElementById(`tab-${t}`).classList.toggle('hidden', t !== tab);
         const btn = document.getElementById(`nav-${t}`);
         btn.className = (t === tab)
-          ? "tab-btn px-3 py-2 rounded-lg text-sm font-semibold bg-indigo-600 text-white transition"
-          : "tab-btn px-3 py-2 rounded-lg text-sm font-semibold text-slate-300 hover:bg-slate-800 transition";
+          ? "tab-btn whitespace-nowrap px-2.5 sm:px-3 py-2 rounded-lg text-xs sm:text-sm font-semibold bg-indigo-600 text-white transition"
+          : "tab-btn whitespace-nowrap px-2.5 sm:px-3 py-2 rounded-lg text-xs sm:text-sm font-semibold text-slate-300 hover:bg-slate-800 transition";
       });
     }
 
@@ -756,6 +792,8 @@
         switchTab('trades');
       } else if (tab === 'calculator') {
         switchTab('calculator');
+      } else if (tab === 'codes') {
+        switchTab('codes');
       }
     }
 

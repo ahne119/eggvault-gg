@@ -350,9 +350,10 @@ def generate_seo_pages(pets):
         <span>🥚</span><span>EggVault<span class="text-amber-400">.gg</span></span>
       </a>
       <nav class="flex items-center gap-3 text-xs font-semibold">
-        <a href="../index.html" class="text-slate-300 hover:text-white">📚 Pet Wiki</a>
-        <a href="../index.html?tab=calculator&pet={q_name}" class="text-slate-300 hover:text-white">⚖️ WFL Calc</a>
-        <a href="../index.html?tab=trades&search={q_name}" class="px-3 py-1.5 rounded-lg bg-indigo-600 text-white hover:bg-indigo-500">🤝 Find Trades</a>
+        <a href="../index.html" class="text-slate-300 hover:text-white">📚 Wiki</a>
+        <a href="../index.html?tab=calculator&pet={q_name}" class="text-slate-300 hover:text-white">⚖️ WFL</a>
+        <a href="../codes.html" class="text-slate-300 hover:text-white">🎁 Codes</a>
+        <a href="../index.html?tab=trades&search={q_name}" class="px-3 py-1.5 rounded-lg bg-indigo-600 text-white hover:bg-indigo-500">🤝 Trades</a>
       </nav>
     </div>
   </header>
@@ -435,6 +436,7 @@ def generate_seo_pages(pets):
 
   <footer class="border-t border-slate-800 py-6 text-center text-xs text-slate-500 space-y-2">
     <div class="flex justify-center gap-4 text-slate-400">
+      <a href="../codes.html" class="hover:text-white">Codes</a> •
       <a href="../about.html" class="hover:text-white">About</a> •
       <a href="../privacy.html" class="hover:text-white">Privacy Policy</a> •
       <a href="../terms.html" class="hover:text-white">Terms</a>
@@ -466,6 +468,7 @@ def generate_sitemap(pets, updated_ts):
     lastmod = datetime.fromtimestamp(updated_ts or time.time(), tz=timezone.utc).strftime("%Y-%m-%d")
     urls = [
         f"  <url>\n    <loc>{SITE_URL}/</loc>\n    <changefreq>hourly</changefreq>\n    <priority>1.0</priority>\n  </url>",
+        f"  <url>\n    <loc>{SITE_URL}/codes.html</loc>\n    <lastmod>{lastmod}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>0.9</priority>\n  </url>",
         f"  <url>\n    <loc>{SITE_URL}/about.html</loc>\n    <changefreq>monthly</changefreq>\n    <priority>0.5</priority>\n  </url>",
     ]
     for p in pets:
@@ -497,7 +500,7 @@ def load_existing_data():
 
 
 def main():
-    print("🚀 Steal An Egg v4 (SEO + GA Page Generator) 시작...")
+    print("🚀 Steal An Egg v4 (SEO + GA + Codes Page Generator) 시작...")
     existing = load_existing_data()
 
     live_stats = fetch_roblox_live_stats()
