@@ -1,11 +1,11 @@
 {
   "stats": {
     "name": "Steal An Egg",
-    "playing": 421804,
-    "visits": 11837607910,
-    "favorites": 10283138,
+    "playing": 642205,
+    "visits": 11853067391,
+    "favorites": 10291141,
     "updated": "2026-11-23T21:47:10.85Z",
-    "fetched_at": "2026-11-23 22:09 UTC",
+    "fetched_at": "2026-11-24 06:15 UTC",
     "icon_url": "https://tr.rbxcdn.com/180DAY-de1fa1528e87871c3acb258c9e70ef2f/512/512/Image/Png/noFilter"
   },
   "history": [
@@ -40,9 +40,13 @@
     {
       "time": "2026-11-23 22:09 UTC",
       "playing": 421804
+    },
+    {
+      "time": "2026-11-24 06:15 UTC",
+      "playing": 642205
     }
   ],
-  "pets_updated_ts": 1795471784,
+  "pets_updated_ts": 1795500913,
   "pets_count": 265,
   "pets": [
     {
