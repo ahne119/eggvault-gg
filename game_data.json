@@ -1,11 +1,11 @@
 {
   "stats": {
     "name": "Steal An Egg",
-    "playing": 465884,
-    "visits": 11897130788,
-    "favorites": 10320170,
+    "playing": 760150,
+    "visits": 11918067014,
+    "favorites": 10333029,
     "updated": "2026-11-24T16:43:32.863Z",
-    "fetched_at": "2026-11-25 02:41 UTC",
+    "fetched_at": "2026-11-25 12:04 UTC",
     "icon_url": "https://tr.rbxcdn.com/180DAY-de1fa1528e87871c3acb258c9e70ef2f/512/512/Image/Png/noFilter"
   },
   "history": [
@@ -52,10 +52,14 @@
     {
       "time": "2026-11-25 02:41 UTC",
       "playing": 465884
+    },
+    {
+      "time": "2026-11-25 12:04 UTC",
+      "playing": 760150
     }
   ],
-  "pets_updated_ts": 1795574515,
-  "pets_count": 265,
+  "pets_updated_ts": 1795608263,
+  "pets_count": 260,
   "pets": [
     {
       "id": 1,
@@ -381,8 +385,8 @@
       "name": "Whiskers",
       "rarity": "Epic",
       "biome": "Halloween Dimension",
-      "image_file": "Whiskers.png",
-      "image_url": "",
+      "image_file": "Whiskers.webp",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/b/b9/Whiskers.webp/revision/latest/scale-to-width-down/220?cb=20261021221218",
       "income_str": "$2K/s",
       "baseIncome": 2000.0,
       "slug": "whiskers"
@@ -620,7 +624,7 @@
     },
     {
       "id": 52,
-      "name": "Eye Bat #021",
+      "name": "Eye Bat 021",
       "rarity": "Legendary",
       "biome": "Event",
       "image_file": "Eye Bat.png",
@@ -645,8 +649,8 @@
       "name": "Candy Corn",
       "rarity": "Legendary",
       "biome": "Halloween Dimension",
-      "image_file": "Candy Corn.png",
-      "image_url": "",
+      "image_file": "Candy Corn.webp",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e8/Candy_Corn.webp/revision/latest/scale-to-width-down/220?cb=20261022055733",
       "income_str": "$17.5K/s",
       "baseIncome": 17500.0,
       "slug": "candy-corn"
@@ -656,8 +660,8 @@
       "name": "Pumpkin Fiend",
       "rarity": "Legendary",
       "biome": "Halloween Dimension",
-      "image_file": "Pumpkin Fiend.png",
-      "image_url": "",
+      "image_file": "Pumpkin Fiend.webp",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/a/a2/Pumpkin_Fiend.webp/revision/latest/scale-to-width-down/220?cb=20261022061502",
       "income_str": "$35K/s",
       "baseIncome": 35000.0,
       "slug": "pumpkin-fiend"
@@ -667,8 +671,8 @@
       "name": "Jesterpop",
       "rarity": "Legendary",
       "biome": "Halloween Dimension",
-      "image_file": "Jesterpop.png",
-      "image_url": "",
+      "image_file": "Jesterpop.webp",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/f/f5/Jesterpop.webp/revision/latest/scale-to-width-down/220?cb=20261022060719",
       "income_str": "$40K/s",
       "baseIncome": 40000.0,
       "slug": "jesterpop"
@@ -678,8 +682,8 @@
       "name": "Hooded Gerbil",
       "rarity": "Legendary",
       "biome": "Halloween Dimension",
-      "image_file": "Hooded Gerbil.png",
-      "image_url": "",
+      "image_file": "Hooded Gerbil.webp",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/9/90/Hooded_Gerbil.webp/revision/latest/scale-to-width-down/220?cb=20261022060600",
       "income_str": "$300K/s",
       "baseIncome": 300000.0,
       "slug": "hooded-gerbil"
@@ -689,8 +693,8 @@
       "name": "Mimic Chest",
       "rarity": "Legendary",
       "biome": "Halloween Dimension",
-      "image_file": "Mimic Chest.png",
-      "image_url": "",
+      "image_file": "Mimic Chest.webp",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/3/33/Mimic_Chest.webp/revision/latest/scale-to-width-down/220?cb=20261022060835",
       "income_str": "$600K/s",
       "baseIncome": 600000.0,
       "slug": "mimic-chest"
@@ -700,8 +704,8 @@
       "name": "Race Seahorse",
       "rarity": "Legendary",
       "biome": "Unknown",
-      "image_file": "Race Seahorse.png",
-      "image_url": "",
+      "image_file": "Race Seahorse.webp",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/e/e2/Race_Seahorse.webp/revision/latest/scale-to-width-down/220?cb=20261017112031",
       "income_str": "$140K/s",
       "baseIncome": 140000.0,
       "slug": "race-seahorse"
@@ -711,8 +715,8 @@
       "name": "Coffin Crawler",
       "rarity": "Legendary",
       "biome": "Unknown",
-      "image_file": "Coffin Crawler.png",
-      "image_url": "",
+      "image_file": "Coffin Crawler.webp",
+      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/8/81/Coffin_Crawler.webp/revision/latest?cb=20261124072522",
       "income_str": "$175K/s",
       "baseIncome": 175000.0,
       "slug": "coffin-crawler"
@@ -961,7 +965,7 @@
     },
     {
       "id": 83,
-      "name": "Citadel Snail #007",
+      "name": "Citadel Snail 007",
       "rarity": "Mythic",
       "biome": "Event",
       "image_file": "Citadel Snail.png",
@@ -1071,7 +1075,7 @@
     },
     {
       "id": 93,
-      "name": "Nibbles #013",
+      "name": "Nibbles 013",
       "rarity": "Cosmic",
       "biome": "Event",
       "image_file": "Nibbles -013.png",
@@ -1467,39 +1471,6 @@
     },
     {
       "id": 129,
-      "name": "Hellhound",
-      "rarity": "Cosmic",
-      "biome": "Event",
-      "image_file": "Hellhound.png",
-      "image_url": "",
-      "income_str": "$1.8M/s",
-      "baseIncome": 1800000.0,
-      "slug": "hellhound"
-    },
-    {
-      "id": 130,
-      "name": "Riptide Octopus",
-      "rarity": "Cosmic",
-      "biome": "Luminous Egg",
-      "image_file": "Riptide Octopus.png",
-      "image_url": "",
-      "income_str": "$1.5M/s",
-      "baseIncome": 1500000.0,
-      "slug": "riptide-octopus"
-    },
-    {
-      "id": 131,
-      "name": "Depths Riptide Octopus",
-      "rarity": "Cosmic",
-      "biome": "Luminous Reroll Egg",
-      "image_file": "Depths Riptide Octopus.png",
-      "image_url": "",
-      "income_str": "$430M/s",
-      "baseIncome": 430000000.0,
-      "slug": "depths-riptide-octopus"
-    },
-    {
-      "id": 132,
       "name": "Race Bird",
       "rarity": "Cosmic",
       "biome": "Unknown",
@@ -1510,7 +1481,7 @@
       "slug": "race-bird"
     },
     {
-      "id": 133,
+      "id": 130,
       "name": "Phantom Banshee",
       "rarity": "Cosmic",
       "biome": "Unknown",
@@ -1521,7 +1492,7 @@
       "slug": "phantom-banshee"
     },
     {
-      "id": 134,
+      "id": 131,
       "name": "67",
       "rarity": "Secret",
       "biome": "Event",
@@ -1532,7 +1503,7 @@
       "slug": "67"
     },
     {
-      "id": 135,
+      "id": 132,
       "name": "King Snake",
       "rarity": "Secret",
       "biome": "Jungle",
@@ -1543,7 +1514,7 @@
       "slug": "king-snake"
     },
     {
-      "id": 136,
+      "id": 133,
       "name": "Yeti",
       "rarity": "Secret",
       "biome": "Snow",
@@ -1554,7 +1525,7 @@
       "slug": "yeti"
     },
     {
-      "id": 137,
+      "id": 134,
       "name": "Cerberus",
       "rarity": "Secret",
       "biome": "Volcano",
@@ -1565,7 +1536,7 @@
       "slug": "cerberus"
     },
     {
-      "id": 138,
+      "id": 135,
       "name": "Ring Guard",
       "rarity": "Secret",
       "biome": ".",
@@ -1576,7 +1547,7 @@
       "slug": "ring-guard"
     },
     {
-      "id": 139,
+      "id": 136,
       "name": "Wendigo",
       "rarity": "Secret",
       "biome": "Rift",
@@ -1587,7 +1558,7 @@
       "slug": "wendigo"
     },
     {
-      "id": 140,
+      "id": 137,
       "name": "Kraken",
       "rarity": "Secret",
       "biome": "Abyss Ocean",
@@ -1598,7 +1569,7 @@
       "slug": "kraken"
     },
     {
-      "id": 141,
+      "id": 138,
       "name": "T-Rex",
       "rarity": "Secret",
       "biome": "Prehistoric",
@@ -1609,7 +1580,7 @@
       "slug": "t-rex"
     },
     {
-      "id": 142,
+      "id": 139,
       "name": "Tralaledon",
       "rarity": "Secret",
       "biome": "Prehistoric",
@@ -1620,7 +1591,7 @@
       "slug": "tralaledon"
     },
     {
-      "id": 143,
+      "id": 140,
       "name": "Cosmic Skeleton Boss",
       "rarity": "Secret",
       "biome": "Cosmic",
@@ -1631,7 +1602,7 @@
       "slug": "cosmic-skeleton-boss"
     },
     {
-      "id": 144,
+      "id": 141,
       "name": "Mawbreaker",
       "rarity": "Secret",
       "biome": "Rift",
@@ -1642,7 +1613,7 @@
       "slug": "mawbreaker"
     },
     {
-      "id": 145,
+      "id": 142,
       "name": "Cosmic Dragon",
       "rarity": "Secret",
       "biome": "Cosmic",
@@ -1653,7 +1624,7 @@
       "slug": "cosmic-dragon"
     },
     {
-      "id": 146,
+      "id": 143,
       "name": "Stag",
       "rarity": "Secret",
       "biome": "Cherry Blossom",
@@ -1664,7 +1635,7 @@
       "slug": "stag"
     },
     {
-      "id": 147,
+      "id": 144,
       "name": "Shardwing",
       "rarity": "Secret",
       "biome": "Rift",
@@ -1675,7 +1646,7 @@
       "slug": "shardwing"
     },
     {
-      "id": 148,
+      "id": 145,
       "name": "Mutant Shark",
       "rarity": "Secret",
       "biome": "Titan Temple",
@@ -1686,8 +1657,8 @@
       "slug": "mutant-shark"
     },
     {
-      "id": 149,
-      "name": "Experiment #001",
+      "id": 146,
+      "name": "Experiment 001",
       "rarity": "Secret",
       "biome": "Event",
       "image_file": "Experiment -001.png",
@@ -1697,7 +1668,7 @@
       "slug": "experiment-001"
     },
     {
-      "id": 150,
+      "id": 147,
       "name": "Dunkleosteus",
       "rarity": "Secret",
       "biome": "Skeletal Egg",
@@ -1708,7 +1679,7 @@
       "slug": "dunkleosteus"
     },
     {
-      "id": 151,
+      "id": 148,
       "name": "Electric Eel",
       "rarity": "Secret",
       "biome": "Luminous Egg",
@@ -1719,7 +1690,7 @@
       "slug": "electric-eel"
     },
     {
-      "id": 152,
+      "id": 149,
       "name": "Pure Jellyfish",
       "rarity": "Secret",
       "biome": "Angels & Demons",
@@ -1730,7 +1701,7 @@
       "slug": "pure-jellyfish"
     },
     {
-      "id": 153,
+      "id": 150,
       "name": "Gargoyle",
       "rarity": "Secret",
       "biome": "Angels & Demons",
@@ -1741,7 +1712,7 @@
       "slug": "gargoyle"
     },
     {
-      "id": 154,
+      "id": 151,
       "name": "Centaur",
       "rarity": "Secret",
       "biome": "Angels & Demons",
@@ -1752,7 +1723,7 @@
       "slug": "centaur"
     },
     {
-      "id": 155,
+      "id": 152,
       "name": "RazorFang",
       "rarity": "Secret",
       "biome": "Angels & Demons",
@@ -1763,7 +1734,7 @@
       "slug": "razorfang"
     },
     {
-      "id": 156,
+      "id": 153,
       "name": "Luminous Spike",
       "rarity": "Secret",
       "biome": "Luminous Reroll Egg",
@@ -1774,7 +1745,7 @@
       "slug": "luminous-spike"
     },
     {
-      "id": 157,
+      "id": 154,
       "name": "Luminous Spirit Manta",
       "rarity": "Secret",
       "biome": "Luminous Reroll Egg",
@@ -1785,7 +1756,7 @@
       "slug": "luminous-spirit-manta"
     },
     {
-      "id": 158,
+      "id": 155,
       "name": "Luminous Abyss Shark",
       "rarity": "Secret",
       "biome": "Luminous Reroll Egg",
@@ -1796,7 +1767,7 @@
       "slug": "luminous-abyss-shark"
     },
     {
-      "id": 159,
+      "id": 156,
       "name": "Ringlord",
       "rarity": "Secret",
       "biome": ".",
@@ -1807,7 +1778,7 @@
       "slug": "ringlord"
     },
     {
-      "id": 160,
+      "id": 157,
       "name": "Abyss Overlord",
       "rarity": "Secret",
       "biome": "Rift",
@@ -1818,7 +1789,7 @@
       "slug": "abyss-overlord"
     },
     {
-      "id": 161,
+      "id": 158,
       "name": "Skeletal Glyptodon",
       "rarity": "Secret",
       "biome": "Skeletal Egg",
@@ -1829,7 +1800,7 @@
       "slug": "skeletal-glyptodon"
     },
     {
-      "id": 162,
+      "id": 159,
       "name": "Skeletal Terrorbird",
       "rarity": "Secret",
       "biome": "Skeletal Egg",
@@ -1840,7 +1811,7 @@
       "slug": "skeletal-terrorbird"
     },
     {
-      "id": 163,
+      "id": 160,
       "name": "Skeletal Giant Sloth",
       "rarity": "Secret",
       "biome": "Skeletal Egg",
@@ -1851,7 +1822,7 @@
       "slug": "skeletal-giant-sloth"
     },
     {
-      "id": 164,
+      "id": 161,
       "name": "Nuceodile",
       "rarity": "Secret",
       "biome": "Biohazard Egg",
@@ -1862,7 +1833,7 @@
       "slug": "nuceodile"
     },
     {
-      "id": 165,
+      "id": 162,
       "name": "Eyeball Crab",
       "rarity": "Secret",
       "biome": "Experimental Egg",
@@ -1873,7 +1844,7 @@
       "slug": "eyeball-crab"
     },
     {
-      "id": 166,
+      "id": 163,
       "name": "Sharkodile",
       "rarity": "Secret",
       "biome": "Unstable Egg",
@@ -1884,7 +1855,7 @@
       "slug": "sharkodile"
     },
     {
-      "id": 167,
+      "id": 164,
       "name": "Toxic Hedgehog",
       "rarity": "Secret",
       "biome": "Event",
@@ -1895,7 +1866,7 @@
       "slug": "toxic-hedgehog"
     },
     {
-      "id": 168,
+      "id": 165,
       "name": "Mecha Chompa",
       "rarity": "Secret",
       "biome": "Event",
@@ -1906,18 +1877,7 @@
       "slug": "mecha-chompa"
     },
     {
-      "id": 169,
-      "name": "Toxic Crocodile",
-      "rarity": "Secret",
-      "biome": "Event",
-      "image_file": "Toxic Crocodile.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/d/d3/Toxic_Crocodile.png/revision/latest/scale-to-width-down/220?cb=20260927135222",
-      "income_str": "$600M/s",
-      "baseIncome": 600000000.0,
-      "slug": "toxic-crocodile"
-    },
-    {
-      "id": 170,
+      "id": 166,
       "name": "Starry Fox",
       "rarity": "Secret",
       "biome": "Enchanted Forest",
@@ -1928,7 +1888,7 @@
       "slug": "starry-fox"
     },
     {
-      "id": 171,
+      "id": 167,
       "name": "Graveyard Brute",
       "rarity": "Secret",
       "biome": "Halloween Dimension",
@@ -1939,7 +1899,7 @@
       "slug": "graveyard-brute"
     },
     {
-      "id": 172,
+      "id": 168,
       "name": "Pumpkin Golem",
       "rarity": "Secret",
       "biome": "Halloween Dimension",
@@ -1950,7 +1910,7 @@
       "slug": "pumpkin-golem"
     },
     {
-      "id": 173,
+      "id": 169,
       "name": "Grave Cerberus",
       "rarity": "Secret",
       "biome": "Halloween Dimension",
@@ -1961,7 +1921,7 @@
       "slug": "grave-cerberus"
     },
     {
-      "id": 174,
+      "id": 170,
       "name": "BloodBloom",
       "rarity": "Secret",
       "biome": "Halloween Dimension",
@@ -1972,7 +1932,7 @@
       "slug": "bloodbloom"
     },
     {
-      "id": 175,
+      "id": 171,
       "name": "Werewolf",
       "rarity": "Secret",
       "biome": "Halloween Dimension",
@@ -1983,7 +1943,7 @@
       "slug": "werewolf"
     },
     {
-      "id": 176,
+      "id": 172,
       "name": "Zombified Pumpkin Fiend",
       "rarity": "Secret",
       "biome": "Zombified Halloween Egg",
@@ -1994,7 +1954,7 @@
       "slug": "zombified-pumpkin-fiend"
     },
     {
-      "id": 177,
+      "id": 173,
       "name": "Zombified Night Fang",
       "rarity": "Secret",
       "biome": "Zombified Halloween Egg",
@@ -2005,7 +1965,7 @@
       "slug": "zombified-night-fang"
     },
     {
-      "id": 178,
+      "id": 174,
       "name": "Zombified Tombstone Bear",
       "rarity": "Secret",
       "biome": "Zombified Halloween Egg",
@@ -2016,7 +1976,7 @@
       "slug": "zombified-tombstone-bear"
     },
     {
-      "id": 179,
+      "id": 175,
       "name": "Amethyst Runebear",
       "rarity": "Secret",
       "biome": "Unknown",
@@ -2027,7 +1987,7 @@
       "slug": "amethyst-runebear"
     },
     {
-      "id": 180,
+      "id": 176,
       "name": "Midnight Mimic",
       "rarity": "Secret",
       "biome": "Unknown",
@@ -2038,7 +1998,7 @@
       "slug": "midnight-mimic"
     },
     {
-      "id": 181,
+      "id": 177,
       "name": "Ostrich",
       "rarity": "Secret",
       "biome": "Unknown",
@@ -2049,7 +2009,7 @@
       "slug": "ostrich"
     },
     {
-      "id": 182,
+      "id": 178,
       "name": "Jitterbug",
       "rarity": "Secret",
       "biome": "Unknown",
@@ -2060,7 +2020,7 @@
       "slug": "jitterbug"
     },
     {
-      "id": 183,
+      "id": 179,
       "name": "Race Cheetah",
       "rarity": "Secret",
       "biome": "Unknown",
@@ -2071,7 +2031,7 @@
       "slug": "race-cheetah"
     },
     {
-      "id": 184,
+      "id": 180,
       "name": "Vespera",
       "rarity": "Secret",
       "biome": "Unknown",
@@ -2082,7 +2042,7 @@
       "slug": "vespera"
     },
     {
-      "id": 185,
+      "id": 181,
       "name": "Ice Dragon",
       "rarity": "Eternal",
       "biome": "Snow",
@@ -2093,7 +2053,7 @@
       "slug": "ice-dragon"
     },
     {
-      "id": 186,
+      "id": 182,
       "name": "Phoenix",
       "rarity": "Eternal",
       "biome": "Volcano",
@@ -2104,7 +2064,7 @@
       "slug": "phoenix"
     },
     {
-      "id": 187,
+      "id": 183,
       "name": "Lava Dragon",
       "rarity": "Eternal",
       "biome": "Volcano",
@@ -2115,7 +2075,7 @@
       "slug": "lava-dragon"
     },
     {
-      "id": 188,
+      "id": 184,
       "name": "El Maja",
       "rarity": "Eternal",
       "biome": "Abyss Ocean",
@@ -2126,7 +2086,7 @@
       "slug": "el-maja"
     },
     {
-      "id": 189,
+      "id": 185,
       "name": "Mosasaurus",
       "rarity": "Eternal",
       "biome": "Prehistoric",
@@ -2137,7 +2097,7 @@
       "slug": "mosasaurus"
     },
     {
-      "id": 190,
+      "id": 186,
       "name": "Eternal Lunar Dragon",
       "rarity": "Eternal",
       "biome": "Cosmic",
@@ -2148,7 +2108,7 @@
       "slug": "eternal-lunar-dragon"
     },
     {
-      "id": 191,
+      "id": 187,
       "name": "World Eater",
       "rarity": "Eternal",
       "biome": "Rift",
@@ -2159,7 +2119,7 @@
       "slug": "world-eater"
     },
     {
-      "id": 192,
+      "id": 188,
       "name": "Oni Tiger",
       "rarity": "Eternal",
       "biome": "Cherry Blossom",
@@ -2170,7 +2130,7 @@
       "slug": "oni-tiger"
     },
     {
-      "id": 193,
+      "id": 189,
       "name": "Terra Snapper",
       "rarity": "Eternal",
       "biome": "Luminous Egg",
@@ -2181,7 +2141,7 @@
       "slug": "terra-snapper"
     },
     {
-      "id": 194,
+      "id": 190,
       "name": "Shattered Drake",
       "rarity": "Eternal",
       "biome": "Rift",
@@ -2192,7 +2152,7 @@
       "slug": "shattered-drake"
     },
     {
-      "id": 195,
+      "id": 191,
       "name": "Gorilla King",
       "rarity": "Eternal",
       "biome": "Titan Temple",
@@ -2203,7 +2163,7 @@
       "slug": "gorilla-king"
     },
     {
-      "id": 196,
+      "id": 192,
       "name": "Void Serpent",
       "rarity": "Eternal",
       "biome": "Rift",
@@ -2214,7 +2174,7 @@
       "slug": "void-serpent"
     },
     {
-      "id": 197,
+      "id": 193,
       "name": "Pegasus",
       "rarity": "Eternal",
       "biome": "Angels & Demons",
@@ -2225,7 +2185,7 @@
       "slug": "pegasus"
     },
     {
-      "id": 198,
+      "id": 194,
       "name": "Skeleton Horse",
       "rarity": "Eternal",
       "biome": "Angels & Demons",
@@ -2236,7 +2196,7 @@
       "slug": "skeleton-horse"
     },
     {
-      "id": 199,
+      "id": 195,
       "name": "Luminous Electric Eel",
       "rarity": "Eternal",
       "biome": "Luminous Reroll Egg",
@@ -2247,7 +2207,7 @@
       "slug": "luminous-electric-eel"
     },
     {
-      "id": 200,
+      "id": 196,
       "name": "Equinox",
       "rarity": "Eternal",
       "biome": "Angels & Demons",
@@ -2258,7 +2218,7 @@
       "slug": "equinox"
     },
     {
-      "id": 201,
+      "id": 197,
       "name": "Luminous Terra Snapper",
       "rarity": "Eternal",
       "biome": "Luminous Reroll Egg",
@@ -2269,7 +2229,7 @@
       "slug": "luminous-terra-snapper"
     },
     {
-      "id": 202,
+      "id": 198,
       "name": "Gigantus",
       "rarity": "Eternal",
       "biome": "Skeletal Egg",
@@ -2280,7 +2240,7 @@
       "slug": "gigantus"
     },
     {
-      "id": 203,
+      "id": 199,
       "name": "Skeletal Dunkleosteus",
       "rarity": "Eternal",
       "biome": "Skeletal Egg",
@@ -2291,7 +2251,7 @@
       "slug": "skeletal-dunkleosteus"
     },
     {
-      "id": 204,
+      "id": 200,
       "name": "Skeletal Gigantus",
       "rarity": "Eternal",
       "biome": "Skeletal Egg",
@@ -2302,7 +2262,7 @@
       "slug": "skeletal-gigantus"
     },
     {
-      "id": 205,
+      "id": 201,
       "name": "Nuclear Mantis",
       "rarity": "Eternal",
       "biome": "Biohazard Egg",
@@ -2313,18 +2273,7 @@
       "slug": "nuclear-mantis"
     },
     {
-      "id": 206,
-      "name": "Hazardhog",
-      "rarity": "Eternal",
-      "biome": "Biohazard Egg",
-      "image_file": "Hazardhog.png",
-      "image_url": "",
-      "income_str": "$500M/s",
-      "baseIncome": 500000000.0,
-      "slug": "hazardhog"
-    },
-    {
-      "id": 207,
+      "id": 202,
       "name": "Dreadstinger",
       "rarity": "Eternal",
       "biome": "Experimental Egg",
@@ -2335,7 +2284,7 @@
       "slug": "dreadstinger"
     },
     {
-      "id": 208,
+      "id": 203,
       "name": "Rhinobear",
       "rarity": "Eternal",
       "biome": "Unstable Egg",
@@ -2346,8 +2295,8 @@
       "slug": "rhinobear"
     },
     {
-      "id": 209,
-      "name": "Pink Dragon Experiment #010",
+      "id": 204,
+      "name": "Pink Dragon Experiment 010",
       "rarity": "Eternal",
       "biome": "Event",
       "image_file": "Pink Dragon Experiment.png",
@@ -2357,7 +2306,7 @@
       "slug": "pink-dragon-experiment-010"
     },
     {
-      "id": 210,
+      "id": 205,
       "name": "Celestial Sunlion",
       "rarity": "Eternal",
       "biome": "Enchanted Forest",
@@ -2368,7 +2317,7 @@
       "slug": "celestial-sunlion"
     },
     {
-      "id": 211,
+      "id": 206,
       "name": "Ghost Reaper",
       "rarity": "Eternal",
       "biome": "Halloween Dimension",
@@ -2379,7 +2328,7 @@
       "slug": "ghost-reaper"
     },
     {
-      "id": 212,
+      "id": 207,
       "name": "Phantom Dragon",
       "rarity": "Eternal",
       "biome": "Halloween Dimension",
@@ -2390,7 +2339,7 @@
       "slug": "phantom-dragon"
     },
     {
-      "id": 213,
+      "id": 208,
       "name": "Shelltide Voyager",
       "rarity": "Eternal",
       "biome": "Halloween Dimension",
@@ -2401,7 +2350,7 @@
       "slug": "shelltide-voyager"
     },
     {
-      "id": 214,
+      "id": 209,
       "name": "Soul Phantom",
       "rarity": "Eternal",
       "biome": "Halloween Dimension",
@@ -2412,7 +2361,7 @@
       "slug": "soul-phantom"
     },
     {
-      "id": 215,
+      "id": 210,
       "name": "Gorillastein",
       "rarity": "Eternal",
       "biome": "Halloween Dimension",
@@ -2423,7 +2372,7 @@
       "slug": "gorillastein"
     },
     {
-      "id": 216,
+      "id": 211,
       "name": "Zombified Grave Cerberus",
       "rarity": "Eternal",
       "biome": "Zombified Halloween Egg",
@@ -2434,7 +2383,7 @@
       "slug": "zombified-grave-cerberus"
     },
     {
-      "id": 217,
+      "id": 212,
       "name": "Zombified Phantom Dragon",
       "rarity": "Eternal",
       "biome": "Zombified Halloween Egg",
@@ -2445,7 +2394,7 @@
       "slug": "zombified-phantom-dragon"
     },
     {
-      "id": 218,
+      "id": 213,
       "name": "Ghost Fish",
       "rarity": "Eternal",
       "biome": "Unknown",
@@ -2456,7 +2405,7 @@
       "slug": "ghost-fish"
     },
     {
-      "id": 219,
+      "id": 214,
       "name": "Engine Snail",
       "rarity": "Eternal",
       "biome": "Unknown",
@@ -2467,7 +2416,7 @@
       "slug": "engine-snail"
     },
     {
-      "id": 220,
+      "id": 215,
       "name": "Pumpkin Brute",
       "rarity": "Eternal",
       "biome": "Unknown",
@@ -2478,7 +2427,7 @@
       "slug": "pumpkin-brute"
     },
     {
-      "id": 221,
+      "id": 216,
       "name": "Unicorn",
       "rarity": "Divine",
       "biome": "Cosmic",
@@ -2489,7 +2438,7 @@
       "slug": "unicorn"
     },
     {
-      "id": 222,
+      "id": 217,
       "name": "Kitsune",
       "rarity": "Divine",
       "biome": "Cherry Blossom",
@@ -2500,7 +2449,7 @@
       "slug": "kitsune"
     },
     {
-      "id": 223,
+      "id": 218,
       "name": "Cthulhu",
       "rarity": "Divine",
       "biome": "Luminous Egg",
@@ -2511,7 +2460,7 @@
       "slug": "cthulhu"
     },
     {
-      "id": 224,
+      "id": 219,
       "name": "Nightflame",
       "rarity": "Divine",
       "biome": "Titan Temple",
@@ -2522,7 +2471,7 @@
       "slug": "nightflame"
     },
     {
-      "id": 225,
+      "id": 220,
       "name": "Shattered Colossus",
       "rarity": "Divine",
       "biome": "Rift",
@@ -2533,7 +2482,7 @@
       "slug": "shattered-colossus"
     },
     {
-      "id": 226,
+      "id": 221,
       "name": "ArchAngel",
       "rarity": "Divine",
       "biome": "Angels & Demons",
@@ -2544,7 +2493,7 @@
       "slug": "archangel"
     },
     {
-      "id": 227,
+      "id": 222,
       "name": "World Burner",
       "rarity": "Divine",
       "biome": "Angels & Demons",
@@ -2555,7 +2504,7 @@
       "slug": "world-burner"
     },
     {
-      "id": 228,
+      "id": 223,
       "name": "Luminous Cthulhu",
       "rarity": "Divine",
       "biome": "Luminous Reroll Egg",
@@ -2566,7 +2515,7 @@
       "slug": "luminous-cthulhu"
     },
     {
-      "id": 229,
+      "id": 224,
       "name": "Aetheron",
       "rarity": "Divine",
       "biome": "Angels & Demons",
@@ -2577,7 +2526,7 @@
       "slug": "aetheron"
     },
     {
-      "id": 230,
+      "id": 225,
       "name": "Sabertooth",
       "rarity": "Divine",
       "biome": "Extinction Egg",
@@ -2588,7 +2537,7 @@
       "slug": "sabertooth"
     },
     {
-      "id": 231,
+      "id": 226,
       "name": "Skeletal Sabertooth",
       "rarity": "Divine",
       "biome": "Skeletal Egg",
@@ -2599,7 +2548,7 @@
       "slug": "skeletal-sabertooth"
     },
     {
-      "id": 232,
+      "id": 227,
       "name": "Octophant",
       "rarity": "Divine",
       "biome": "Unstable Egg",
@@ -2610,7 +2559,7 @@
       "slug": "octophant"
     },
     {
-      "id": 233,
+      "id": 228,
       "name": "Mecha Scrambler",
       "rarity": "Divine",
       "biome": "Event",
@@ -2621,7 +2570,7 @@
       "slug": "mecha-scrambler"
     },
     {
-      "id": 234,
+      "id": 229,
       "name": "Royal Skywhale",
       "rarity": "Divine",
       "biome": "Enchanted Forest",
@@ -2632,7 +2581,7 @@
       "slug": "royal-skywhale"
     },
     {
-      "id": 235,
+      "id": 230,
       "name": "Spirit World Guardian",
       "rarity": "Divine",
       "biome": "Enchanted Forest",
@@ -2643,7 +2592,7 @@
       "slug": "spirit-world-guardian"
     },
     {
-      "id": 236,
+      "id": 231,
       "name": "Bone Emperor",
       "rarity": "Divine",
       "biome": "Halloween Dimension",
@@ -2654,7 +2603,7 @@
       "slug": "bone-emperor"
     },
     {
-      "id": 237,
+      "id": 232,
       "name": "Voidseer Pumpkin",
       "rarity": "Divine",
       "biome": "Halloween Dimension",
@@ -2665,7 +2614,7 @@
       "slug": "voidseer-pumpkin"
     },
     {
-      "id": 238,
+      "id": 233,
       "name": "Zombified Bone Emperor",
       "rarity": "Divine",
       "biome": "Zombified Halloween Egg",
@@ -2676,7 +2625,7 @@
       "slug": "zombified-bone-emperor"
     },
     {
-      "id": 239,
+      "id": 234,
       "name": "Pumpkin King",
       "rarity": "Divine",
       "biome": "Unknown",
@@ -2687,7 +2636,7 @@
       "slug": "pumpkin-king"
     },
     {
-      "id": 240,
+      "id": 235,
       "name": "Cursed Monarch",
       "rarity": "Divine",
       "biome": "Unknown",
@@ -2698,7 +2647,7 @@
       "slug": "cursed-monarch"
     },
     {
-      "id": 241,
+      "id": 236,
       "name": "Tung Tung Sahur",
       "rarity": "Brainrot",
       "biome": "Brainrot Egg",
@@ -2709,7 +2658,7 @@
       "slug": "tung-tung-sahur"
     },
     {
-      "id": 242,
+      "id": 237,
       "name": "Bananita Dolphinita",
       "rarity": "Brainrot",
       "biome": "Brainrot Egg",
@@ -2720,7 +2669,7 @@
       "slug": "bananita-dolphinita"
     },
     {
-      "id": 243,
+      "id": 238,
       "name": "Belula Beluga",
       "rarity": "Brainrot",
       "biome": "Brainrot Egg",
@@ -2731,7 +2680,7 @@
       "slug": "belula-beluga"
     },
     {
-      "id": 244,
+      "id": 239,
       "name": "Mangolini Parrochini",
       "rarity": "Brainrot",
       "biome": "Brainrot Egg",
@@ -2742,7 +2691,7 @@
       "slug": "mangolini-parrochini"
     },
     {
-      "id": 245,
+      "id": 240,
       "name": "Bomboclat Crocolat",
       "rarity": "Brainrot",
       "biome": "Brainrot Egg",
@@ -2753,7 +2702,7 @@
       "slug": "bomboclat-crocolat"
     },
     {
-      "id": 246,
+      "id": 241,
       "name": "Strawberry Elephant",
       "rarity": "Brainrot",
       "biome": "Brainrot Egg",
@@ -2764,7 +2713,7 @@
       "slug": "strawberry-elephant"
     },
     {
-      "id": 247,
+      "id": 242,
       "name": "Scorpio",
       "rarity": "Monster",
       "biome": "Monster Egg",
@@ -2775,7 +2724,7 @@
       "slug": "scorpio"
     },
     {
-      "id": 248,
+      "id": 243,
       "name": "Froggo",
       "rarity": "Monster",
       "biome": "Monster Egg",
@@ -2786,7 +2735,7 @@
       "slug": "froggo"
     },
     {
-      "id": 249,
+      "id": 244,
       "name": "Crawler",
       "rarity": "Monster",
       "biome": "Monster Egg",
@@ -2797,7 +2746,7 @@
       "slug": "crawler"
     },
     {
-      "id": 250,
+      "id": 245,
       "name": "Crocodon",
       "rarity": "Monster",
       "biome": "Monster Egg",
@@ -2808,7 +2757,7 @@
       "slug": "crocodon"
     },
     {
-      "id": 251,
+      "id": 246,
       "name": "Mecha Scorpio",
       "rarity": "Monster",
       "biome": "Mecha Egg",
@@ -2819,7 +2768,7 @@
       "slug": "mecha-scorpio"
     },
     {
-      "id": 252,
+      "id": 247,
       "name": "Mecha Froggo",
       "rarity": "Monster",
       "biome": "Mecha Egg",
@@ -2830,7 +2779,7 @@
       "slug": "mecha-froggo"
     },
     {
-      "id": 253,
+      "id": 248,
       "name": "Mecha Crawler",
       "rarity": "Monster",
       "biome": "Mecha Egg",
@@ -2841,7 +2790,7 @@
       "slug": "mecha-crawler"
     },
     {
-      "id": 254,
+      "id": 249,
       "name": "Krakenoid",
       "rarity": "Monster",
       "biome": "Monster Egg",
@@ -2852,7 +2801,7 @@
       "slug": "krakenoid"
     },
     {
-      "id": 255,
+      "id": 250,
       "name": "Mecha Crocodon",
       "rarity": "Monster",
       "biome": "Mecha Egg",
@@ -2863,7 +2812,7 @@
       "slug": "mecha-crocodon"
     },
     {
-      "id": 256,
+      "id": 251,
       "name": "Mecha Krakenoid",
       "rarity": "Monster",
       "biome": "Mecha Egg",
@@ -2874,7 +2823,7 @@
       "slug": "mecha-krakenoid"
     },
     {
-      "id": 257,
+      "id": 252,
       "name": "Dreadscale",
       "rarity": "Monster",
       "biome": "Monster Egg",
@@ -2885,7 +2834,7 @@
       "slug": "dreadscale"
     },
     {
-      "id": 258,
+      "id": 253,
       "name": "Mecha Dreadscale",
       "rarity": "Monster",
       "biome": "Mecha Egg",
@@ -2896,7 +2845,7 @@
       "slug": "mecha-dreadscale"
     },
     {
-      "id": 259,
+      "id": 254,
       "name": "Baby Aurora Dragon",
       "rarity": "Event",
       "biome": "Event",
@@ -2907,7 +2856,7 @@
       "slug": "baby-aurora-dragon"
     },
     {
-      "id": 260,
+      "id": 255,
       "name": "Shadow Dragon",
       "rarity": "Event",
       "biome": "Event",
@@ -2918,7 +2867,7 @@
       "slug": "shadow-dragon"
     },
     {
-      "id": 261,
+      "id": 256,
       "name": "Scorched Dragon",
       "rarity": "Event",
       "biome": "Event",
@@ -2929,7 +2878,7 @@
       "slug": "scorched-dragon"
     },
     {
-      "id": 262,
+      "id": 257,
       "name": "Drilla",
       "rarity": "Event",
       "biome": "Event",
@@ -2940,7 +2889,7 @@
       "slug": "drilla"
     },
     {
-      "id": 263,
+      "id": 258,
       "name": "Void Dragon",
       "rarity": "Event",
       "biome": "Event",
@@ -2951,7 +2900,7 @@
       "slug": "void-dragon"
     },
     {
-      "id": 264,
+      "id": 259,
       "name": "Ember Dragon",
       "rarity": "Event",
       "biome": "Event",
@@ -2962,7 +2911,7 @@
       "slug": "ember-dragon"
     },
     {
-      "id": 265,
+      "id": 260,
       "name": "Archdemon Dragon",
       "rarity": "Event",
       "biome": "Event",
