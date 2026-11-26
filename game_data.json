@@ -1,11 +1,11 @@
 {
   "stats": {
     "name": "Steal An Egg",
-    "playing": 463503,
-    "visits": 11949786418,
-    "favorites": 10354856,
+    "playing": 830818,
+    "visits": 11973803617,
+    "favorites": 10369176,
     "updated": "2026-11-26T03:10:29.83Z",
-    "fetched_at": "2026-11-26 03:55 UTC",
+    "fetched_at": "2026-11-26 13:32 UTC",
     "icon_url": "https://tr.rbxcdn.com/180DAY-de1fa1528e87871c3acb258c9e70ef2f/512/512/Image/Png/noFilter"
   },
   "history": [
@@ -64,9 +64,13 @@
     {
       "time": "2026-11-26 03:55 UTC",
       "playing": 463503
+    },
+    {
+      "time": "2026-11-26 13:32 UTC",
+      "playing": 830818
     }
   ],
-  "pets_updated_ts": 1795665339,
+  "pets_updated_ts": 1795699942,
   "pets_count": 260,
   "pets": [
     {
@@ -1890,7 +1894,7 @@
       "rarity": "Secret",
       "biome": "Enchanted Forest",
       "image_file": "Starry Fox.png",
-      "image_url": "https://static.wikia.nocookie.net/stealanegg/images/4/40/Starry_Fox.png/revision/latest?cb=20261006232700",
+      "image_url": "",
       "income_str": "$750M/s",
       "baseIncome": 750000000.0,
       "slug": "starry-fox"
